@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ar:ApplicationResponse xmlns:ar="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<ext:UBLExtensions>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<ds:Signature Id="SignOSE"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>FVh/BqEmWqzwFZZW9GauOwhe26A=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>LRjrEkEJTM5TKuuHx263lys/RSLgkyS0cXeRu6AZv692VtQdCVdBxsWfkB7uR4OPyYE691P/drR0
+WePRwnSG4ss8k09kYJVYwTYpsr6F5IdVka8IJvijIMJDnwvwvSWsawBsZu86+OvtHr+ZLQ/vP0Hy
++m4fwkOBborS+Y42LbQBaY3Ug4/twz89uM2siVJBxw+EEjzueebBMAc7z3ABpW5Ps0SVjELYBjP4
+oyb/J3z9EFhBg2c9suNnVS08wKKF67gy+OyNeMyT/Z8igZZ0193iVji6aFtiEEmLxwDHtmbameQR
+A7dkXGbysmaoNb7gI23qJJv/lao5AJdIf+a3gA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIIRjCCBi6gAwIBAgIJXH8uHfU+WAMmMA0GCSqGSIb3DQEBCwUAMIIBIjELMAkGA1UEBhMCUEUx
+DTALBgNVBAgMBExJTUExDTALBgNVBAcMBExJTUExPTA7BgNVBAsMNHNlZSBjdXJyZW50IGFkZHJl
+c3MgYXQgd3d3LmNhbWVyZmlybWEuY29tLnBlL2FkZHJlc3MxMDAuBgNVBAsMJ0FDIENBTUVSRklS
+TUEgUEVSw5ogQ0VSVElGSUNBRE9TIC0gMjAxNjEUMBIGA1UEBRMLMjA1NjYzMDI0NDcxGjAYBgNV
+BGEMEU5UUlBFLTIwNTY2MzAyNDQ3MSAwHgYDVQQKDBdDQU1FUkZJUk1BIFBFUsOaIFMuQS5DLjEw
+MC4GA1UEAwwnQUMgQ0FNRVJGSVJNQSBQRVLDmiBDRVJUSUZJQ0FET1MgLSAyMDE2MB4XDTIxMDYw
+NzE0MTQ0OFoXDTIzMDYwNzE0MTQ0OFowgeMxJDAiBgkqhkiG9w0BCQEWFW1yb2JsZXNAbW9vcmUt
+cGVydS5wZTEWMBQGA1UEAwwNUEFQRVJMRVNTIFNBQzEaMBgGA1UEBwwRTUFHREFMRU5BIERFTCBN
+QVIxFDASBgNVBAgMC0xJTUEgLSBMSU1BMRQwEgYDVQQLDAsyMDUyNDExOTU1MzE3MDUGA1UECwwu
+SXNzdWVkIGJ5IENBTUVSRklSTUEgUEVSw5ogMjAxNiAgQUMgQ0FNRVJGSVJNQTEVMBMGA1UECgwM
+UEFQRUxFU1MgU0FDMQswCQYDVQQGEwJQRTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AL5g1GSOk56qaAu0TyIM+wymImgfP1gaXkoKwHEKSkpi+QioB5jgl+pYOHR4u/RVXM0SZk+qFGpJ
+YcbSxsEaAmm9djXuC/CQ+p0OOBh5efewM9lx1ATVGpPHFSM/qCTjExO1jQq/uwfkitDqbCgudzv8
+PvA9Z8udTDDZw4DHwMZVziJEER+WOqwJL7p1uhj1ei/q8La4/TREGwokp+iCilmj8ZM6MiK1tUxU
+IerNaO+FzzK0vrz8IFKTzRE18zUSLctAyx0vomM/6ATyOK3XkO4U4T/szmCSqfetAmIHTNcp2B07
+Ms3gaXsGqf6X7HwGqj1p6HoAVOE67pJclr3IgOsCAwEAAaOCArkwggK1MAwGA1UdEwEB/wQCMAAw
+DgYDVR0PAQH/BAQDAgbAMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDAdBgNVHQ4EFgQU
+0/+pZLcVU2Zgg1X9FGSMgg5qBZQwgY0GCCsGAQUFBwEBBIGAMH4wVAYIKwYBBQUHMAKGSGh0dHA6
+Ly93d3cuY2FtZXJmaXJtYS5jb20vY2VydHMvYWNfY2FtZXJmaXJtYV9wZXJ1X2NlcnRpZmljYWRv
+cy0yMDE2LmNydDAmBggrBgEFBQcwAYYaaHR0cDovL29jc3AuY2FtZXJmaXJtYS5jb20wHwYDVR0j
+BBgwFoAUOm5lGOdW0uTzLd2lfHJt/zDhhicwgaAGA1UdHwSBmDCBlTBIoEagRIZCaHR0cDovL2Ny
+bC5jYW1lcmZpcm1hLmNvbS9hY19jYW1lcmZpcm1hX3BlcnVfY2VydGlmaWNhZG9zLTIwMTYuY3Js
+MEmgR6BFhkNodHRwOi8vY3JsMS5jYW1lcmZpcm1hLmNvbS9hY19jYW1lcmZpcm1hX3BlcnVfY2Vy
+dGlmaWNhZG9zLTIwMTYuY3JsMGEGA1UdEQRaMFiBFW1yb2JsZXNAbW9vcmUtcGVydS5wZaQ/MD0x
+OzA5BgorBgEEAYGHLh4KDCtDRVJUSUZJQ0FETyBERSBTRUxMTyBFTEVDVFJPTklDTyBERSBFTVBS
+RVNBMBwGA1UdEgQVMBOBEWNhQGNhbWVyZmlybWEuY29tMIGBBgNVHSAEejB4MHYGDCsGAQQBgYcu
+HhAyATBmMCkGCCsGAQUFBwIBFh1odHRwczovL3BvbGljeS5jYW1lcmZpcm1hLmNvbTA5BggrBgEF
+BQcCAjAtDCtDRVJUSUZJQ0FETyBERSBTRUxMTyBFTEVDVFJPTklDTyBERSBFTVBSRVNBMA0GCSqG
+SIb3DQEBCwUAA4ICAQBVf5vuAEUQRiILzJhJuRinb0kzhkJoDlGb/Vp9/uURhM1kLOO86nHiDdOV
+j6gPV5uSPLPj7l5QL6J9kKiOsIvxGM/UxmheQLXmu5Vpn4X8eLKav4+u2O+qFx7sZsrwOTSiOBFf
+CtP0v7nei3iWAD98FHWBrdl+xMdO8FrSLtctHHdFx2sh95/l7jV3CIJWnXQ6PHaoT6OWBV/H4MHm
+pLtsneSMKshG6y5D2F+W9xoeyaTzvKK5aGSVCoVjvDfzCau80hXnzAnt/fgmXHm37YIy5WMN91Vz
+vOZQosiT4iPj3yLK9VlA3S7PL0+5zORagks516ccxipmgoszzTaCUGtvVV2wN1g+1D3ftdtvNZj7
+CVe9igF1Bb3JE+l8AMxLzzJPETsJpDXoLIJdm2Z2aM6P/Ml8ZIw/Up+l1HBMw+Mvhe5nlpvC9/nS
+UoMhU7+Ctf9IJrvSgz6R4NKWCWvz9M20n8QNugG+5jpX6FzjxRaEwLcpZr0PYLHDGIZEfvmoS3+9
+s1jnSIAZWFWStyEKtR1Kh63b1HIoqxTTc1HfZOMg/S+xvFfDm0GqPA4CBCzH+NZWy9CkxY5+i6yJ
+s+X8iTP60n5C3WQDbJoxuEvlHmvQSmG28J8BS9C+giGZ0s+Yx49w+/M1Ty1+1tzCzHXHWRGbXzPo
+asKGq1TLsmTANfgtMA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>1.0</cbc:CustomizationID>
+<cbc:ID>06301003-5c2e-45d6-c000-000000000001</cbc:ID>
+<cbc:IssueDate>2023-09-03</cbc:IssueDate>
+<cbc:IssueTime>01:27:16</cbc:IssueTime>
+<cbc:ResponseDate>2023-09-03</cbc:ResponseDate>
+<cbc:ResponseTime>01:27:16</cbc:ResponseTime>
+<cac:Signature>
+<cbc:ID>SignOSE</cbc:ID>
+<cac:SignatoryParty>
+<cac:PartyIdentification>
+<cbc:ID>20524119553</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name>OSE</cbc:Name>
+</cac:PartyName>
+</cac:SignatoryParty>
+<cac:DigitalSignatureAttachment>
+<cac:ExternalReference>
+<cbc:URI>SignOSE</cbc:URI>
+</cac:ExternalReference>
+</cac:DigitalSignatureAttachment>
+</cac:Signature>
+<cac:SenderParty>
+  <cac:PartyLegalEntity>
+    <cbc:CompanyID schemeID="6" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo6">20100070970</cbc:CompanyID>
+  </cac:PartyLegalEntity>
+</cac:SenderParty>
+<cac:ReceiverParty>
+  <cac:PartyLegalEntity>
+    <cbc:CompanyID schemeID="6" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo6">20524119553</cbc:CompanyID>
+  </cac:PartyLegalEntity>
+</cac:ReceiverParty>
+<cac:DocumentResponse>
+  <cac:Response>
+    <cbc:ReferenceID>F021-132690</cbc:ReferenceID>
+    <cbc:ResponseCode listAgencyName="PE:SUNAT">0</cbc:ResponseCode>
+    <cbc:Description>El Comprobante numero F021-132690, ha sido aceptado</cbc:Description>
+  </cac:Response>
+  <cac:DocumentReference>
+    <cbc:ID>F021-132690</cbc:ID>
+    <cbc:IssueDate>2023-09-03</cbc:IssueDate>
+    <cbc:IssueTime>01:26:52</cbc:IssueTime>
+    <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+    <cac:Attachment>
+      <cac:ExternalReference>
+        <cbc:DocumentHash>mKjL9zHs4fDZBQzqoB/Qc+Po2qU=</cbc:DocumentHash>
+      </cac:ExternalReference>
+    </cac:Attachment>
+  </cac:DocumentReference>
+  <cac:IssuerParty>
+    <cac:PartyLegalEntity>
+      <cbc:CompanyID schemeID="6">20100070970</cbc:CompanyID>
+    </cac:PartyLegalEntity>
+  </cac:IssuerParty>
+  <cac:RecipientParty>
+    <cac:PartyLegalEntity>
+      <cbc:CompanyID schemeID="6">20120914279</cbc:CompanyID>
+    </cac:PartyLegalEntity>
+  </cac:RecipientParty>
+</cac:DocumentResponse>
+</ar:ApplicationResponse>

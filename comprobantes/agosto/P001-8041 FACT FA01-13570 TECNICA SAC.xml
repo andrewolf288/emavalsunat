@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><Signature Id="SignatureNS" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>1nMxvhpmoGWVhWn0dEBUCM0qUoU=</DigestValue></Reference></SignedInfo><SignatureValue>F3gF4TIZWKJPI90JBhzHXKwAv/DbEisMBGDWenbMI+C2lUxfr+zCB2wzWvxIZFcDcEN21z8Czb2N813hb2O2c2AJGU+8cPSL4YoneE/5PT9IGEf5D49GfHMhcWLrgn8+6+eSTsTwFhcQJydpG+LFLTcq/Cim9D6PehpAzttqv2tVwjLHNaP/KAHY1xh7q2NG9UrD8vOuvpk+qXOchptQMxz0/+zUnsaLt6ZRf2+7UPGdcO4eGvhgUcdJYxkzpxP/wFARWn1vE2CkdT7XJZ138DjyULj8+yWgD/PUwmBsOQ76+oaHKGHKkf1OuDQQTFzWphnlu/VpRI0Xymk0pcYuMg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>Description=Certificado para Facturación Electrónica, OID.1.3.6.1.4.1.47286.30.2=RUC, OID.1.3.6.1.4.1.47286.30.3=20454819137, OID.1.3.6.1.4.1.47286.30.4=DNI, E=mrodriguez@nextsoft.com.pe, CN=MARIO RENZO RODRIGUEZ QUIROZ, SERIALNUMBER=29654870, G=MARIO RENZO, SN=RODRIGUEZ QUIROZ, T=GERENTE GENERAL, OU=GERENCIA, OU=20454819137, O=SOLUCIONES DE INFORMACION NEXTSOFT S.A.C., L=AREQUIPA, C=PE</X509SubjectName><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <cac:AdditionalDocumentInformation>
+          <cac:AdditionalProperty>
+            <cbc:ID>0</cbc:ID>
+            <cbc:Value>facturacionelectronica@emaransac.com  </cbc:Value>
+          </cac:AdditionalProperty>
+          <cac:AdditionalProperty>
+            <cbc:ID>1</cbc:ID>
+            <cbc:Value>URB. PRQ.INDUSTRIAL RIO SECO MZ. E LOTE N°8 - AREQUIPA/AREQUIPA/CERRO COLORADO</cbc:Value>
+          </cac:AdditionalProperty>
+          <cac:AdditionalProperty>
+            <cbc:ID>2</cbc:ID>
+            <cbc:Value>CREDITO 30 DIAS</cbc:Value>
+          </cac:AdditionalProperty>
+        </cac:AdditionalDocumentInformation>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID schemeAgencyName="PE:SUNAT">2.0</cbc:CustomizationID>
+  <cbc:ID>FA01-13570</cbc:ID>
+  <cbc:IssueDate>2023-08-22</cbc:IssueDate>
+  <cbc:DueDate>2023-09-21</cbc:DueDate>
+  <cbc:InvoiceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" listID="0101" name="Tipo de Operacion" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo51">01</cbc:InvoiceTypeCode>
+  <cbc:Note languageLocaleID="1000">QUINIENTOS VEINTINUEVE CON 85/100 </cbc:Note>
+  <cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listName="Currency" listAgencyName="United Nations Economic Commission for Europe">PEN</cbc:DocumentCurrencyCode>
+  <cac:OrderReference>
+    <cbc:ID>OCADM4442023</cbc:ID>
+  </cac:OrderReference>
+  <cac:Signature>
+    <cbc:ID>20454944543</cbc:ID>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20454944543</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[TECNICA SOCIEDAD ANONIMA CERRADA]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>SignatureNS</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20454944543</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[TECNICA SOCIEDAD ANONIMA CERRADA]]></cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[TECNICA SOCIEDAD ANONIMA CERRADA]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:AddressTypeCode listAgencyName="PE:SUNAT" listName="Establecimientos anexos"><![CDATA[0000]]></cbc:AddressTypeCode>
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[MZA. B' LOTE. 6 URB. PEDRO DIEZ CANSECO]]></cbc:Line>
+          </cac:AddressLine>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20120914279</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[EMARAN S.A.C.]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Credito</cbc:PaymentMeansID>
+    <cbc:Amount currencyID="PEN">529.85</cbc:Amount>
+  </cac:PaymentTerms>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Cuota001</cbc:PaymentMeansID>
+    <cbc:Amount currencyID="PEN">529.85</cbc:Amount>
+    <cbc:PaymentDueDate>2023-09-21</cbc:PaymentDueDate>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="PEN">80.82</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">0.00</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:ID schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">9996</cbc:ID>
+          <cbc:Name>GRA</cbc:Name>
+          <cbc:TaxTypeCode>FRE</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">449.03</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">80.82</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:ID schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="PEN">449.03</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="PEN">529.85</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="PEN">529.85</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">3.000</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">114.43</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">45.0100380000</cbc:PriceAmount>
+        <cbc:PriceTypeCode listName="Tipo de Precio" listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">20.60</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">114.43</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">20.60</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[JABON CLEAN BACT TECNICA NEUTRO BID X 3.78 LT]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>03.01.02.0002</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">38.1441000000</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">1.000</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">25.42</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">29.9999660000</cbc:PriceAmount>
+        <cbc:PriceTypeCode listName="Tipo de Precio" listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">4.58</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">25.42</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">4.58</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[ALCOHOL GEL NEUTRO BID X  3.80 LT]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>03.02.02.0011</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">25.4237000000</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>3</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="BX" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">10.000</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">50.59</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">5.9699740000</cbc:PriceAmount>
+        <cbc:PriceTypeCode listName="Tipo de Precio" listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">9.11</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">50.59</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">9.11</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[BOLSA P/BASURA PLANAS S/F 180 LT x 10 UND 90X120CM]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>07.01.01.0006</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">5.0593000000</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>4</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="BX" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">6.000</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">245.19</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">48.2199920000</cbc:PriceAmount>
+        <cbc:PriceTypeCode listName="Tipo de Precio" listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">44.13</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">245.19</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">44.13</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[P T ELITE JUMBO CLASSIC UH NATURAL 200M PAQ X 2R]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>02.02.01.0006</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">40.8644000000</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>5</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">1.000</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">13.39</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">15.7999640000</cbc:PriceAmount>
+        <cbc:PriceTypeCode listName="Tipo de Precio" listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">2.41</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">13.39</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">2.41</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[DESINFECTANTE BIODEGRADABLE LAVANDA  X 3.78 LT]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>01.02.01.0009</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">13.3898000000</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

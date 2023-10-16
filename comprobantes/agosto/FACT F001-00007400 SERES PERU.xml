@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:ser="https://peru.e-factura.net/docs/peru/SeresAggregateComponents-1" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <cbc:ID>SERES</cbc:ID>
+         <ext:ExtensionContent>
+            <ser:AdditionalInformationSeres>
+               <ser:AdditionalPropertySeresList>
+                  <cbc:ID>Leyendas</cbc:ID>
+                  <ser:AdditionalPropertySeres>
+                     <cbc:ID>SS1</cbc:ID>
+                     <cbc:Name>PLAZO</cbc:Name>
+                     <cbc:Value>30 días naturales fecha factura</cbc:Value>
+                  </ser:AdditionalPropertySeres>
+                  <ser:AdditionalPropertySeres>
+                     <cbc:ID>SS2</cbc:ID>
+                     <cbc:Name>FECHA DE VENCIMIENTO</cbc:Name>
+                     <cbc:Value>03/09/2023</cbc:Value>
+                  </ser:AdditionalPropertySeres>
+                  <ser:AdditionalPropertySeres>
+                     <cbc:ID>SS3</cbc:ID>
+                     <cbc:Name>FORMA DE PAGO</cbc:Name>
+                     <cbc:Value>Transferencia bancaria</cbc:Value>
+                  </ser:AdditionalPropertySeres>
+                  <ser:AdditionalPropertySeres>
+                     <cbc:ID>SS4</cbc:ID>
+                     <cbc:Name>BANCO</cbc:Name>
+                     <cbc:Value>INTERBANK</cbc:Value>
+                  </ser:AdditionalPropertySeres>
+                  <ser:AdditionalPropertySeres>
+                     <cbc:ID>SS5</cbc:ID>
+                     <cbc:Name>SWIFT</cbc:Name>
+                     <cbc:Value>BINPPEPL</cbc:Value>
+                  </ser:AdditionalPropertySeres>
+                  <ser:AdditionalPropertySeres>
+                     <cbc:ID>SS6</cbc:ID>
+                     <cbc:Name>BENEFICIARIO</cbc:Name>
+                     <cbc:Value>SOCIEDAD DE EXPLOTACIÓN DE REDES ELECTRÓNICAS Y SERVICIOS DEL PERÚ S.A.C.</cbc:Value>
+                  </ser:AdditionalPropertySeres>
+                  <ser:AdditionalPropertySeres>
+                     <cbc:ID>SS7</cbc:ID>
+                     <cbc:Name>No. DE CUENTA (SOL)</cbc:Name>
+                     <cbc:Value>115-3001293300</cbc:Value>
+                  </ser:AdditionalPropertySeres>
+                  <ser:AdditionalPropertySeres>
+                     <cbc:ID>SS8</cbc:ID>
+                     <cbc:Name>CCI (SOL)</cbc:Name>
+                     <cbc:Value>003-115-003001293300-35</cbc:Value>
+                  </ser:AdditionalPropertySeres>
+                  <ser:AdditionalPropertySeres>
+                     <cbc:ID>SS9</cbc:ID>
+                     <cbc:Name>No. DE CUENTA (USD)</cbc:Name>
+                     <cbc:Value>115-3001400696</cbc:Value>
+                  </ser:AdditionalPropertySeres>
+                  <ser:AdditionalPropertySeres>
+                     <cbc:ID>SS10</cbc:ID>
+                     <cbc:Name>CCI (USD)</cbc:Name>
+                     <cbc:Value>003-115-003001400696-36</cbc:Value>
+                  </ser:AdditionalPropertySeres>
+                  <ser:AdditionalPropertySeres>
+                     <cbc:ID>SS11</cbc:ID>
+                     <cbc:Name>NOTA</cbc:Name>
+                     <cbc:Value>Agradecemos nos informen, en el momento de realizar el pago, la(s) factura(s) que están cancelando.</cbc:Value>
+                  </ser:AdditionalPropertySeres>
+               </ser:AdditionalPropertySeresList>
+            </ser:AdditionalInformationSeres>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   <ext:UBLExtension><ext:ExtensionContent><ds:Signature Id="Signature-78547" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>P1Sn7EWqmFbhj24ikBxP/n6cD50=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+GEmtENp2gcymUdOaeszVSTUPzfa5qiqnAlshEA9YPFW9v6JKddF78ChCYV0YJh9B/pGoCIjfpV7D
+nLwkFX8iPXNwY/irpLn8WgRFY3DbErD1CquRB//m6FQ+uxWDMpewPIp3o9I0ev+kuq8QgR5GSxv+
+LAz0Afi6hz1I5wN40J94TWEyFu78HjTBf0tZuT6n1VdAZEAB2T/GUyR7b7jsxUZ3hXZoVJG0nWd1
+IN5xRiuPjF7nNODcCNCyNqSc/nQfrxF9knq3iFHgpAP0BrYXWbMqQgQvWXYPqh86KN3/ISjg2NmF
+fkBB2dUxe/m8kAf3zy7znhgcqm9NneDuEnJDAA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGPDCCBSSgAwIBAgITMwAAUAFWAQjTKRLpPwAAAABQATANBgkqhkiG9w0BAQsFADCBkjELMAkG
+A1UEBhMCQ0gxEDAOBgNVBAoTB1dJU2VLZXkxJjAkBgNVBAsTHUNvcHlyaWdodCAoYykgMjAxNiBX
+SVNlS2V5IFNBMRYwFAYDVQQLEw1JbnRlcm5hdGlvbmFsMTEwLwYDVQQDEyhXSVNlS2V5IENlcnRp
+ZnlJRCBBZHZhbmNlZCBTZXJ2aWNlcyBDQSA0MB4XDTIxMDQxNTE5NDcxOVoXDTI0MDQxNDE5NDcx
+OVowggEEMQswCQYDVQQGEwJQRTENMAsGA1UEBxMETElNQTFHMEUGA1UEChM+U0RBRC4gREUgRVhQ
+TE9UQUNJT04gREUgUkVERVMgRUxFQ1RST05JQ0FTIFkgU0VSVi4gREUgUEVSVSBTQUMxLzAtBgNV
+BAsMJlZhbGlkYXRlZCBieSBaeVRydXN0IFNvY2llZGFkIEFuw7NuaW1hMRgwFgYDVQQLEw9SVUMg
+MjA2MDE3OTcyOTIxEjAQBgNVBAsTCVBBTDc0MDI4NDEYMBYGA1UEAwwPUFNFIFNFUkVTIFBFUsOa
+MSQwIgYJKoZIhvcNAQkBFhVqYXZpZXIubG9wZXpAc2VyZXMuZXMwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQC8uc3eJC9kMU1e6BhoTKWhvJDE2arwj7oT802H0jFxjyaEAhWJPJ1T+AH3
+oCPRmMhSiTax/MKz042iXVLk4zxkLKfZaA9vscfvks4KQMKxRt2+Y0341cmw50iCznulXpDJ/3Qn
+tZnGoRpz9ChVxbhaAAqMU8PxZDklgJFymX58YrssO/Wxj6DYs5TzkElNyN9C0Goc09XydSfrHq9r
+h8s7aHhnEjIR1dQHv9VK1qaJbmg3y6VGDJnz3u6rcc3MALggtcGCGlDBPwdahjHUABVWMYu8/d7h
+WHT/2o+SZixOr0uoc8qH6M7/6vfYGzTucMi6zvr21FaiEGH8sCjXk8yVAgMBAAGjggIUMIICEDAd
+BgNVHQ4EFgQU26ab9JHq0iIMDRtlfpxKJwQFJu0wDgYDVR0PAQH/BAQDAgbAMB8GA1UdIwQYMBaA
+FPTkm1fSrsKeiE0AuiuvZcljqYebMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9wdWJsaWMud2lz
+ZWtleS5jb20vY3JsL3djaWRhc2NhNC5jcmwwbQYIKwYBBQUHAQEEYTBfMDcGCCsGAQUFBzAChito
+dHRwOi8vcHVibGljLndpc2VrZXkuY29tL2NydC93Y2lkYXNjYTQuY3J0MCQGCCsGAQUFBzABhhho
+dHRwOi8vb2NzcC53aXNla2V5LmNvbS8wKQYDVR0lBCIwIAYIKwYBBQUHAwIGCisGAQQBgjcKAwwG
+CCsGAQUFBwMEMDUGCSsGAQQBgjcVCgQoMCYwCgYIKwYBBQUHAwIwDAYKKwYBBAGCNwoDDDAKBggr
+BgEFBQcDBDAgBgNVHREEGTAXgRVqYXZpZXIubG9wZXpAc2VyZXMuZXMwRAYJKoZIhvcNAQkPBDcw
+NTAOBggqhkiG9w0DAgICAIAwDgYIKoZIhvcNAwQCAgCAMAcGBSsOAwIHMAoGCCqGSIb3DQMHMEcG
+A1UdIARAMD4wPAYIYIV0BQ4IAQEwMDAuBggrBgEFBQcCARYiaHR0cDovL3d3dy53aXNla2V5LmNv
+bS9yZXBvc2l0b3J5LzANBgkqhkiG9w0BAQsFAAOCAQEApGkGebxcyGjDTo+8JEQgKbur9/cUP1dB
+uKwVf0JnHDWPc4Lgex+O5UlrbVq6FcV+oxnEzlfua7YXuArAEKOuDBV5iWEcGlq6Ioc+BmVLFjwA
+aUo89yzIR97UKgIV/DSTIdIxqDuxHQMY03rHZ/JmgcmPucn5GnB2UByr08l6xIrgQZZX5NzqrH1L
+nSjT9/Df8pKAK3YR8bLm667QtAQBr/TXRaCRgv7AGo8IUJFqZsFAo/uFW1uNCLahz/DuNuQjlHYL
+WolLdOe9XQUh7kA0mCmeSxSpt9iQlemT6uSppMKkfEhxVAHDge5gmPqeqMhXhVILLlQmHQDtGovK
+xZm6Xw==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vLnN3iQvZDFNXugYaEylobyQxNmq8I+6E/NNh9IxcY8mhAIViTydU/gB96Aj0ZjIUok2sfzCs9ON
+ol1S5OM8ZCyn2WgPb7HH75LOCkDCsUbdvmNN+NXJsOdIgs57pV6Qyf90J7WZxqEac/QoVcW4WgAK
+jFPD8WQ5JYCRcpl+fGK7LDv1sY+g2LOU85BJTcjfQtBqHNPV8nUn6x6va4fLO2h4ZxIyEdXUB7/V
+StamiW5oN8ulRgyZ897uq3HNzAC4ILXBghpQwT8HWoYx1AAVVjGLvP3e4Vh0/9qPkmYsTq9LqHPK
+h+jO/+r32Bs07nDIus769tRWohBh/LAo15PMlQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+</ds:Signature></ext:ExtensionContent></ext:UBLExtension></ext:UBLExtensions>
+   <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+   <cbc:CustomizationID schemeAgencyName="PE:SUNAT">2.0</cbc:CustomizationID>
+   <cbc:ID>F001-00007400</cbc:ID>
+   <cbc:IssueDate>2023-08-04</cbc:IssueDate>
+   <cbc:IssueTime>09:43:58</cbc:IssueTime>
+   <cbc:DueDate>2023-09-03</cbc:DueDate>
+   <cbc:InvoiceTypeCode listAgencyName="PE:SUNAT" listID="0101" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" name="Tipo de Operacion">01</cbc:InvoiceTypeCode>
+   <cbc:Note languageLocaleID="1000">DOSCIENTOS TREINTA Y TRES CON 64/100 SOLES</cbc:Note>
+   <cbc:DocumentCurrencyCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 4217 Alpha" listName="Currency">PEN</cbc:DocumentCurrencyCode>
+   <cbc:LineCountNumeric>1</cbc:LineCountNumeric>
+   <cac:InvoicePeriod>
+      <cbc:StartDate>2023-07-01</cbc:StartDate>
+      <cbc:EndDate>2023-07-31</cbc:EndDate>
+   </cac:InvoicePeriod>
+   <cac:Signature><cbc:ID>IDSignature</cbc:ID><cac:SignatoryParty><cac:PartyIdentification><cbc:ID>20601797292</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name>SDAD. DE EXPLOTACION DE REDES ELECTRONICAS Y SERV. DE PERU SAC</cbc:Name></cac:PartyName></cac:SignatoryParty><cac:DigitalSignatureAttachment><cac:ExternalReference><cbc:URI>#Signature-78547</cbc:URI></cac:ExternalReference></cac:DigitalSignatureAttachment></cac:Signature><cac:AccountingSupplierParty>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20601797292</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PartyName>
+            <cbc:Name>SERES PERÚ</cbc:Name>
+         </cac:PartyName>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName>SOCIEDAD DE EXPLOTACIÓN DE REDES ELECTRÓNICAS Y SERVICIOS DEL PERÚ SAC</cbc:RegistrationName>
+            <cac:RegistrationAddress>
+               <cbc:AddressTypeCode listAgencyName="PE:SUNAT" listName="Establecimientos anexos">0000</cbc:AddressTypeCode>
+               <cbc:CityName>Lima</cbc:CityName>
+               <cac:AddressLine>
+                  <cbc:Line>Av. Manuel Olguín N° 335, Int. 905,Urb.Monterrico Chico</cbc:Line>
+               </cac:AddressLine>
+               <cac:Country>
+                  <cbc:IdentificationCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 3166-1" listName="Country">PE</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:RegistrationAddress>
+         </cac:PartyLegalEntity>
+      </cac:Party>
+   </cac:AccountingSupplierParty>
+   <cac:AccountingCustomerParty>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20120914279</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName>EMARAN SAC</cbc:RegistrationName>
+            <cac:RegistrationAddress>
+               <cbc:CityName>AREQUIPA</cbc:CityName>
+               <cac:AddressLine>
+                  <cbc:Line>Mza. e Lote. 8 - Parque Industrial (I Etapa - Rio Seco)</cbc:Line>
+               </cac:AddressLine>
+               <cac:Country>
+                  <cbc:IdentificationCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 3166-1" listName="Country">PE</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:RegistrationAddress>
+         </cac:PartyLegalEntity>
+      </cac:Party>
+      <cac:AccountingContact>
+         <cbc:Name>Ruth Añamuro Mamani</cbc:Name>
+         <cbc:Telephone>054-443242 Anexo: 110</cbc:Telephone>
+      </cac:AccountingContact>
+   </cac:AccountingCustomerParty>
+   <cac:PaymentTerms>
+      <cbc:ID>FormaPago</cbc:ID>
+      <cbc:PaymentMeansID>Credito</cbc:PaymentMeansID>
+      <cbc:Amount currencyID="PEN">233.64</cbc:Amount>
+   </cac:PaymentTerms>
+   <cac:PaymentTerms>
+      <cbc:ID>FormaPago</cbc:ID>
+      <cbc:PaymentMeansID>Cuota001</cbc:PaymentMeansID>
+      <cbc:Amount currencyID="PEN">233.64</cbc:Amount>
+      <cbc:PaymentDueDate>2023-09-03</cbc:PaymentDueDate>
+   </cac:PaymentTerms>
+   <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">35.64</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+         <cbc:TaxableAmount currencyID="PEN">198.00</cbc:TaxableAmount>
+         <cbc:TaxAmount currencyID="PEN">35.64</cbc:TaxAmount>
+         <cac:TaxCategory>
+            <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">S</cbc:ID>
+            <cac:TaxScheme>
+               <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+               <cbc:Name>IGV</cbc:Name>
+               <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+            </cac:TaxScheme>
+         </cac:TaxCategory>
+      </cac:TaxSubtotal>
+   </cac:TaxTotal>
+   <cac:LegalMonetaryTotal>
+      <cbc:LineExtensionAmount currencyID="PEN">198.00</cbc:LineExtensionAmount>
+      <cbc:TaxInclusiveAmount currencyID="PEN">233.64</cbc:TaxInclusiveAmount>
+      <cbc:PayableAmount currencyID="PEN">233.64</cbc:PayableAmount>
+   </cac:LegalMonetaryTotal>
+   <cac:InvoiceLine>
+      <cbc:ID>1</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">164.00</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="PEN">198.00</cbc:LineExtensionAmount>
+      <cac:PricingReference>
+         <cac:AlternativeConditionPrice>
+            <cbc:PriceAmount currencyID="PEN">1.424634</cbc:PriceAmount>
+            <cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+         </cac:AlternativeConditionPrice>
+      </cac:PricingReference>
+      <cac:TaxTotal>
+         <cbc:TaxAmount currencyID="PEN">35.64</cbc:TaxAmount>
+         <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="PEN">198.00</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="PEN">35.64</cbc:TaxAmount>
+            <cac:TaxCategory>
+               <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">S</cbc:ID>
+               <cbc:Percent>18.00</cbc:Percent>
+               <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+               <cac:TaxScheme>
+                  <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+                  <cbc:Name>IGV</cbc:Name>
+                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+               </cac:TaxScheme>
+            </cac:TaxCategory>
+         </cac:TaxSubtotal>
+      </cac:TaxTotal>
+      <cac:Item>
+         <cbc:Description>Servicio mensual  validación OSE PE20120914279 julio de 2023. 164 Documentos. Documentos Intercambiados: 164</cbc:Description>
+         <cac:SellersItemIdentification>
+            <cbc:ID>4597</cbc:ID>
+         </cac:SellersItemIdentification>
+      </cac:Item>
+      <cac:Price>
+         <cbc:PriceAmount currencyID="PEN">1.207317</cbc:PriceAmount>
+      </cac:Price>
+   </cac:InvoiceLine>
+</Invoice>

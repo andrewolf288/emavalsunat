@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> 
+<ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <sac:AdditionalInformation>
+                    <sac:AdditionalMonetaryTotal>
+                        <cbc:ID>1000</cbc:ID>
+                        <cbc:PayableAmount currencyID="PEN">27.97</cbc:PayableAmount>
+                    </sac:AdditionalMonetaryTotal>
+                    <sac:AdditionalProperty>
+                        <cbc:ID>1000</cbc:ID>
+                        <cbc:Value>TREINTA Y TRES CON 00/100 SOLES</cbc:Value>
+                    </sac:AdditionalProperty>
+                </sac:AdditionalInformation>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>            <ds:Signature Id="TTRF002-00012393"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>4MwEbPlp6HpCk3hmDiVvCYcloPg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>kUQEINy9sUAsAoFNwtIjeXph/AqZhskGD3sP6dB21hQKqNML/YrhLtR9pZTsWyaaSqq0pTs/zAxU&#13;
+h+MMBY+pFnxU1+Rq3ZNmYtt/kUF41l1jCBBFmS4qIIRF2uL5aNy2qanJt6TF1Zjg0BTCkxnOdQER&#13;
+xVNaqvEsm8bKbmQvozfoqNmf8WzBfULiXtZ9pS5wBtYVPeZvgPvIV4o2+nJgerNeRhVT/2LXBvNd&#13;
+e/VeyFBiwkubWskBTzgIhMyOh7h6eYzD0o5DETfCF/lknkxh0usyLTBY3y6ahhBqjjnaLEVdAGb/&#13;
+bgKDfGbu1TVSRGClDJt3FRs2QWCcqFkkakDmEg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFojCCBIqgAwIBAgIIRR9prmYREk4wDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UEAwwbTGxhbWEu&#13;
+cGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5QRTELMAkGA1UEBhMCUEUwHhcN&#13;
+MjMwMjEzMjIzNDIxWhcNMjQwMjEzMjIzNDAwWjCCAUcxNDAyBgNVBAkMK0NBUi4gWVVSQSBLTS4g&#13;
+OSAtIEFMIENPU1RBRE8gREUgUExBWkEgTk9SVEUxIzAhBgkqhkiG9w0BCQEWFHByb3llY3Rvc0Bv&#13;
+Yy10aWMuY29tMSwwKgYDVQQDDCNTT0ZUV0FSRSBERSBGQUNUVVJBQ0lPTiBFTEVDVFJPTklDQTEs&#13;
+MCoGA1UECwwjRkFDVFVSQSBFTEVDVFJPTklDQSBSVUMgMjA2MDExMDMxNDIxITAfBgNVBAsMGFZh&#13;
+bGlkYWRvIHBvciBMbGFtYS5wZSBFUjFLMEkGA1UECgxCUiAgTCBWT0xUQSBQRVJVIFNPQ0lFREFE&#13;
+IEFOT05JTUEgQ0VSUkFEQSAtICBSICBMIFZPTFRBIFBFUlUgUy5BLkMuMREwDwYDVQQHDAhBUkVR&#13;
+VUlQQTELMAkGA1UEBhMCUEUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCXDbEbz9YN&#13;
+eI83k4kLSZM7BPg8IoX3Xlxx27rodG9rMld8DWb5zc+6xaWZhCJgAj9VB2bqZ5yws/5apHU23o0X&#13;
+pptnZbnx2O0s+mFYGN+I1FC4fgaGz8T262SXCa55ma8C3MVlpn5NwZbgG+OnywkcCDnsGHMkMt5Y&#13;
+B+WSmx3A9D9qcdZ5DKAbnAf356Drs612ARqvm0kectuv1FzERfQlhevmiwuDhgwu1Xge11LYM1mk&#13;
+TS/klbmWF7a9OLZrY/sAJ5wG7tMNaeGYYCvealrS6ZfLX9kf9EEKA+OndZmdnE9oG8aG1oz9fHIL&#13;
+WhcyUVkDe1JqT4cRrwUh5e0zCFHXAgMBAAGjggGPMIIBizAMBgNVHRMBAf8EAjAAMB8GA1UdIwQY&#13;
+MBaAFF2IW63rZfv+aKLk2W89V3Ki7yuZMGcGCCsGAQUFBwEBBFswWTA1BggrBgEFBQcwAoYpaHR0&#13;
+cDovL2NydC5sbGFtYS5wZS9sbGFtYXBlc3RhbmRhcmRjYS5jZXIwIAYIKwYBBQUHMAGGFGh0dHA6&#13;
+Ly9vY3NwLmxsYW1hLnBlMB8GA1UdEQQYMBaBFHByb3llY3Rvc0BvYy10aWMuY29tMEYGA1UdIAQ/&#13;
+MD0wOwYNKwYBBAGDl3cAAQADATAqMCgGCCsGAQUFBwIBFhxodHRwczovL2xsYW1hLnBlL3JlcG9z&#13;
+aXRvcnkvMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDA6BgNVHR8EMzAxMC+gLaArhilo&#13;
+dHRwOi8vY3JsLmxsYW1hLnBlL2xsYW1hcGVzdGFuZGFyZGNhLmNybDAdBgNVHQ4EFgQU8l9v8GEV&#13;
+B/GXp+ullCeIKh+d7QUwDgYDVR0PAQH/BAQDAgbAMA0GCSqGSIb3DQEBCwUAA4IBAQA9Kl9jbRxG&#13;
+ILKnkCfRE6DWlTg9UeOMHgWmSoFU4Bejs/92IY7M7n10mrUfm0ASK+BALSaJbmm0VdZ0Vzj/x9gI&#13;
+0EYLBOcADkZNdVW3g1OWGTCWjMBDXQlrlpKlP6hqnIUwUbmcttqSgXuVcW6rmXLX1IoMHr0jGsLl&#13;
+LI3fSkTVQwf6ecIdOmtUvJu+1OLbVJmUGhjKUReZ8VvvANVqVqB4QVvJbqycpAKD86HjHaQrC7WK&#13;
+z87YhK9OLXKn3fnt54GFCdkoxN/2ruHCcnwgQQhBS+CM64Q8klAOSdaRkl+Fw72urXlshZTsqf0W&#13;
+ttGGxmoVnXhfuNk3wu+auCzpmV3l</ds:X509Certificate><ds:X509SubjectName>C=PE,L=AREQUIPA,O=R  L VOLTA PERU SOCIEDAD ANONIMA CERRADA -  R  L VOLTA PERU S.A.C.,OU=Validado por Llama.pe ER,OU=FACTURA ELECTRONICA RUC 20601103142,CN=SOFTWARE DE FACTURACION ELECTRONICA,1.2.840.113549.1.9.1=#161470726f796563746f73406f632d7469632e636f6d,STREET=CAR. YURA KM. 9 - AL COSTADO DE PLAZA NORTE</ds:X509SubjectName></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+        </ext:UBLExtension>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>              <cts:AdditionalDocumentInformation xmlns:cts="urn:carvajal:names:specification:ubl:peru:schema:xsd:CarvajalAggregateComponents-1">                <cts:Header>
+                  <cts:AdditionalProperty>
+                    <cts:ID>0114</cts:ID>
+                    <cts:Value/>
+                  </cts:AdditionalProperty>
+                </cts:Header>
+              </cts:AdditionalDocumentInformation>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+</ext:UBLExtensions>
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>2.0</cbc:CustomizationID>
+    <cbc:ID>F002-00012393</cbc:ID>
+    <cbc:IssueDate>2023-09-05</cbc:IssueDate>
+    <cbc:InvoiceTypeCode listID="0101">01</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+  <cac:Signature>
+    <cbc:ID>TTRF002-00012393</cbc:ID>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20601103142</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[R  L VOLTA PERU S A C]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#TTRF002-00012393</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">20601103142</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[R  L VOLTA PERU S A C]]></cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[R  L VOLTA PERU S A C]]></cbc:RegistrationName>
+      <cac:RegistrationAddress>
+        <cbc:ID>040103</cbc:ID>
+        <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+        <cbc:CityName>AREQUIPA</cbc:CityName>
+        <cbc:CountrySubentity>AREQUIPA</cbc:CountrySubentity>
+        <cbc:District>CERRO COLORADO</cbc:District>
+        <cac:AddressLine>
+          <cbc:Line><![CDATA[CAR  YURA KM  9  AL COSTADO DE PLAZA NORTE  AREQUIPA   AREQUIPA   CERRO COLORADO]]></cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">20120914279</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[EMARAN S A C]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentTerms>
+        <cbc:ID>FormaPago</cbc:ID>
+        <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="PEN">5.03</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">27.97</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">5.03</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:ID>1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="PEN">27.97</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="PEN">33.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="PEN">33.00</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">3.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">11.44</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">4.50000</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">2.06</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">11.44</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">2.06</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[CANALETA ADESIBO ROJO 14X24]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>GR00287</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">3.81356</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">2.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">8.47</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">5.00000</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">1.53</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">8.47</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">1.53</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[CAJA MODULAR 2X4 BLANCO KBA 013B]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>KBA-013B</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">4.23729</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>3</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">1.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">8.05</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">9.50000</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">1.45</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">8.05</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">1.45</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[TOMACORRIENTE EMPO  DOBLE CON TIERRA PLATA A5 021]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>A5-021</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">8.05085</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

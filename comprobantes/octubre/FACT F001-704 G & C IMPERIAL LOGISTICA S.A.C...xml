@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="NimbusSign">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <Reference URI="">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+              <DigestValue>A2JFtUTaXKAqV2AVzpztBxxv9tI=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue>U6KNRxNUaF4Cs37j7dZvvhnmi5k0rZPbyuWshvrohs2bb5lO8HyqBGVOH31pgQza
+nGp6CVDQFQy8fd703uR0kWMmUe1EH8kk2U4SF15JBrIbHSzOUHCGwBqf+Yu5kg5e
+YpwdGqOon1u99gMVGGGNGv/8rBIfFstGakVBg16Er2RGo0NBBtHShF+tKebHi77o
+OOR+GkoMOm18Q65mz6HbIjBemqViWflED1ozWKICV6BlhujMAqMkSr9xF7lujywW
+o3QDJxNut4QDr0bQY4whbU9G2mf2lRPf0niKNwbJNAkPHfiLio0U28BYJw1S//Jx
+mEpy4smnFnciWnaLOo6BZg==</SignatureValue>
+          <KeyInfo>
+            <X509Data>
+              <X509SubjectName>CN=||USO TRIBUTARIO|| G &amp; C IMPERIAL LOGISTICA S.A.C. CDT 20601264154,OU=20601264154,OU=EREP_SUNAT_2022000317174,organizationIdentifier=NTRPE-20601264154,O=G &amp; C IMPERIAL LOGISTICA S.A.C.,L=AREQUIPA,ST=AREQUIPA-AREQUIPA,C=PE</X509SubjectName>
+              <X509Certificate>MIIIgjCCBmqgAwIBAgIUPylzmKnRSlGT9Vo5ZuSKiDaC8bgwDQYJKoZIhvcNAQEL
+BQAwbzELMAkGA1UEBhMCUEUxPDA6BgNVBAoMM1JlZ2lzdHJvIE5hY2lvbmFsIGRl
+IElkZW50aWZpY2FjacOzbiB5IEVzdGFkbyBDaXZpbDEiMCAGA1UEAwwZRUNFUC1S
+RU5JRUMgQ0EgQ2xhc3MgMSBJSTAeFw0yMjA4MjQxNTM1NTBaFw0yNTA4MjMxNTM1
+NTBaMIIBCDELMAkGA1UEBhMCUEUxGjAYBgNVBAgMEUFSRVFVSVBBLUFSRVFVSVBB
+MREwDwYDVQQHDAhBUkVRVUlQQTEoMCYGA1UECgwfRyAmIEMgSU1QRVJJQUwgTE9H
+SVNUSUNBIFMuQS5DLjEaMBgGA1UEYQwRTlRSUEUtMjA2MDEyNjQxNTQxITAfBgNV
+BAsMGEVSRVBfU1VOQVRfMjAyMjAwMDMxNzE3NDEUMBIGA1UECwwLMjA2MDEyNjQx
+NTQxSzBJBgNVBAMMQnx8VVNPIFRSSUJVVEFSSU98fCBHICYgQyBJTVBFUklBTCBM
+T0dJU1RJQ0EgUy5BLkMuIENEVCAyMDYwMTI2NDE1NDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBANcxDG2XQk9DtDZB1cASeO4uSqWhoSK5fKC69EDWIFcf
+q0ky5kiblCOehIAsd54OsaxnimKIxwuvHOZUHY6VZaah8fvKJpNvFmk8dNECY4Qq
+O3FXaYgG2IhEzAdSIM3oDm26T6fHtnPRGQyUUNb06bQ9T7A7LYEQfhd05tEDyb6N
+0CLxe7+rCAXXfM9KERshGQCMwrbn9Fb8+2QIigMEGC12S0fG7fABpZKkkf1joTRN
+KL5uOQjL9E5/JISTPUrbHCCQcqmBBXDgBWOrby/l2cv88XiJdzXAZqRRzHqu4g/s
+EZO9CXgDhbgbLAC6mZG7MqIyL/+BIzP3dlNXkBIgeF8CAwEAAaOCA3kwggN1MAwG
+A1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzH0fVuKJv75D7ZXfwUZ7v0v93SUwSQYI
+KwYBBQUHAQEEPTA7MDkGCCsGAQUFBzAChi1odHRwOi8vY3J0LnJlbmllYy5nb2Iu
+cGUvcm9vdDMvY2FjbGFzczFpaS5jcnQwggI3BgNVHSAEggIuMIICKjB3BhErBgEE
+AYKTZAIBAwEAZYdoADBiMDEGCCsGAQUFBwIBFiVodHRwczovL3d3dy5yZW5pZWMu
+Z29iLnBlL3JlcG9zaXRvcnkvMC0GCCsGAQUFBwIBFiFQb2ztdGljYSBHZW5lcmFs
+IGRlIENlcnRpZmljYWNp824wgcQGESsGAQQBgpNkAgEDAQBnh2gAMIGuMDIGCCsG
+AQUFBwIBFiZodHRwczovL3BraS5yZW5pZWMuZ29iLnBlL3JlcG9zaXRvcmlvLzB4
+BggrBgEFBQcCAjBsHmoARABlAGMAbABhAHIAYQBjAGkA8wBuACAAZABlACAAUABy
+AOEAYwB0AGkAYwBhAHMAIABkAGUAIABDAGUAcgB0AGkAZgBpAGMAYQBjAGkA8wBu
+ACAARQBDAEUAUAAtAFIARQBOAEkARQBDMIHnBhErBgEEAYKTZAIBAwEBZ4dzAzCB
+0TCBzgYIKwYBBQUHAgIwgcEegb4AQwBlAHIAdABpAGYAaQBjAGEAZABvACAARABp
+AGcAaQB0AGEAbAAgAFQAcgBpAGIAdQB0AGEAcgBpAG8AIABwAGEAcgBhACAAQQBn
+AGUAbgB0AGUAIABBAHUAdABvAG0AYQB0AGkAegBhAGQAbwAgAEMAbABhAHMAcwAg
+ADEALAAgAGUAbgAgAGMAdQBtAHAAbABpAG0AaQBlAG4AdABvACAAZABlAGwAIABE
+AEwAIABOALoAIAAxADMANwAwMBMGA1UdJQQMMAoGCCsGAQUFBwMEMHoGA1UdHwRz
+MHEwNqA0oDKGMGh0dHA6Ly9jcmwucmVuaWVjLmdvYi5wZS9jcmwvc2hhMi9jYWNs
+YXNzMWlpLmNybDA3oDWgM4YxaHR0cDovL2NybDIucmVuaWVjLmdvYi5wZS9jcmwv
+c2hhMi9jYWNsYXNzMWlpLmNybDAdBgNVHQ4EFgQUwKnD89MzXuaDw9LDQDmcTkEW
+XUQwDgYDVR0PAQH/BAQDAgbAMA0GCSqGSIb3DQEBCwUAA4ICAQArRWuDvbuKVUDY
+hrntJh8tqkvLaTn0JFxc1nWb0puv02iKBz3i0WafzQesz9Ade4IRGDq5SB/0gKKu
+vu4CZkIKCfWGllluHOo/QtlVwQ6HtnctuJJiwI3Zd7vqlUPvvnmh3OkkWO7QZPT9
+Vgz4VvRlJuhAawraQ9jBCfu1bwU+pnCgSB/WGDOxX+++8kx46MXoy8upEuuF6SwU
+eBw5Mie+Ry2pkTZR0pV9y3pBMpKnLdDK47YeDaWsixTQpb96nK43q4F9sHKUKlnu
+wbCdq093N1tCFCA8PzQMMvCP6Dl8eh9S7/h3j1tSofmhES3oqAGmAKthNRok6eQQ
+SSzlEBzY/24FhHT3p1R8olS/USYtMsnI2J4WAIJV543nyJ812p54MNVNXdL193bR
+K25s9E6RhT6WxKOF9QaonUXMCHApUtevb2pP1mQGXYUnyGpgUvF8v4oBH9EggJYI
+JU6Lzm6HUskxR7wjK5YnJNdDln7RIH+pcE581EcOIElxly/8GPmNdGh3uqmvQ/HK
+YWq7pFiF1+jcqH2FxT/S9MffqvZEwBixovV7lfqG6dGVd13HK+xqW8ECR7ueltqQ
+mYh+vvVG3nJ3g7Keg9rXQP/sRfojnAj0+ajZYcSUDrKT0CxtBkaLNtfbsR+wVsz8
+yduge2u6270oOScmfTyx5Df571yiOA==</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>F001-704</cbc:ID>
+  <cbc:IssueDate>2023-10-07</cbc:IssueDate>
+  <cbc:IssueTime>22:33:44</cbc:IssueTime>
+  <cbc:InvoiceTypeCode listID="0101" listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" name="Tipo de Operacion" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo51">01</cbc:InvoiceTypeCode>
+  <cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listAgencyName="United Nations Economic Commission for Europe" listName="Currency">PEN</cbc:DocumentCurrencyCode>
+  <cac:Signature>
+    <cbc:ID>NIMBUS ERP SIGN</cbc:ID>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20601264154</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[G & C IMPERIAL LOGISTICA S.A.C.]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>NMBS-15525</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20601264154</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[G & C IMPERIAL LOGISTICA S.A.C.]]></cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[G & C IMPERIAL LOGISTICA S.A.C.]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:AddressTypeCode listAgencyName="PE:SUNAT" listName="Establecimientos anexos">0000</cbc:AddressTypeCode>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20120914279</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[EMARAN S.A.C.]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[MZA. E LOTE. 8  URB. PARQUE INDUSTRIAL Arequipa - Arequipa - Cerro Colorado]]></cbc:Line>
+          </cac:AddressLine>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="PEN">9.38</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">52.12</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">9.38</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:ID>1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="PEN">52.12</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="PEN">61.50</cbc:TaxInclusiveAmount>
+    <cbc:AllowanceTotalAmount currencyID="PEN">0.00</cbc:AllowanceTotalAmount>
+    <cbc:ChargeTotalAmount currencyID="PEN">0.00</cbc:ChargeTotalAmount>
+    <cbc:PrepaidAmount currencyID="PEN">0.00</cbc:PrepaidAmount>
+    <cbc:PayableAmount currencyID="PEN">61.50</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="ZZ" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">1.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">52.12</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">61.50</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">9.38</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">52.12</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">9.38</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[Por servicio de transporte DE 03 BULTOS DE LIMA A AREQUIPA (SACOS),150 KGS G/R T002-7682 7-749]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>7</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">52.1186440678</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

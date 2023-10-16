@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"><ext:UBLExtensions><ext:UBLExtension><ext:ExtensionContent><Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="IdSingEfact"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>r/WlBSN8xWUo70NRxFUoqbCIR2A=</DigestValue></Reference></SignedInfo><SignatureValue>idxbYjzIciGVK+UTN/IzTCkXbENCHWkF4wkhtA0ZyavlC0CUDwLXP7/+tOfWCnr/7Vb7ggwdb/GC&#xD;
+N1GYhfi5nb95lqJ2pd5aWYW0LawrvQbumBvB+PHph83mFF2IztcfPyx6miYWBFtKLvoxrqiIaz9P&#xD;
+bhmVNnzrl/hP6q0a7whsLEdjw0G/4yrLVSVeUBRalmwykBl8KpmDG6uUYdL0cYPqcKjp3CBseorM&#xD;
+GrcLjE4IOFTcd4TwETM3z5DqauLQMjOX4ehunTzQmmO/YgwbjfrH5rCODqamtvEACB9UNC4aNRGh&#xD;
+DkZ9N74q+dgTEDjgfK4GKi2komoCno1XO1zxCA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>1.2.840.113549.1.9.1=#16117676656c617a636f4065666163742e7065,CN=MARIA VERONICA VELAZCO CANALES,OU=GERENTE GENERAL,OU=Certificado corporativo de representaciÃ³n,OU=Validated by Peru Secure E Net SAC,OU=MARIA VERONICA VELAZCO CANALES - DNI 42571642,OU=RUC 20551093035,O=EFACT S.A.C.,L=LIMA,C=PE</X509SubjectName><X509Certificate>MIIGZDCCBUygAwIBAgITMwAASitrHX3pCoao6QAAAABKKzANBgkqhkiG9w0BAQsFADCBkjELMAkG&#xD;
+A1UEBhMCQ0gxEDAOBgNVBAoTB1dJU2VLZXkxJjAkBgNVBAsTHUNvcHlyaWdodCAoYykgMjAxNiBX&#xD;
+SVNlS2V5IFNBMRYwFAYDVQQLEw1JbnRlcm5hdGlvbmFsMTEwLwYDVQQDEyhXSVNlS2V5IENlcnRp&#xD;
+ZnlJRCBBZHZhbmNlZCBTZXJ2aWNlcyBDQSA0MB4XDTIwMTExNzIwMTgwN1oXDTIxMTExODIwMTgw&#xD;
+N1owggFMMQswCQYDVQQGEwJQRTENMAsGA1UEBxMETElNQTEVMBMGA1UEChMMRUZBQ1QgUy5BLkMu&#xD;
+MRgwFgYDVQQLEw9SVUMgMjA1NTEwOTMwMzUxNjA0BgNVBAsTLU1BUklBIFZFUk9OSUNBIFZFTEFa&#xD;
+Q08gQ0FOQUxFUyAtIEROSSA0MjU3MTY0MjErMCkGA1UECxMiVmFsaWRhdGVkIGJ5IFBlcnUgU2Vj&#xD;
+dXJlIEUgTmV0IFNBQzEzMDEGA1UECwwqQ2VydGlmaWNhZG8gY29ycG9yYXRpdm8gZGUgcmVwcmVz&#xD;
+ZW50YWNpw7NuMRgwFgYDVQQLEw9HRVJFTlRFIEdFTkVSQUwxJzAlBgNVBAMTHk1BUklBIFZFUk9O&#xD;
+SUNBIFZFTEFaQ08gQ0FOQUxFUzEgMB4GCSqGSIb3DQEJARYRdnZlbGF6Y29AZWZhY3QucGUwggEi&#xD;
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDR0i8uZHslW/gTXA7w4A8SQTtC9sQ1Rw44VHlC&#xD;
+tFZ9SQ2QGujnUVc6TTUTBLL2w9a9+mVDqw93IbJQ1A3cxbfijE9IMKqXzMVadoCHG0bTt1KJ5OLN&#xD;
+8CsGajqVkUKi/eHbbQoXFSEvfdsder20Ubj4jcNxVj5CrSE8Xtp7xAFlCuQxgISwHlsxtvhayrV+&#xD;
+dihzSs+07nRrF9kFhYM8gJC2gm3rBzD/UnkYGI2IYSY9PCutZeL5wFqhjiWt34gklL9DPHWZDBTt&#xD;
+B8NBvP4otFSf9fYQw8spRoUB3DsjBgpRBzhQRt6lSB8PyrHOf5tEFLsBvwMMatimEm60dIf5WuH5&#xD;
+AgMBAAGjggH0MIIB8DAdBgNVHQ4EFgQU81dzx1Anx7taK2P9XDBkQBbYXQIwDgYDVR0PAQH/BAQD&#xD;
+AgbAMB8GA1UdIwQYMBaAFPTkm1fSrsKeiE0AuiuvZcljqYebMDwGA1UdHwQ1MDMwMaAvoC2GK2h0&#xD;
+dHA6Ly9wdWJsaWMud2lzZWtleS5jb20vY3JsL3djaWRhc2NhNC5jcmwwbQYIKwYBBQUHAQEEYTBf&#xD;
+MDcGCCsGAQUFBzAChitodHRwOi8vcHVibGljLndpc2VrZXkuY29tL2NydC93Y2lkYXNjYTQuY3J0&#xD;
+MCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC53aXNla2V5LmNvbS8wNQYDVR0lBC4wLAYIKwYBBQUH&#xD;
+AwIGCisGAQQBgjcKAwwGCCsGAQUFBwMEBgorBgEEAYI3FAICMEMGCSsGAQQBgjcVCgQ2MDQwCgYI&#xD;
+KwYBBQUHAwIwDAYKKwYBBAGCNwoDDDAKBggrBgEFBQcDBDAMBgorBgEEAYI3FAICMBwGA1UdEQQV&#xD;
+MBOBEXZ2ZWxhemNvQGVmYWN0LnBlMEQGCSqGSIb3DQEJDwQ3MDUwDgYIKoZIhvcNAwICAgCAMA4G&#xD;
+CCqGSIb3DQMEAgIAgDAHBgUrDgMCBzAKBggqhkiG9w0DBzARBglghkgBhvhCAQEEBAMCAKAwDQYJ&#xD;
+KoZIhvcNAQELBQADggEBAHDx2lZ23ZFtgN8aeg07AgrJNOH5meRLU4nfnpicDqc+/QqabxRouiV3&#xD;
+hbsSIkI2FrTXTp89ZU5nl4j7ug47Kmv+YV8O4QMbkdnawXk/Ii1KqT9YNQxUJRt86g4YpkFAPA3+&#xD;
+eTjo9Uy8geG5kAgw4r4AA4FlsuT1ZbxYySOkGE9sOxoBlbbKtc+XxKqPtF7Fe406pjbFGNcNwYr3&#xD;
+4pjKqPcJEVl42CH7Y8kvWZJ4Ww3sr86bYg8qcQOdqCbhjJE4V+gzTd/La0ITtEgI+LerX7BqJXZ2&#xD;
+OO1pG3RVNYVYc/IhJKokTSr/ejnELQjl/t69yHI1PUXoWR9tQUv9Q7kLT0o=</X509Certificate></X509Data></KeyInfo></Signature></ext:ExtensionContent></ext:UBLExtension></ext:UBLExtensions>
+   <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+   <cbc:CustomizationID>2.0</cbc:CustomizationID>
+   <cbc:ID>F702-00007827</cbc:ID>
+   <cbc:IssueDate>2023-08-05</cbc:IssueDate>
+   <cbc:InvoiceTypeCode listID="0101" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo51" name="Tipo de Operacion">01</cbc:InvoiceTypeCode>
+   <cbc:Note languageLocaleID="1000">SIETE Y 29/100</cbc:Note>
+   <cbc:DocumentCurrencyCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 4217 Alpha" listName="Currency">PEN</cbc:DocumentCurrencyCode>
+   <cbc:LineCountNumeric>1</cbc:LineCountNumeric>
+   <cac:Signature>
+      <cbc:ID>IDSignKG</cbc:ID>
+      <cac:SignatoryParty>
+         <cac:PartyIdentification>
+            <cbc:ID>20100205492</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PartyName>
+            <cbc:Name>Representaciones Internacionales S.A.C.</cbc:Name>
+         </cac:PartyName>
+      </cac:SignatoryParty>
+      <cac:DigitalSignatureAttachment>
+         <cac:ExternalReference>
+            <cbc:URI>#SignST</cbc:URI>
+         </cac:ExternalReference>
+      </cac:DigitalSignatureAttachment>
+   </cac:Signature>
+   <cac:AccountingSupplierParty>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20100205492</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PartyName>
+            <cbc:Name>El Super</cbc:Name>
+         </cac:PartyName>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName>Representaciones Internacionales S.A.C.</cbc:RegistrationName>
+            <cac:RegistrationAddress>
+               <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">040101</cbc:ID>
+               <cbc:AddressTypeCode listAgencyName="PE:SUNAT" listName="Establecimientos anexos">0000</cbc:AddressTypeCode>
+               <cbc:CityName>Arequipa</cbc:CityName>
+               <cbc:CountrySubentity>Arequipa</cbc:CountrySubentity>
+               <cbc:District>Arequipa</cbc:District>
+               <cac:AddressLine>
+                  <cbc:Line>CAL.PIEROLA NRO. 108 INT. B-7 CERCADO (SEGUNDO PISO)</cbc:Line>
+               </cac:AddressLine>
+               <cac:Country>
+                  <cbc:IdentificationCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 3166-1" listName="Country">PE</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:RegistrationAddress>
+         </cac:PartyLegalEntity>
+      </cac:Party>
+   </cac:AccountingSupplierParty>
+   <cac:AccountingCustomerParty>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20120914279</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PartyName>
+            <cbc:Name/>
+         </cac:PartyName>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName>EMARAN S.A.C.</cbc:RegistrationName>
+            <cac:RegistrationAddress>
+               <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos"/>
+               <cbc:CitySubdivisionName/>
+               <cbc:CityName/>
+               <cbc:CountrySubentity/>
+               <cbc:District/>
+               <cac:AddressLine>
+                  <cbc:Line>URB.PARQUE IND.RIO SECO MZ.E L.8</cbc:Line>
+               </cac:AddressLine>
+               <cac:Country>
+                  <cbc:IdentificationCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 3166-1" listName="Country">PE</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:RegistrationAddress>
+         </cac:PartyLegalEntity>
+         <cac:Contact>
+            <cbc:ElectronicMail>facturacionelectronica@emaransac.com</cbc:ElectronicMail>
+         </cac:Contact>
+      </cac:Party>
+   </cac:AccountingCustomerParty>
+   <cac:PaymentTerms>
+      <cbc:ID>FormaPago</cbc:ID>
+      <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+   </cac:PaymentTerms>
+   <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">1.11</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+         <cbc:TaxableAmount currencyID="PEN">6.18</cbc:TaxableAmount>
+         <cbc:TaxAmount currencyID="PEN">1.11</cbc:TaxAmount>
+         <cac:TaxCategory>
+            <cac:TaxScheme>
+               <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5153">1000</cbc:ID>
+               <cbc:Name>IGV</cbc:Name>
+               <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+            </cac:TaxScheme>
+         </cac:TaxCategory>
+      </cac:TaxSubtotal>
+   </cac:TaxTotal>
+   <cac:LegalMonetaryTotal>
+      <cbc:LineExtensionAmount currencyID="PEN">6.18</cbc:LineExtensionAmount>
+      <cbc:TaxInclusiveAmount currencyID="PEN">7.29</cbc:TaxInclusiveAmount>
+      <cbc:PayableRoundingAmount currencyID="PEN">0.09</cbc:PayableRoundingAmount>
+      <cbc:PayableAmount currencyID="PEN">7.29</cbc:PayableAmount>
+   </cac:LegalMonetaryTotal>
+   <cac:InvoiceLine>
+      <cbc:ID>1</cbc:ID>
+      <cbc:Note>C62</cbc:Note>
+      <cbc:InvoicedQuantity unitCode="C62" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.0000</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="PEN">6.18</cbc:LineExtensionAmount>
+      <cac:BillingReference>
+         <cac:BillingReferenceLine>
+            <cbc:ID schemeID="AL">7.29</cbc:ID>
+         </cac:BillingReferenceLine>
+      </cac:BillingReference>
+      <cac:PricingReference>
+         <cac:AlternativeConditionPrice>
+            <cbc:PriceAmount currencyID="PEN">7.290000</cbc:PriceAmount>
+            <cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+         </cac:AlternativeConditionPrice>
+      </cac:PricingReference>
+      <cac:TaxTotal>
+         <cbc:TaxAmount currencyID="PEN">1.11</cbc:TaxAmount>
+         <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="PEN">6.18</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="PEN">1.11</cbc:TaxAmount>
+            <cac:TaxCategory>
+               <cbc:Percent>18.00000</cbc:Percent>
+               <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+               <cac:TaxScheme>
+                  <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+                  <cbc:Name>IGV</cbc:Name>
+                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+               </cac:TaxScheme>
+            </cac:TaxCategory>
+         </cac:TaxSubtotal>
+      </cac:TaxTotal>
+      <cac:Item>
+         <cbc:Description>POR FONDO PROMOCIONAL</cbc:Description>
+         <cac:SellersItemIdentification>
+            <cbc:ID>9999.1</cbc:ID>
+         </cac:SellersItemIdentification>
+      </cac:Item>
+      <cac:Price>
+         <cbc:PriceAmount currencyID="PEN">6.177966</cbc:PriceAmount>
+      </cac:Price>
+   </cac:InvoiceLine>
+</Invoice>

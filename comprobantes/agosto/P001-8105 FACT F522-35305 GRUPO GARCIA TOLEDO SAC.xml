@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                
+            <ds:Signature Id="SignatureOlva" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>U2nSAGN0gN48waxs8y8SWmedixE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>CuDjiZPzlB/GbJZA/CMXNUP0fuq82zr6XD/XhkIhP4wN9m23ICqnyRooBAUOYfy3VJcnrRJ8u73Q
+Y+oubCx574iM4XcNf2QrHSiMOOZeBITFSBTD5MrFGqd7tEcGTwCpuYfEhdKDsTflrgmD++9zhn3R
+xDtSDArSOBJu0vgpZrnL+racjRSe+50xP9uSNsjX/MVN3JsdYW5dCixLPc6+/K77rrrRbWY6t+ba
+Fxjc5tXArBGrsO3nQDJHApMKg717/ouKQE6M+mB8rakMYyypC+oSvKefg80z8kvZWTAuoKsr5wxo
+fLRu8Fe1sqqCsFXCTLQqAl6ERW3qMbncSi1k8A==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509SubjectName>C=PE,L=AREQUIPA,O=GRUPO GARCIA TOLEDO S.A.C,OU=Validated by Llama.pe ER,OU=FACTURA ELECTRONICA RUC: 20558053691,2.5.4.5=#13083239333936393634,CN=GARCIA FLORES HENRRY EMILIO,1.2.840.113549.1.9.1=#1613736f706f727465406f6c76616171702e636f6d,STREET=CAL. PAMPITA ZEVALLOS NRO. 175</ds:X509SubjectName><ds:X509Certificate>MIIFdjCCBF6gAwIBAgIIMF1PPF0tsWEwDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UEAwwbTGxhbWEu
+cGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5QRTELMAkGA1UEBhMCUEUwHhcN
+MjAxMDE2MjEyODQ0WhcNMjIxMDE2MjEyODAwWjCCARwxJzAlBgNVBAkMHkNBTC4gUEFNUElUQSBa
+RVZBTExPUyBOUk8uIDE3NTEiMCAGCSqGSIb3DQEJARYTc29wb3J0ZUBvbHZhYXFwLmNvbTEkMCIG
+A1UEAwwbR0FSQ0lBIEZMT1JFUyBIRU5SUlkgRU1JTElPMREwDwYDVQQFEwgyOTM5Njk2NDEtMCsG
+A1UECwwkRkFDVFVSQSBFTEVDVFJPTklDQSBSVUM6IDIwNTU4MDUzNjkxMSEwHwYDVQQLDBhWYWxp
+ZGF0ZWQgYnkgTGxhbWEucGUgRVIxIjAgBgNVBAoMGUdSVVBPIEdBUkNJQSBUT0xFRE8gUy5BLkMx
+ETAPBgNVBAcMCEFSRVFVSVBBMQswCQYDVQQGEwJQRTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAL6pZBRJFJbWrazW4cns8Z4Cy17QIvMbla5G0wLbmDl/7WObAAbpyyaSixcF7+MUoa16
+wP2K9L2OB/YTquK/PgjvW+iVL407UV052nd9PeAsaXe/ORqnHe/vMTFYPsuejuDN3Jch3ouuhsC1
+l3flpv7s6+UTMex3O+YFFZMxkAUjyoVwVBHO4AoC1H2+15loITzFeXYFttri6fYfhj3bhL9ZLqjR
+QfM5Yq3rkAZcEYDtr6opTQyAoEe/Wp6gSbea+1NDEKNCNT+4hRP8XSwGPTImM1w0POFTyk4abNJN
+L/G96ovqESU55LU6jvaRh+XExhy89rG007eMqXvxmale2VcCAwEAAaOCAY4wggGKMAwGA1UdEwEB
+/wQCMAAwHwYDVR0jBBgwFoAUXYhbretl+/5oouTZbz1XcqLvK5kwZwYIKwYBBQUHAQEEWzBZMDUG
+CCsGAQUFBzAChilodHRwOi8vY3J0LmxsYW1hLnBlL2xsYW1hcGVzdGFuZGFyZGNhLmNlcjAgBggr
+BgEFBQcwAYYUaHR0cDovL29jc3AubGxhbWEucGUwHgYDVR0RBBcwFYETc29wb3J0ZUBvbHZhYXFw
+LmNvbTBGBgNVHSAEPzA9MDsGDSsGAQQBg5d3AAEAAgEwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly9s
+bGFtYS5wZS9yZXBvc2l0b3J5LzAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwOgYDVR0f
+BDMwMTAvoC2gK4YpaHR0cDovL2NybC5sbGFtYS5wZS9sbGFtYXBlc3RhbmRhcmRjYS5jcmwwHQYD
+VR0OBBYEFAqfil/qAeirYrt3mexPbIQ2s41xMA4GA1UdDwEB/wQEAwIGwDANBgkqhkiG9w0BAQsF
+AAOCAQEAJLggUpHdcWxYLZ5qsVA6Jf3OYvtZGkzdqIqeJIFxL6dQjqYqVOGTtDhZ6ND2NJPKLdB9
+RnydABAmFI4ju2XQ6Qu+wZx6w6gqCScq3FVpvc0ghe9ZY6YTlURPH7JLd8yZp7aTejDNLcYpmvGf
+GegLZZawPgzn56jaOIFh9aRR+Uu5CXvztYcmNCa7S3REC3pZCYbw/Zd8BAKax5sFegRnQL/NgZYc
+2ZoOCsPIZ4QJcl7miIx03iWGF4rgY4w9e2EuxtoZdF5QGzvbmu/Yc+vkpak3cC4wu6TyPZDYWjmc
+5RbaZmo/lM3Spm/pjUvioW+4C1EqKrG8jJOUOwTc/NMRJA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>2.0</cbc:CustomizationID>
+    <cbc:ID>F522-35305</cbc:ID>
+    <cbc:IssueDate>2023-08-29</cbc:IssueDate>
+    <cbc:IssueTime>17:18:19</cbc:IssueTime>
+        <cbc:InvoiceTypeCode listID="0101">01</cbc:InvoiceTypeCode>
+        <cbc:Note languageLocaleID="1000">ONCE CON 00/100 SOLES.</cbc:Note>
+        <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+    <cbc:LineCountNumeric>1</cbc:LineCountNumeric>
+    <cac:Signature>
+        <cbc:ID>IDSignOlva</cbc:ID>
+        <cac:SignatoryParty>
+            <cac:PartyIdentification>
+                <cbc:ID>20558053691</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name><![CDATA[GRUPO GARCIA TOLEDO S.A.C]]></cbc:Name>
+            </cac:PartyName>
+        </cac:SignatoryParty>
+        <cac:DigitalSignatureAttachment>
+            <cac:ExternalReference>
+                <cbc:URI>#SignatureOlva</cbc:URI>
+            </cac:ExternalReference>
+        </cac:DigitalSignatureAttachment>
+    </cac:Signature>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="6">20558053691</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name><![CDATA[GRUPO GARCIA TOLEDO S.A.C]]></cbc:Name>
+            </cac:PartyName>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName><![CDATA[GRUPO GARCIA TOLEDO S.A.C]]></cbc:RegistrationName>
+                <cac:RegistrationAddress>
+					<cbc:AddressTypeCode listAgencyName="PE:SUNAT" listName="Establecimientos anexos">0000</cbc:AddressTypeCode>
+				</cac:RegistrationAddress>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="6">20120914279</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName><![CDATA[EMARAN S.A.C.]]></cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+	<cac:PaymentTerms>
+        <cbc:ID>FormaPago</cbc:ID>
+        <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+            </cac:PaymentTerms>
+            <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="PEN">1.68</cbc:TaxAmount>
+                <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="PEN">9.32</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="PEN">1.68</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>S</cbc:ID>
+                <cac:TaxScheme>
+                    <cbc:ID schemeAgencyID="6">1000</cbc:ID>
+                    <cbc:Name>IGV</cbc:Name>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+            </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="PEN">9.32</cbc:LineExtensionAmount>
+        <cbc:TaxInclusiveAmount currencyID="PEN">11.00</cbc:TaxInclusiveAmount>
+                <cbc:PayableAmount currencyID="PEN">11.00</cbc:PayableAmount>
+            </cac:LegalMonetaryTotal>
+        <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="ZZ">1.00</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="PEN">9.32</cbc:LineExtensionAmount>
+        <cac:PricingReference>
+            <cac:AlternativeConditionPrice>
+                <cbc:PriceAmount currencyID="PEN">11.000000</cbc:PriceAmount>
+                <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+            </cac:AlternativeConditionPrice>
+        </cac:PricingReference>
+                <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="PEN">1.68</cbc:TaxAmount>
+                        <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="PEN">9.32</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="PEN">1.68</cbc:TaxAmount>
+                <cac:TaxCategory>
+                    <cbc:ID>S</cbc:ID>
+                    <cbc:Percent>18.00</cbc:Percent>
+                    <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+                    <cac:TaxScheme>
+                        <cbc:ID>1000</cbc:ID>
+                        <cbc:Name>IGV</cbc:Name>
+                        <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+                    </cac:TaxTotal>
+        <cac:Item>
+            <cbc:Description><![CDATA[23/31592921 TCQ 1.0 11.000000]]></cbc:Description>
+            <cac:SellersItemIdentification>
+                <cbc:ID>TER</cbc:ID>
+            </cac:SellersItemIdentification>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="PEN">9.322034</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    </Invoice>

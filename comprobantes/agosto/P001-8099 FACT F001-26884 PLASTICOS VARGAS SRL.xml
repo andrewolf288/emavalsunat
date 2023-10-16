@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureBYTESOLUCIONES">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>kQTH5dS9Q6cXY/w+M0Wly+kpAMM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>nIhYd+5jkbj8O9sDVzFz23KldthVH/FTqq6YxXeBtBFlmiXJNu2bkYiphkoq4pxQmIj1NEi5HblqmZ6A4i6nxKybyiFeM71C0M+TkP+p4VZr5f3wSLhPg4qt9zmwKH+NYuZ6ALTiqdqwu0N1GjVMM2/sG6DlRSIxBoPnCR7vT372FyW7FKzEZQN96d7RAaV6+qcTFDoqsF+uNyhEUV7cQiQkqeOyt9EqiuiBqwlxJrVZs9OtAI1qoe+QzEeQ/EmCgURLAwpL8YqSMHY/KYmKunBcg2nlPRB7YrLuusycOHFGXi+SNZ3xFUBadn75w5xneJev/h5vL8AOd938VCkK1w==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>F001-26884</cbc:ID>
+  <cbc:IssueDate>2023-08-09</cbc:IssueDate>
+  <cbc:IssueTime>17:29:18</cbc:IssueTime>
+  <cbc:DueDate>2023-08-09</cbc:DueDate>
+  <cbc:InvoiceTypeCode listID="0101">01</cbc:InvoiceTypeCode>
+  <cbc:Note languageLocaleID="1000"><![CDATA[Treinta y nueve  con 00/100 ]]></cbc:Note>
+  <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+  <cac:Signature>
+    <cbc:ID>signatureBYTESOLUCIONES</cbc:ID>
+    <cbc:Note>BYTESOLUCIONES</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20539303954</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[PLASTICOS VARGAS S.R.L.]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signatureBYTESOLUCIONES</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">20539303954</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[PLASTICOS VARGAS S.R.L.]]></cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[PLASTICOS VARGAS S.R.L.]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:ID>040101</cbc:ID>
+          <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+          <cbc:CityName>Arequipa</cbc:CityName>
+          <cbc:CountrySubentity>AREQUIPA</cbc:CountrySubentity>
+          <cbc:District>Arequipa</cbc:District>
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[CAL. DEAN VALDIVIA NRO. 315A]]></cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Telephone>(054)317072 - 990566022 - 975134231</cbc:Telephone>
+        <cbc:ElectronicMail>ventas@plasticosvargas.com</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">20120914279</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[EMARAN S.A.C.]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:ID>040104</cbc:ID>
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[MZ. E LT. 8 URB. PARQUE INDUSTRIAL]]></cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="PEN">5.95</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">33.05</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">5.95</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:ID>1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="PEN">33.05</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="PEN">39.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="PEN">39</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="MTR">6.0000</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">33.05</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">6.500000</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">5.95</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">33.05</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">5.95</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[[PROCOMSAC] - ARPILLERA 3X200 100GR]]></cbc:Description>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">5.508475</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

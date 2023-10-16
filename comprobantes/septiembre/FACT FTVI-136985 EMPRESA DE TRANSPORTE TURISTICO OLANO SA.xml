@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PPLDocument>
+<Contry>PE</Contry>
+<ClientDocument><Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 ..\xsd\maindoc\UBLPE-Invoice-2.1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ext:UBLExtensions>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<ds:Signature Id="SFTVI-136985-230921225045"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>dUHYiFFMHcP4uvkmMILBGtIOWzY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Lf7K8f0+SA8qY4n3oPwESsxlBkLDYT73cy0HDLO3w7AmE44pIcNFCMRiZ6Xk/6DbHUGdXG7z1Qxw
+hxK69uSprfy0SwBneoIjlJaSbfIJvLLyYOB57WKDCLqYQqK8Nw4TJqluwQCOAHklGKopXKH82Qoc
+XrGsWZgtZ06/kO7f7GUdzMdDCKDMewfCPrEdhM1zhCGzQfX91jVyL02DqYjFSqJQHGAj80+7hyXC
+Vzxnpax4N8PLhW77NXwf3cTYn7p8mT7alglZmAlJ00W5xF+jZPuJE6yyK+9soP7zfZ3tOVJ+MjQG
+SkIOUs/yvlIKQPm9/tLEpeQyp2+omYbyyvvjJg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIGUDCCBTigAwIBAgITMwAATyqH3DnLaH5XtAAAAABPKjANBgkqhkiG9w0BAQsFADCBkjELMAkG
+A1UEBhMCQ0gxEDAOBgNVBAoTB1dJU2VLZXkxJjAkBgNVBAsTHUNvcHlyaWdodCAoYykgMjAxNiBX
+SVNlS2V5IFNBMRYwFAYDVQQLEw1JbnRlcm5hdGlvbmFsMTEwLwYDVQQDEyhXSVNlS2V5IENlcnRp
+ZnlJRCBBZHZhbmNlZCBTZXJ2aWNlcyBDQSA0MB4XDTIxMDMxMzIyMjk1OFoXDTI0MDMxMjIyMjk1
+OFowggEOMQswCQYDVQQGEwJQRTENMAsGA1UEBxMETElNQTEzMDEGA1UEChMqRU1QUkVTQSBERSBU
+UkFOU1BPUlRFIFRVUklTVElDTyBPTEFOTyBTLkEuMS8wLQYDVQQLDCZWYWxpZGF0ZWQgYnkgWnlU
+cnVzdCBTb2NpZWRhZCBBbsOzbmltYTEYMBYGA1UECxMPUlVDIDIwMTM1NDE0OTMxMRUwEwYDVQQL
+EwxETkkgMDgyMjIwNTAxKTAnBgNVBAMTIEZSQU5DSVNDTyBSSUNBUkRPIE9CQU5ETyBIRVJSRVJB
+MS4wLAYJKoZIhvcNAQkBFh9GcmFuY2lzY28ub2JhbmRvQG9sdHVyc2EuY29tLnBlMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg9tQBN82HK8MYPUQmNZDjI9t87cZtjHIW1FV27XLvopX
+RwtNWVuXN0CazcU2cY50OqL5B9h5ozAKjnKvF9ANTqBjgXfTMTf9QyLgRv53PINq7E0JBmND9LRx
+vjqQcepSeVaE4UptJu7XYmGZA2FYeehoK9OZcaw+soMuL+Wtw9T8wa3+gQjFcWXWfCnqtEa4hTVh
+STTL0WqRcTjVL3UaZ0bpp95P2pFJi/TajRscwPzW0QKqAcfOlDmdPtnEvc1wg0q43YBLCyqNoMYX
+3vvO9I2hTh9Bm3V0G2SIjaSTIGEeOltvxGodkkNqwtb9/zKUSgwgR1f6ywqp0M9dqdebxwIDAQAB
+o4ICHjCCAhowHQYDVR0OBBYEFMX+FBluOgyr6eN+fQ57cnLsBkAkMA4GA1UdDwEB/wQEAwIGwDAf
+BgNVHSMEGDAWgBT05JtX0q7CnohNALorr2XJY6mHmzA8BgNVHR8ENTAzMDGgL6AthitodHRwOi8v
+cHVibGljLndpc2VrZXkuY29tL2NybC93Y2lkYXNjYTQuY3JsMG0GCCsGAQUFBwEBBGEwXzA3Bggr
+BgEFBQcwAoYraHR0cDovL3B1YmxpYy53aXNla2V5LmNvbS9jcnQvd2NpZGFzY2E0LmNydDAkBggr
+BgEFBQcwAYYYaHR0cDovL29jc3Aud2lzZWtleS5jb20vMCkGA1UdJQQiMCAGCCsGAQUFBwMCBgor
+BgEEAYI3CgMMBggrBgEFBQcDBDA1BgkrBgEEAYI3FQoEKDAmMAoGCCsGAQUFBwMCMAwGCisGAQQB
+gjcKAwwwCgYIKwYBBQUHAwQwKgYDVR0RBCMwIYEfRnJhbmNpc2NvLm9iYW5kb0BvbHR1cnNhLmNv
+bS5wZTBEBgkqhkiG9w0BCQ8ENzA1MA4GCCqGSIb3DQMCAgIAgDAOBggqhkiG9w0DBAICAIAwBwYF
+Kw4DAgcwCgYIKoZIhvcNAwcwRwYDVR0gBEAwPjA8BghghXQFDggBATAwMC4GCCsGAQUFBwIBFiJo
+dHRwOi8vd3d3Lndpc2VrZXkuY29tL3JlcG9zaXRvcnkvMA0GCSqGSIb3DQEBCwUAA4IBAQAlPqvY
+8qievUS8DRMdVigBabAlXU6+s6ur0Iwpt/+JEGIEL8AB/kepsoGNSRDbRcKwz340bMJzcsHg1/Wi
+q66v3ILJp0FMJRvpgt1OEFsUUArBTng4XyCyQO6mi1P/WRp4xgVm8zk+Ded/QFJH0+RE1hNJl6S3
+JBTKZEovBvCUGlCOcXmEFlPcHgiKlGn8jVJncXJvw/d5+hsGzVrJ8S/sjQh0AI+CaAdTCdAS7bzi
+afvd4ji0uhGq+tMLR1Vhyt2TauG6qbX8c9NA9cQEtq9h7i9BkFKhSCHN+mHz9fxD/F+k3i65r+nb
+FLQWTBXQDFDHYPaCxudkUSfUULxjQW8A</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+</ext:UBLExtension>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<CustomText>
+    <Text name="Plantilla"><![CDATA[T01_ch.jasper]]></Text>
+    <Text name="SubTotal"><![CDATA[160.00]]></Text>
+    <Text name="ValorIGV"><![CDATA[18%]]></Text>
+    <Text name="TelEmi"><![CDATA[7085000]]></Text>
+    <Text name="PagWeb"><![CDATA[https://asp404r.paperless.com.pe/ConsultaOltursa]]></Text>
+    <Text name="CorreoCliente"><![CDATA[yruiz552@gmail.com]]></Text>
+    <Section name="MensajesAt">
+        <Detail>
+            <Value><![CDATA[1]]></Value>
+            <Value><![CDATA[El PASAJERO viaja asegurado con una pC3liza de accidentes personales SOAT cuya cobertura es fijada por ley. El pasajero al viajar acepta las condiciones pactadas por la empresa aseguradora MAPFRE. El pasa]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[2]]></Value>
+            <Value><![CDATA[jero deberC! presentarse 45 minutos antes de la hora de su viaje para entregar su equipaje. Cualquier cambio deberC! realizarse 06 horas antes de la hora del viaje impresa en el boleto.]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[3]]></Value>
+            <Value><![CDATA[]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[4]]></Value>
+            <Value><![CDATA[]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[5]]></Value>
+            <Value><![CDATA[ESCALAS: LIMA (Plaza Norte) / LIMA (Surquillo) / LIMA (Atocongo) / CAMANC / AREQUIPA]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[6]]></Value>
+            <Value><![CDATA[]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[7]]></Value>
+            <Value><![CDATA[]]></Value>
+        </Detail>
+    </Section>
+    <Section name="MensajesDt">
+        <Detail>
+            <Value><![CDATA[1]]></Value>
+            <Value><![CDATA[La hora de embarque en escalas es referencial, ya que estando el bus en trC!nsito estC! sujeto a factores ajenos a OLTURSA. Al recibir el presente DOCUMENTO, acepto todos los tC)rminos y condiciones del]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[2]]></Value>
+            <Value><![CDATA[contrato de transporte publicados en www.oltursa.pe. Debe imprimir este documento y presentarlo al momento del embarque.]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[3]]></Value>
+            <Value><![CDATA[]]></Value>
+        </Detail>
+    </Section>
+</CustomText>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>2.0</cbc:CustomizationID>
+<cbc:ID>FTVI-136985</cbc:ID>
+<cbc:IssueDate>2023-09-21</cbc:IssueDate>
+<cbc:IssueTime>22:50:44</cbc:IssueTime>
+<cbc:DueDate>2023-09-21</cbc:DueDate>
+<cbc:InvoiceTypeCode listID="0101">01</cbc:InvoiceTypeCode>
+<cbc:Note languageLocaleID="1000"><![CDATA[CIENTO SESENTA CON 00/100 SOLES]]></cbc:Note>
+<cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+<cac:Signature>
+<cbc:ID>SFTVI-136985</cbc:ID>
+<cac:SignatoryParty>
+<cac:PartyIdentification>
+<cbc:ID>20135414931</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[SUNAT]]></cbc:Name>
+</cac:PartyName>
+</cac:SignatoryParty>
+<cac:DigitalSignatureAttachment>
+<cac:ExternalReference>
+<cbc:URI>SFTVI-136985-230921225045</cbc:URI>
+</cac:ExternalReference>
+</cac:DigitalSignatureAttachment>
+</cac:Signature>
+<cac:AccountingSupplierParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20135414931</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[Oltursa]]></cbc:Name>
+</cac:PartyName>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[EMPRESA DE TRANSPORTE TURISTICO OLANO S.A.]]></cbc:RegistrationName>
+<cac:RegistrationAddress>
+<cbc:ID><![CDATA[150115]]></cbc:ID>
+<cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+<cbc:CityName><![CDATA[Lima]]></cbc:CityName>
+<cbc:CountrySubentity><![CDATA[Lima]]></cbc:CountrySubentity>
+<cbc:District><![CDATA[La Victoria]]></cbc:District>
+<cac:AddressLine>
+<cbc:Line><![CDATA[Jr Manuel Cisneros 492]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:RegistrationAddress>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20120914279</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[EMARAN S.A.C.]]></cbc:RegistrationName>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:BuyerCustomerParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20120914279</cbc:ID>
+</cac:PartyIdentification>
+</cac:Party>
+</cac:BuyerCustomerParty>
+<cac:PaymentTerms>
+<cbc:ID>FormaPago</cbc:ID>
+<cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+</cac:PaymentTerms>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">160.00</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+<cac:TaxCategory>
+<cac:TaxScheme>
+<cbc:ID>9997</cbc:ID>
+<cbc:Name>EXO</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="PEN">160.00</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="PEN">0.00</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="PEN">160.00</cbc:TaxInclusiveAmount>
+<cbc:PayableAmount currencyID="PEN">160.00</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:InvoicedQuantity unitCode="ST">1.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">160.00</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">160.00</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">160.00</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>E</cbc:ID>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>20</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>9997</cbc:ID>
+<cbc:Name>EXO</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[SERVICIO DE TRANSPORTE DE PASAJEROS]]></cbc:Description>
+<cbc:Description><![CDATA[RUTA      : LIMA / AREQUIPA]]></cbc:Description>
+<cbc:Description><![CDATA[FECHA VIAJE: 04/10/2023]]></cbc:Description>
+<cbc:Description><![CDATA[HORA     : 17:15           ASIENTO: 13]]></cbc:Description>
+<cbc:Description><![CDATA[SERVICIO   : V.RELAX 180                                                  CATEGORIA: 180B0]]></cbc:Description>
+<cbc:Description><![CDATA[PASAJERO : yaneth marisol puma jimenez de ruiz]]></cbc:Description>
+<cbc:Description><![CDATA[EMBARQUE: LIMA (Surquillo) Jr. Portocarrero 380 - Surquillo]]></cbc:Description>
+<cbc:Description><![CDATA[DNI              : 29697710]]></cbc:Description>
+<cbc:Description><![CDATA[DESEMBARQUE: AREQUIPA TERRAPUERTO AREQUIPA COUNTER 12 Y 13 - JACOBO HUNTER]]></cbc:Description>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">160.00</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>
+</ClientDocument>
+</PPLDocument>

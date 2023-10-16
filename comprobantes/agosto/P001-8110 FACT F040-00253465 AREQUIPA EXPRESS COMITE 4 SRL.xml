@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><Signature Id="SignatureSP" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+d750pOlwdINcdwing56E2Nerrg=</DigestValue></Reference></SignedInfo><SignatureValue>lGyAf984MxmQ2zDZrlR3AWYcHyq/pAKAzwXlfRoWg9B7oWrij3QDCQj5Hz/c9D2mkTNlODy8P62oAjS6UrC0vRdHJ9eFU3OTnSyKiQgKYD5/lEHJykLv/S14advr+Jp7deR74tUrn2eL4RxCjTi0k6CFG0hiG8YAwlgB5PdJtx21kaL38cPumGzvsYuwnbV355VxDMb/+ESSQ+C0cyXAosY8dHtWSFLNUMwTfAAXqNxfhjczpn8/JZSfb5tvlJ+9AJHwE6f8UBRUthGa9aXuKvl2turuRUM9zgm0NGAC+8R0wXk/HOIZikvqPxX6nJT/jsQOjP3eIvFRf67rxne6Qw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>E=contabilidad@comite4.com, CN=LUIS GONZALO TEJADA CALISAYA, OU=20162574435, OU=29271745, OU=Validated by ZyTrust Sociedad Anónima, O=AREQUIPA EXPRESS COMITE 4 S.C.R.L., L=AREQUIPA, C=PE</X509SubjectName><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ProfileID schemeName="SUNAT:Identificador de Tipo de Operacion" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo17">0101</cbc:ProfileID>
+  <cbc:ID>F040-00253465</cbc:ID>
+  <cbc:IssueDate>2023-08-22</cbc:IssueDate>
+  <cbc:IssueTime>11:00:20</cbc:IssueTime>
+  <cbc:InvoiceTypeCode listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" listName="Tipo de Documento" listAgencyName="PE:SUNAT" listID="0101">01</cbc:InvoiceTypeCode>
+  <cbc:Note languageLocaleID="1000">veinte con 00/100 Soles</cbc:Note>
+  <cbc:DocumentCurrencyCode listName="Currency" listAgencyName="United Nations Economic Commission for Europe" listID="ISO 4217 Alpha">PEN</cbc:DocumentCurrencyCode>
+  <cbc:LineCountNumeric>1</cbc:LineCountNumeric>
+  <cac:Signature>
+    <cbc:ID>SFF040-00253465</cbc:ID>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20162574435</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[AREQUIPA EXPRESS COMITE 4 S C R L]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#SFF040-00253465</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">20162574435</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyTaxScheme>
+        <cbc:RegistrationName><![CDATA[AREQUIPA EXPRESS COMITE 4 S C R L]]></cbc:RegistrationName>
+        <cbc:CompanyID schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06" schemeAgencyName="PE:SUNAT" schemeName="SUNAT:Identificador de Documento de Identidad" schemeID="6">20162574435</cbc:CompanyID>
+        <cac:RegistrationAddress>
+          <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+        </cac:RegistrationAddress>
+        <cac:TaxScheme>
+          <cbc:ID>-</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[AREQUIPA EXPRESS COMITE 4 S C R L]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">20120914279</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyTaxScheme>
+        <cbc:RegistrationName><![CDATA[EMARAN S.A.C]]></cbc:RegistrationName>
+        <cbc:CompanyID schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06" schemeAgencyName="PE:SUNAT" schemeName="SUNAT:Identificador de Documento de Identidad" schemeID="6">20120914279</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>-</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[EMARAN S.A.C]]></cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[MZ E LOT 8 URB PARQUE IND CERRO COLORADO ]]></cbc:Line>
+          </cac:AddressLine>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Credito</cbc:PaymentMeansID>
+    <cbc:Amount currencyID="PEN">20.00</cbc:Amount>
+  </cac:PaymentTerms>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Cuota001</cbc:PaymentMeansID>
+    <cbc:Amount currencyID="PEN">20.00</cbc:Amount>
+    <cbc:PaymentDueDate>2023-08-25</cbc:PaymentDueDate>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="PEN">3.05</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">16.95</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">3.05</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier" schemeAgencyName="United Nations Economic Commission for Europe">S</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID schemeID="UN/ECE 5305" schemeAgencyID="6">1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="PEN">16.95</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="PEN">20.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="PEN">20.00</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20" unitCode="NIU">1.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">16.95</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">20.0010</cbc:PriceAmount>
+        <cbc:PriceTypeCode listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16" listName="Tipo de Precio" listAgencyName="PE:SUNAT">01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">3.05</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">16.95</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">3.05</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier" schemeAgencyName="United Nations Economic Commission for Europe">S</cbc:ID>
+          <cbc:Percent>18.0</cbc:Percent>
+          <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05" schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos">1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description><![CDATA[CAJAS DC REPUESTOS]]></cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>10076235</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">16.9500</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

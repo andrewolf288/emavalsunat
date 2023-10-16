@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ext:UBLExtensions>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<DatosAdicionales>
+<Documento>
+<Nombre>20508565934-01-FA10-00010518</Nombre>
+</Documento>
+<DatoAdicional>
+<Codigo>1</Codigo>
+<Valor><![CDATA[316]]></Valor>
+</DatoAdicional>
+<DatoAdicional>
+<Codigo>2</Codigo>
+<Valor><![CDATA[3]]></Valor>
+</DatoAdicional>
+<DatoAdicional>
+<Codigo>5</Codigo>
+<Valor><![CDATA[2778]]></Valor>
+</DatoAdicional>
+<DatoAdicional>
+<Codigo>8</Codigo>
+<Valor><![CDATA[0]]></Valor>
+</DatoAdicional>
+<DatoAdicional>
+<Codigo>31</Codigo>
+<Valor><![CDATA[01]]></Valor>
+</DatoAdicional>
+<LineaDetalle>
+<Linea>1</Linea>
+<Codigo>1</Codigo>
+<Valor><![CDATA[02000201148714]]></Valor>
+</LineaDetalle>
+<LineaDetalle>
+<Linea>1</Linea>
+<Codigo>2</Codigo>
+<Valor><![CDATA[TOTTUS]]></Valor>
+</LineaDetalle>
+<LineaDetalle>
+<Linea>1</Linea>
+<Codigo>3</Codigo>
+<Valor><![CDATA[PANETON.]]></Valor>
+</LineaDetalle>
+<LineaDetalle>
+<Linea>1</Linea>
+<Codigo>4</Codigo>
+<Valor><![CDATA[1190]]></Valor>
+</LineaDetalle>
+<LineaDetalle>
+<Linea>1</Linea>
+<Codigo>5</Codigo>
+<Valor><![CDATA[1190]]></Valor>
+</LineaDetalle>
+<MedioPago>
+<Numero>1</Numero>
+<Codigo>1</Codigo>
+<Valor><![CDATA[2000]]></Valor>
+</MedioPago>
+</DatosAdicionales>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<ds:Signature Id="signature20508565934_01FA1000010518">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>XC6cHUGZ7du3B0/l/9O3IDFct2E=</ds:DigestValue></ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>q4QsXSDuwDYmRFcpCv5znkp9efCsWWSxHZbkvW0hYu1mu27i0tZSpiGPl2wEFryf
+r2teO+YzeIjNfV+ep8WzlJJiI/TfUglasveg0FwtxB63Mfi7eq5E+e5zRhcUKhNP
+5xRCVz/E9tJ5EZB1RKNEB4gM8uN8Gjnh9UXEATz6GyZBycfh4bMpfDx4jv/4HQzZ
+WKY2/x42XXNzL1+g15b1WGQAIYHN3EMrUWpliSW4uuu+A+i9ywY78fQ7zI9Ir+No
+P0kJb39orIT4HWXpKr3OI6aRaixlXaa3aEo7hjReeXYXCdV4azSV2dBs9/RHe0bf
+HAjyz8Ey4OK+gn3fHGbiiQ==</ds:SignatureValue><ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIJdzCCB1+gAwIBAgIJaXnJxdME0urXMA0GCSqGSIb3DQEBCwUAMIIBIjELMAkG
+A1UEBhMCUEUxDTALBgNVBAgMBExJTUExDTALBgNVBAcMBExJTUExPTA7BgNVBAsM
+NHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LmNhbWVyZmlybWEuY29tLnBlL2Fk
+ZHJlc3MxMDAuBgNVBAsMJ0FDIENBTUVSRklSTUEgUEVSw5ogQ0VSVElGSUNBRE9T
+IC0gMjAxNjEUMBIGA1UEBRMLMjA1NjYzMDI0NDcxGjAYBgNVBGEMEU5UUlBFLTIw
+NTY2MzAyNDQ3MSAwHgYDVQQKDBdDQU1FUkZJUk1BIFBFUsOaIFMuQS5DLjEwMC4G
+A1UEAwwnQUMgQ0FNRVJGSVJNQSBQRVLDmiBDRVJUSUZJQ0FET1MgLSAyMDE2MB4X
+DTIzMDUyMzE1NTYwNloXDTI1MDUyMjE1NTYwNlowggGDMSwwKgYJKoZIhvcNAQkB
+Fh15dmlsbGF2aWNlbmNpb21AdG90dHVzLmNvbS5wZTElMCMGA1UEAwwcWUVOWSBW
+SUxMQVZJQ0VOQ0lPIE1PR1JPVkVKTzENMAsGA1UEKgwEWUVOWTEgMB4GA1UEBAwX
+VklMTEFWSUNFTkNJTyBNT0dST1ZFSk8xFTATBgNVBAUTDEROSToxMDAxNjk0NTES
+MBAGA1UEBwwJU1VSUVVJTExPMRQwEgYDVQQIDAtMSU1BIC0gTElNQTESMBAGA1UE
+DAwJQVBPREVSQURPMSowKAYDVQQLDCFHRVJFTkNJQSBTSVNURU1BUyBERSBJTkZP
+Uk1BQ0nDk04xMzAxBgNVBAsMKklzc3VlZCBieSBBQyBDQU1FUkZJUk1BIFBFUsOa
+IFNBQyBFUiBbUEUxXTEUMBIGA1UEYQwLMjA1MDg1NjU5MzQxIjAgBgNVBAoMGUhJ
+UEVSTUVSQ0FET1MgVE9UVFVTIFMuQS4xCzAJBgNVBAYTAlBFMIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt2QWY/hskogbGDzzVq7zfl9r4Zgylen3SL1G
+0AOf2HA8/Rwr0y91KzJdQXAuzIADQKTatKS/vt6C0p0ImY1qECI2Th8WOVb9/abr
+e+cxEKwgldbKyF8EfuRY8A3ysWqp+Zy8hkmYcgWVjO7ewNJcrkxjh0Kf6MIU3MgE
+ODlqM89iDCTBEtJXcpYl++us6In3T9/cdNwxxPrd9UO6XszE5WI9Oh7bM+ydmOOu
+kbeVwjDdpkbuZbz1c60P0wzzGnUi9jAXtxXKaIA/mom5XIKgVCFpku2uWCMGAU0K
+U4LmAvmHZPLyktxd6HL5XPVgxZXfwATCsR8EQWwmz1UhMCzSawIDAQABo4IDSTCC
+A0UwDAYDVR0TAQH/BAIwADAOBgNVHQ8BAf8EBAMCBsAwHQYDVR0lBBYwFAYIKwYB
+BQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBRP65MUrCr4dZjqUPCBb9EXwQbqLDCB
+jQYIKwYBBQUHAQEEgYAwfjBUBggrBgEFBQcwAoZIaHR0cDovL3d3dy5jYW1lcmZp
+cm1hLmNvbS9jZXJ0cy9hY19jYW1lcmZpcm1hX3BlcnVfY2VydGlmaWNhZG9zLTIw
+MTYuY3J0MCYGCCsGAQUFBzABhhpodHRwOi8vb2NzcC5jYW1lcmZpcm1hLmNvbTAf
+BgNVHSMEGDAWgBQ6bmUY51bS5PMt3aV8cm3/MOGGJzCBoAYDVR0fBIGYMIGVMEig
+RqBEhkJodHRwOi8vY3JsLmNhbWVyZmlybWEuY29tL2FjX2NhbWVyZmlybWFfcGVy
+dV9jZXJ0aWZpY2Fkb3MtMjAxNi5jcmwwSaBHoEWGQ2h0dHA6Ly9jcmwxLmNhbWVy
+ZmlybWEuY29tL2FjX2NhbWVyZmlybWFfcGVydV9jZXJ0aWZpY2Fkb3MtMjAxNi5j
+cmwwgdUGA1UdEQSBzTCByoEdeXZpbGxhdmljZW5jaW9tQHRvdHR1cy5jb20ucGWk
+gagwgaUxFDASBgorBgEEAYGHLh4HDARZRU5ZMR0wGwYKKwYBBAGBhy4eCAwNVklM
+TEFWSUNFTkNJTzEZMBcGCisGAQQBgYcuHgkMCU1PR1JPVkVKTzFTMFEGCisGAQQB
+gYcuHgoMQ0NFUlRJRklDQURPIERFIFBFUlNPTkEgSlVSSURJQ0EgLSBBVFJJQlVU
+TyBERSBWSU5DVUxBQ0lPTiBBIEVOVElEQUQwHAYDVR0SBBUwE4ERY2FAY2FtZXJm
+aXJtYS5jb20wgZwGA1UdIASBlDCBkTCBjgYMKwYBBAGBhy4eEAABMH4wKQYIKwYB
+BQUHAgEWHWh0dHBzOi8vcG9saWN5LmNhbWVyZmlybWEuY29tMFEGCCsGAQUFBwIC
+MEUMQ0NFUlRJRklDQURPIERFIFBFUlNPTkEgSlVSSURJQ0EgLSBBVFJJQlVUTyBE
+RSBWSU5DVUxBQ0lPTiBBIEVOVElEQUQwDQYJKoZIhvcNAQELBQADggIBAHOyxtVe
+iFqd9X3g4WxkO2bN4OpNCXSJiafmjw+Z8x+L/U07x1gO5UpzMe0jc9XEGO+HxGbO
+J6VJW1uPGmLrUAM9G5dIGfYNTOURTVoPbcB6JVMlQk7fwl9utUVKWvPPDLeQNhgZ
+tCci2MWVRincXMJbH30t9rOwSpWhqvid+Tn/YB3L9o99CrBKqmWrnWp34AlfbWYV
+gYekWCh/2vnOE0dAy2uaiMeahZOoZ1Lq81qJ4xVDbvkqLgqTHFTlOsPXgfzJrBv7
+3nvlKz03sB6virf6s+ykYk6YMYR77ELmuMljWZw2qzIwe/qJ/+4s9aZJTdxPxx6/
+B4KPcwz6uKRCPhHS063jUVOPCMhINQltt9zjahYrLZ0k5knVaVoBdZ90wJ62G5ld
+frP60g6eXehbDOVQHigw9SJm+mcrxsbhlvxFHs0kqtKZ5k7yDXA1Ev2mKaTDxDgn
+qz6nrwEM13pOjZ5sP8qoIEA/6c8iSrNJ8PaKK0rvlSa1vMJUVmym1rMpnNpknHsH
+NMzNvoKERJZS3AeGdcocJSReSs836oUIWiWjEHS4LtlwcO8FRYKB8BpiHSUaPmHu
+hacjzUwKCVyvOSFzhkxL5Gzt9cZCVWV4cSKwKEMLejMOwqyn+8i7fGGiK04oSa+C
+jJRdTMmtYc+5eas2dbpTAWML7AOrzqj6FDS+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID schemeAgencyName="PE:SUNAT">2.0</cbc:CustomizationID>
+<cbc:ID>FA10-10518</cbc:ID>
+<cbc:IssueDate>2023-09-15</cbc:IssueDate>
+<cbc:IssueTime>18:38:49</cbc:IssueTime>
+<cbc:InvoiceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" listID="0101" name="Tipo de Operacion" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo51">01</cbc:InvoiceTypeCode>
+<cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listName="Currency" listAgencyName="United Nations Economic Commission for Europe">PEN</cbc:DocumentCurrencyCode>
+<cac:Signature>
+<cbc:ID>IDSign20508565934_01FA1000010518</cbc:ID>
+<cac:SignatoryParty>
+<cac:PartyIdentification>
+<cbc:ID>20508565934</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[HIPERMERCADOS TOTTUS S.A.]]></cbc:Name>
+</cac:PartyName>
+</cac:SignatoryParty>
+<cac:DigitalSignatureAttachment>
+<cac:ExternalReference>
+<cbc:URI>#signature20508565934_01FA1000010518</cbc:URI>
+</cac:ExternalReference>
+</cac:DigitalSignatureAttachment>
+</cac:Signature>
+<cac:AccountingSupplierParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20508565934</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[TOTTUS HIPERMERCADO]]></cbc:Name>
+</cac:PartyName>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[HIPERMERCADOS TOTTUS S.A.]]></cbc:RegistrationName>
+<cac:RegistrationAddress>
+<cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">150141</cbc:ID>
+<cbc:AddressTypeCode listAgencyName="PE:SUNAT" listName="Establecimientos anexos">0036</cbc:AddressTypeCode>
+<cbc:CityName><![CDATA[Lima]]></cbc:CityName>
+<cbc:CountrySubentity><![CDATA[Lima]]></cbc:CountrySubentity>
+<cbc:District><![CDATA[Surquillo]]></cbc:District>
+<cac:AddressLine>
+<cbc:Line><![CDATA[Av. Angamos Este Nro. 1805 Int.P-10 (Piso 10 Of.5 y Piso 11 Of. 6A) Lima-Lima-Surquillo]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode listID="ISO 3166-1" listAgencyName="United Nations Economic Commission for Europe" listName="Country">PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:RegistrationAddress>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20120914279</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[EMARAN S.A.C.]]></cbc:RegistrationName>
+<cac:RegistrationAddress>
+<cac:AddressLine>
+<cbc:Line><![CDATA[-]]></cbc:Line>
+</cac:AddressLine>
+</cac:RegistrationAddress>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:PaymentTerms>
+<cbc:ID>FormaPago</cbc:ID>
+<cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+</cac:PaymentTerms>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">1.82</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">10.08</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">1.82</cbc:TaxAmount>
+<cac:TaxCategory>
+<cac:TaxScheme>
+<cbc:ID schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="PEN">10.08</cbc:LineExtensionAmount>
+<cbc:TaxInclusiveAmount currencyID="PEN">11.90</cbc:TaxInclusiveAmount>
+<cbc:PayableRoundingAmount currencyID="PEN">0.00</cbc:PayableRoundingAmount>
+<cbc:PayableAmount currencyID="PEN">11.90</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:InvoicedQuantity unitCode="NIU" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">10.08</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">11.90</cbc:PriceAmount>
+<cbc:PriceTypeCode listName="Tipo de Precio" listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">1.82</cbc:TaxAmount><cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">10.08</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">1.82</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[PAN TOTTUSX900GR]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID><![CDATA[02000201148714]]></cbc:ID>
+</cac:SellersItemIdentification>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode listID="UNSPSC" listAgencyName="GS1 US" listName="Item Classification">50181900</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">10.0847457627</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 ..\xsd\maindoc\UBLPE-Invoice-2.1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ext:UBLExtensions>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<ds:Signature Id="SF662-41558-230919102913"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Fbkcs57WEmKS1+1SiBS0Li0HnJI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>nvAdtaWBy1XO3ztzY8BnEEo8F4h8LOiwXdrJPBkCOmyIOY+joKeHsn4k0gwHbi7mFP3GJW0irxuGxMGjZqe8c69G/vH1s6AJElsG1GGEwBIBuNPXyL0RQghnKvRzvlUFZB1QDdCshOINXqQd5BvLycdnirrY5VsHRB0KhQTO3moDnuegPt1SCVdDjWIX4VDXt0p/wFBatl+4Gp170FZ7/oJRRTX/kNGyyGXQoukDYbsxZ/7iyOkvDUTVeqNJLym0l01pbVEgtKUY10a3N11bybsXno+vgkftL4eFkRZz/h43gusYgKUeGc+7jt/V4vB3D7QrBi1pgWonqmYgYrNyKA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+</ext:UBLExtension>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<CustomText>
+    <Text name="CodLocal"><![CDATA[S062CC]]></Text>
+    <Text name="CodCaja"><![CDATA[013]]></Text>
+    <Text name="Plantilla"><![CDATA[T01_ch.jasper]]></Text>
+    <Text name="CorreoCliente"><![CDATA[]]></Text>
+    <Text name="FormaPago"><![CDATA[TOTAL   CONTADO   S/          320.00 @@       VUELTO                         12.50]]></Text>
+    <Text name="TelefonoAnexo"><![CDATA[625 0000  Anx 3751]]></Text>
+    <Text name="Cajero"><![CDATA[ERIKA ARIZABAL]]></Text>
+    <Text name="Tienda"><![CDATA[S062]]></Text>
+    <Text name="Caja"><![CDATA[013]]></Text>
+    <Section name="MensajesAt">
+        <Detail>
+            <Value><![CDATA[1]]></Value>
+            <Value><![CDATA[T. Bonus  7027************000]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[2]]></Value>
+            <Value><![CDATA[GANO 41 PTS BONUS]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[3]]></Value>
+            <Value><![CDATA[Saldo al 19/09/23      284 pts.]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[4]]></Value>
+            <Value><![CDATA[Saldo Stickers Virtuales   0]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[5]]></Value>
+            <Value><![CDATA[a  G  BENEFICIO STICKER VIRTUAL MEGAPROMO]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[6]]></Value>
+            <Value><![CDATA[a  G   Gano Stickers MEGA METRO EMISION]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[7]]></Value>
+            <Value><![CDATA[a  G     Total Stickers ganados     12]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[8]]></Value>
+            <Value><![CDATA[Por monto de compra       12]]></Value>
+        </Detail>
+    </Section>
+    <Section name="MensajesDt">
+        <Detail>
+            <Value><![CDATA[1]]></Value>
+            <Value><![CDATA[Representacion impresa del comprobante]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[2]]></Value>
+            <Value><![CDATA[de  venta  electronico, para consultar el]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[3]]></Value>
+            <Value><![CDATA[documento ingrese a:]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[4]]></Value>
+            <Value><![CDATA[www.metro.pe]]></Value>
+        </Detail>
+    </Section>
+</CustomText>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>2.0</cbc:CustomizationID>
+<cbc:ID>F662-41558</cbc:ID>
+<cbc:IssueDate>2023-09-19</cbc:IssueDate>
+<cbc:InvoiceTypeCode listID="0101">01</cbc:InvoiceTypeCode>
+<cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+<cac:Signature>
+<cbc:ID>SF662-41558</cbc:ID>
+<cac:SignatoryParty>
+<cac:PartyIdentification>
+<cbc:ID>20109072177</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[SUNAT]]></cbc:Name>
+</cac:PartyName>
+</cac:SignatoryParty>
+<cac:DigitalSignatureAttachment>
+<cac:ExternalReference>
+<cbc:URI>SF662-41558-230919102913</cbc:URI>
+</cac:ExternalReference>
+</cac:DigitalSignatureAttachment>
+</cac:Signature>
+<cac:AccountingSupplierParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20109072177</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[METRO]]></cbc:Name>
+</cac:PartyName>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[CENCOSUD RETAIL PERU S.A.]]></cbc:RegistrationName>
+<cac:RegistrationAddress>
+<cbc:ID><![CDATA[150122]]></cbc:ID>
+<cbc:AddressTypeCode>0105</cbc:AddressTypeCode>
+<cbc:CityName><![CDATA[Lima]]></cbc:CityName>
+<cbc:CountrySubentity><![CDATA[Lima]]></cbc:CountrySubentity>
+<cbc:District><![CDATA[Miraflores]]></cbc:District>
+<cac:AddressLine>
+<cbc:Line><![CDATA[Cal. Augusto Angulo 130]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:RegistrationAddress>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20120914279</cbc:ID>
+</cac:PartyIdentification>
+<cac:PostalAddress>
+<cbc:District><![CDATA[]]></cbc:District>
+<cac:AddressLine>
+<cbc:Line><![CDATA[-  NRO  - URB  PARQUE INDUSTRIAL - CERRO COLORADO - AREQUIPA - AREQUIPA]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[EMARAN S A C]]></cbc:RegistrationName>
+<cac:RegistrationAddress>
+<cbc:ID><![CDATA[]]></cbc:ID>
+<cac:AddressLine>
+<cbc:Line><![CDATA[-  NRO  - URB  PARQUE INDUSTRIAL - CERRO COLORADO - AREQUIPA - AREQUIPA]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:RegistrationAddress>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:BuyerCustomerParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20120914279</cbc:ID>
+</cac:PartyIdentification>
+</cac:Party>
+</cac:BuyerCustomerParty>
+<cac:PaymentTerms>
+<cbc:ID>FormaPago</cbc:ID>
+<cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+</cac:PaymentTerms>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">46.91</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">260.59</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">46.91</cbc:TaxAmount>
+<cac:TaxCategory>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="PEN">260.59</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="PEN">46.91</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="PEN">307.50</cbc:TaxInclusiveAmount>
+<cbc:PayableAmount currencyID="PEN">307.50</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:InvoicedQuantity unitCode="NIU">2.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">109.32</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">64.50</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">19.68</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">109.32</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">19.68</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>VAT</cbc:ID>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[0000039865601@@PV24 PARKA HOM NYL@@     2 X       64.50]]></cbc:Description>
+<cbc:Description><![CDATA[129.00]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>0000039865601</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>00000004</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">54.66102</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>2</cbc:ID>
+<cbc:InvoicedQuantity unitCode="NIU">3.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">151.27</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">59.50</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">27.23</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">151.27</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">27.23</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>VAT</cbc:ID>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[0000039873828@@PV24 PARKA BASICA @@     3 X       59.50]]></cbc:Description>
+<cbc:Description><![CDATA[178.50]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>0000039873828</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>00000004</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">50.42373</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>

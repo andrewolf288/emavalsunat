@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Invoice xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent><ds:Signature Id="SignatureSP"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>OhPe7iNUdI8GyFXbLVA4HH/ABw4=</DigestValue></Reference></SignedInfo><SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">J9yXj0nVcCICsd/kp4wxjtXAjSL51Oh1vo+otEaHzb70avh9oQLCCsSvmrLnUrmvHkdQRbrIsrFAXAvjvhA8RbEoMW+an6F1UjUaol9dK6CoBXsRYOgAV5vWvjOrWewBh301inwLLxhrPdJsTWkm4fDJi4WITddZ8ACNipz+dsaDgMpj/PaDzLFI+fb0cAbgM/RhSWXykMQtVVMAg1efmPsaFMuo5LMdS8O66HnFwtHoaeCyCOLzlZ3UGu7nT2yoSBkOyrAQy8IwNKWjs9Waca4kS67irYMbwJmQS/ffOfUCxawTLjStns0xj2oV44HGK83XjmGgs6AgBUu2QZPC9A==</SignatureValue><KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><X509Data><X509SubjectName>C=PE, L=LIMA, O=ANDERS PERU S.A.C., OU=Validado por Llama.pe ER, OU=FACTURA ELECTRONICA RUC 20100281245, CN=SOFTWARE DE FACTURACION ELECTRONICA, E=rene.delafuente@qanders.com, STREET=JR. PASEO DEL BOSQUE NRO. 500 INT. 301 URB. CHACARILLA DEL ES</X509SubjectName><X509Certificate>MIIFjjCCBHagAwIBAgIIWe/Qw7IAxmIwDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UEAwwbTGxhbWEucGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5QRTELMAkGA1UEBhMCUEUwHhcNMjExMjMwMTY1NDQ4WhcNMjQxMjI5MTY1NDAwWjCCASwxRjBEBgNVBAkMPUpSLiBQQVNFTyBERUwgQk9TUVVFIE5STy4gNTAwIElOVC4gMzAxIFVSQi4gQ0hBQ0FSSUxMQSBERUwgRVMxKjAoBgkqhkiG9w0BCQEWG3JlbmUuZGVsYWZ1ZW50ZUBxYW5kZXJzLmNvbTEsMCoGA1UEAwwjU09GVFdBUkUgREUgRkFDVFVSQUNJT04gRUxFQ1RST05JQ0ExLDAqBgNVBAsMI0ZBQ1RVUkEgRUxFQ1RST05JQ0EgUlVDIDIwMTAwMjgxMjQ1MSEwHwYDVQQLDBhWYWxpZGFkbyBwb3IgTGxhbWEucGUgRVIxGzAZBgNVBAoMEkFOREVSUyBQRVJVIFMuQS5DLjENMAsGA1UEBwwETElNQTELMAkGA1UEBhMCUEUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4E9E1csaECt92I3YwyUINkjNe2A33vGezwhtPR/t48e63B+LgfP319TGb3+mgXRZMQUCrbNKR3smImgLSl2D+Ofpjj55Lh96e4C/Qngm1G2BunqhWy2WzoRWKNF6K6Z02SPtlXEoezQiEjid/WqXuivD9V9Fe4jEi/QZ+DnYE8WpCh9jqF9SEPMIlqY4bEPwb5VUjstFvfWBcd07nj20NAP/E/e27N3Eey6GuiSYlNMDbSrq+0Xrr1/BIcd9x0rnsRRWYOUXiZwO2BFwvpXv0jTQJPBUvMD5s6DGdv9jw38k//l8EcTm2KKbMzNQt8LpaiSlNUt8C2pDxYiW3T5kFAgMBAAGjggGWMIIBkjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFF2IW63rZfv+aKLk2W89V3Ki7yuZMGcGCCsGAQUFBwEBBFswWTA1BggrBgEFBQcwAoYpaHR0cDovL2NydC5sbGFtYS5wZS9sbGFtYXBlc3RhbmRhcmRjYS5jZXIwIAYIKwYBBQUHMAGGFGh0dHA6Ly9vY3NwLmxsYW1hLnBlMCYGA1UdEQQfMB2BG3JlbmUuZGVsYWZ1ZW50ZUBxYW5kZXJzLmNvbTBGBgNVHSAEPzA9MDsGDSsGAQQBg5d3AAEAAwEwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly9sbGFtYS5wZS9yZXBvc2l0b3J5LzAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwOgYDVR0fBDMwMTAvoC2gK4YpaHR0cDovL2NybC5sbGFtYS5wZS9sbGFtYXBlc3RhbmRhcmRjYS5jcmwwHQYDVR0OBBYEFDuHtlCSvozXZp3Suhiwr7vjxetSMA4GA1UdDwEB/wQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAQEAn/IYgUgdOYnrZLaJQ3GvdEZt+PMU6fCjcTFRqCq3UcNi41A8rfNjUtTcdwZgO7kyTytrMcs+EoRW1FBS603B/zEpN8BzmeNOHV7IOTKR9N9hlUObQDps1nknoTDru4qeBx9l2D+7AHghQmBrTybYyxk3rkPwuNySsbkzbEHHNG00/ziMRlTg//JErciQ1MIAWizUyJOqh4nNn+ckXYSChTpxhioD6rjjeTOLFC6TsgYmaKaal/pkZtUiJnxQYent9BH+1gv0czvx+Oa+Fr5+HkSkNFQgy6N6f4Ky8d+nDshFXpY6iWTzu9hjydinJ2vyJ4Z81yykbb+puxMpxAWAZw==</X509Certificate></X509Data></KeyInfo></ds:Signature></ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+	<cbc:CustomizationID>2.0</cbc:CustomizationID>
+	<cbc:ProfileID schemeID="SUNAT:Identificador de Tipo de Operación" schemeAgencyName="PE:SUNAT" schemeDataURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo17">01</cbc:ProfileID>
+	<cbc:ID>F006-00012190</cbc:ID>
+	<cbc:IssueDate>2023-09-06</cbc:IssueDate>
+	<cbc:IssueTime>09:29:00</cbc:IssueTime>
+	<cbc:DueDate>2023-10-06</cbc:DueDate>
+	<cbc:InvoiceTypeCode listID="1001" listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01">01</cbc:InvoiceTypeCode>
+	<cbc:Note languageLocaleID="1000">DOSCIENTOS DIECINUEVE MIL SETECIENTOS DIECISEIS Y 00/100 SOLES</cbc:Note>
+	<cbc:Note languageLocaleID="2006">OPERACION SUJETA A DETRACCION</cbc:Note>
+	<cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listAgencyName="United Nations Economic Commission for Europe" listName="Currency">PEN</cbc:DocumentCurrencyCode>
+	<cac:OrderReference>
+		<cbc:ID>ALM 296 2023</cbc:ID>
+	</cac:OrderReference>
+	<cac:DespatchDocumentReference>
+		<cbc:ID>T006-00012999</cbc:ID>
+		<cbc:DocumentTypeCode>09</cbc:DocumentTypeCode>
+	</cac:DespatchDocumentReference>
+	<cac:Signature>
+		<cbc:ID>IDSignKG</cbc:ID>
+		<cac:SignatoryParty>
+			<cac:PartyIdentification>
+				<cbc:ID>20100281245</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name>ANDERS PERU S.A.C.</cbc:Name>
+			</cac:PartyName>
+		</cac:SignatoryParty>
+		<cac:DigitalSignatureAttachment>
+			<cac:ExternalReference>
+				<cbc:URI>#SignatureKG</cbc:URI>
+			</cac:ExternalReference>
+		</cac:DigitalSignatureAttachment>
+	</cac:Signature>
+	<cac:AccountingSupplierParty>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20100281245</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name>ANDERS PERU S.A.C.</cbc:Name>
+			</cac:PartyName>
+			<cac:PartyTaxScheme>
+				<cbc:RegistrationName>ANDERS PERU S.A.C.</cbc:RegistrationName>
+				<cbc:CompanyID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20100281245</cbc:CompanyID>
+				<cac:RegistrationAddress>
+					<cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+				</cac:RegistrationAddress>
+				<cac:TaxScheme>
+					<cbc:ID>-</cbc:ID>
+				</cac:TaxScheme>
+			</cac:PartyTaxScheme>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName>ANDERS PERU S.A.C.</cbc:RegistrationName>
+				<cac:RegistrationAddress>
+					<cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+					<cbc:CityName>LIMA</cbc:CityName>
+					<cbc:CountrySubentity>LIMA</cbc:CountrySubentity>
+					<cbc:CountrySubentityCode>150103</cbc:CountrySubentityCode>
+					<cbc:District>SAN BORJA</cbc:District>
+					<cac:AddressLine>
+						<cbc:Line>JR. PASEO DEL BOSQUE 500, INTERIOR 301</cbc:Line>
+					</cac:AddressLine>
+					<cac:Country>
+						<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:RegistrationAddress>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<cac:AccountingCustomerParty>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20120914279</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName>EMARAN S.A.C.</cbc:RegistrationName>
+				<cac:RegistrationAddress>
+					<cbc:CityName>AREQUIPA</cbc:CityName>
+					<cbc:CountrySubentity>04</cbc:CountrySubentity>
+					<cbc:CountrySubentityCode>040104</cbc:CountrySubentityCode>
+					<cbc:District>CERRO COLORADO</cbc:District>
+					<cac:Country>
+						<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:RegistrationAddress>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingCustomerParty>
+	<cac:PaymentMeans>
+		<cbc:ID>Detraccion</cbc:ID>
+		<cbc:PaymentMeansCode>001</cbc:PaymentMeansCode>
+		<cac:PayeeFinancialAccount>
+			<cbc:ID> 00000740918</cbc:ID>
+		</cac:PayeeFinancialAccount>
+	</cac:PaymentMeans>
+	<cac:PaymentTerms>
+		<cbc:ID>Detraccion</cbc:ID>
+		<cbc:PaymentMeansID>032</cbc:PaymentMeansID>
+		<cbc:PaymentPercent>10</cbc:PaymentPercent>
+		<cbc:Amount currencyID="PEN">21971.60</cbc:Amount>
+	</cac:PaymentTerms>
+	<cac:PaymentTerms>
+		<cbc:ID>FormaPago</cbc:ID>
+		<cbc:PaymentMeansID>Credito</cbc:PaymentMeansID>
+		<cbc:Amount currencyID="PEN">197744.40</cbc:Amount>
+	</cac:PaymentTerms>
+	<cac:PaymentTerms>
+		<cbc:ID>FormaPago</cbc:ID>
+		<cbc:PaymentMeansID>Cuota001</cbc:PaymentMeansID>
+		<cbc:Amount currencyID="PEN">197744.40</cbc:Amount>
+		<cbc:PaymentDueDate>2023-10-06</cbc:PaymentDueDate>
+	</cac:PaymentTerms>
+	<cac:TaxTotal>
+		<cbc:TaxAmount currencyID="PEN">33516.00</cbc:TaxAmount>
+		<cac:TaxSubtotal>
+			<cbc:TaxableAmount currencyID="PEN">186200.00</cbc:TaxableAmount>
+			<cbc:TaxAmount currencyID="PEN">33516.00</cbc:TaxAmount>
+			<cac:TaxCategory>
+				<cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier" schemeAgencyName="United Nations Economic Commission for Europe">S</cbc:ID>
+				<cac:TaxScheme>
+					<cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">1000</cbc:ID>
+					<cbc:Name>IGV</cbc:Name>
+					<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+				</cac:TaxScheme>
+			</cac:TaxCategory>
+		</cac:TaxSubtotal>
+	</cac:TaxTotal>
+	<cac:LegalMonetaryTotal>
+		<cbc:LineExtensionAmount currencyID="PEN">186200.00</cbc:LineExtensionAmount>
+		<cbc:TaxExclusiveAmount currencyID="PEN">33516.00</cbc:TaxExclusiveAmount>
+		<cbc:TaxInclusiveAmount currencyID="PEN">219716.00</cbc:TaxInclusiveAmount>
+		<cbc:PayableAmount currencyID="PEN">219716.00</cbc:PayableAmount>
+	</cac:LegalMonetaryTotal>
+	<cac:InvoiceLine>
+		<cbc:ID>1</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="KGM" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">14000</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="PEN">186200.00</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="PEN">15.69</cbc:PriceAmount>
+				<cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+		</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">33516.00</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="PEN">186200.00</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="PEN">33516.00</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier" schemeAgencyName="United Nations Economic Commission for Europe">S</cbc:ID>
+					<cbc:Percent>18.00</cbc:Percent>
+					<cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description>PIMIENTA NEGRA ENTERA B1 BRA - 25 KG</cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID>1100002244</cbc:ID>
+			</cac:SellersItemIdentification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="PEN">13.300000</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+</Invoice>

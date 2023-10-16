@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="GreenterSign"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>8JU1O569DSeFULFOaS+TrJDKxuA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>oud2pajV+5Z9SyYKXjzixgqF1PMuM7nlUEk+0PZZw5khBaXMQhN+0pEpzYCBzsw/uQ6h3Q+dxhEIAKa+wkJHPQGUIwqKGyVYOUCPjgMKMKT3FVjkh2L+0AMVJB2QtZJ6lXAXA++cG8CbzRrhszqpIpHJEQpGJjSW2wRY2o/gr4UE8U8h4uIE0bvo3vMDr4KZ1hUlc3nXWWPePMmwUIxy0qAt038FzwWKCv1OHifvnoaW29IYOB1Gs/GitK4LaMM7Dty3V9uYr+bkNBcpx3Ug2a6CCtPZ5xBEQVcDtDs1SVZvfiWKIpESESbTqWHSx+gX7ZR7PrxkLdnWQWgHY7KHBg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFqTCCBJGgAwIBAgIIUgEX4UC7g/swDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UEAwwbTGxhbWEucGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5QRTELMAkGA1UEBhMCUEUwHhcNMjMwMjEzMTc0MTIwWhcNMjQwMjEzMTc0MTAwWjCCAUIxQjBABgNVBAkMOUFWLiBFTCBFSkVSQ0lUTyBOUk8uIDEwOTUgSU5ULiBBIFVSQi4gQ0VSUklUTyBMT1MgQUxWQVJFWjEvMC0GCSqGSIb3DQEJARYgYXNlc29yaWEuY29udGFibGVhcXA5NUBnbWFpbC5jb20xLDAqBgNVBAMMI1NPRlRXQVJFIERFIEZBQ1RVUkFDSU9OIEVMRUNUUk9OSUNBMSwwKgYDVQQLDCNGQUNUVVJBIEVMRUNUUk9OSUNBIFJVQyAyMDYwODk1Njg1MDEhMB8GA1UECwwYVmFsaWRhZG8gcG9yIExsYW1hLnBlIEVSMSwwKgYDVQQKDCNTRVJWSUNJT1MgR0VORVJBTEVTIEFORUxTQSBFLkkuUi5MLjERMA8GA1UEBwwIQVJFUVVJUEExCzAJBgNVBAYTAlBFMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqpH4SZ7rY/FytoM8D70v7a6kD9FaGQ87XIWgsfDV58g7aBCBvAeSmnYZsd9uNqn3RKjek3tx/vfLU7L9z68u5yxt7ZSIhnrvytjoQlOQqZxypZdw5bRjzimjoYKOcqpsT+J0dFUppp8dri8G5TSxMrUPb8SPvA6oQGAhfXwwC7pNGRxzE6fPcZ1GRmojQIbkwBgbexGBG3yH9P0NmxN4KPcQlECJAIbfadWKngOAJ/CJ2oCbwf9Vk7z/S2hDcNxLuhETLvSGCkLiSprwVOaWYlG/pr2kH6Z3xHFiJHpjatc3z+k0odxYMVqFWPq5eTSRhCPlX0t3qmDSe1wcRjlX1wIDAQABo4IBmzCCAZcwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRdiFut62X7/mii5NlvPVdyou8rmTBnBggrBgEFBQcBAQRbMFkwNQYIKwYBBQUHMAKGKWh0dHA6Ly9jcnQubGxhbWEucGUvbGxhbWFwZXN0YW5kYXJkY2EuY2VyMCAGCCsGAQUFBzABhhRodHRwOi8vb2NzcC5sbGFtYS5wZTArBgNVHREEJDAigSBhc2Vzb3JpYS5jb250YWJsZWFxcDk1QGdtYWlsLmNvbTBGBgNVHSAEPzA9MDsGDSsGAQQBg5d3AAEAAwEwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly9sbGFtYS5wZS9yZXBvc2l0b3J5LzAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwOgYDVR0fBDMwMTAvoC2gK4YpaHR0cDovL2NybC5sbGFtYS5wZS9sbGFtYXBlc3RhbmRhcmRjYS5jcmwwHQYDVR0OBBYEFKcZtctDE/ORliCdIEC8eoici72VMA4GA1UdDwEB/wQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAQEAZrlv/wAqlZKcgB+0kvoMUUNQiSA6CLNbMfC9bn4HVlRDsTiMrzofIs8GqUsgOYVkmrXQraRZ9YgVhO+xYmOeu+3eQDGgmOD6uNLDRfInTASogwTgaFKcyDtJOwGJyBZGnBAkSJ4EP8F1JGlC5mnE1EiGy7o4Uzl2L4K51Lzuw3nBsxzKrtpkEe7QvCw73ORj0MC8RlHPJAvgtWjdrySh5IDwgZxHnG54bJLoiE6P1yQfAq8Xkxfm9Hf5uC56ROQynYJrzq8aWKNJE8dwYDgeJnzWEgn+hqL7iBzQQjndn329KB7rX/rz5LC426mbsfiXoi1KnM/YBxx22lGKrgKjGA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>F003-3245</cbc:ID>
+  <cbc:IssueDate>2023-09-12</cbc:IssueDate>
+  <cbc:IssueTime>17:21:03</cbc:IssueTime>
+  <cbc:InvoiceTypeCode listID="0101">01</cbc:InvoiceTypeCode>
+  <cbc:Note languageLocaleID="1000">Cincuenta con 00/100 soles.</cbc:Note>
+  <cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listName="Currency" listAgencyName="United Nations Economic Commission for Europe">PEN</cbc:DocumentCurrencyCode>
+  <cac:Signature>
+    <cbc:ID>20608956850</cbc:ID>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20608956850</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>SERVICIOS GENERALES ANELSA E.I.R.L.</cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>SIGN</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">20608956850</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>SERVICIOS GENERALES ANELSA E.I.R.L.</cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>SERVICIOS GENERALES ANELSA E.I.R.L.</cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:ID>040104</cbc:ID>
+          <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+          <cbc:CitySubdivisionName>EJERCITO</cbc:CitySubdivisionName>
+          <cbc:CityName>AREQUIPA</cbc:CityName>
+          <cbc:CountrySubentity>AREQUIPA</cbc:CountrySubentity>
+          <cbc:District>CERRO COLORADO</cbc:District>
+          <cac:AddressLine>
+            <cbc:Line>AV.EJERCITO NúMERO 1095</cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6">20120914279</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>EMARAN S.A.C.</cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cac:AddressLine>
+            <cbc:Line>MZA. E LOTE. 8 URB. PARQUE INDUSTRIAL</cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="PEN">7.63</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="PEN">42.37</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="PEN">7.63</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:ID>1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="PEN">42.37</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="PEN">50.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="PEN">50.00</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="GLI">2.5853154</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">42.37</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">19.34</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">7.63</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">42.37</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">7.63</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18</cbc:Percent>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description>GASOLINA PREMIUM</cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>COD00002</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">16.3898305</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

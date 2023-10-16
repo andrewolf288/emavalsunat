@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:cec="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:fac="urn:facele:names:specification:ubl:peru:schema:xsd:FaceleAggregateComponents-1" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:sbc="urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2" xmlns:udt="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2">
+    <cec:UBLExtensions>
+        <cec:UBLExtension>
+            <cec:ExtensionContent><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="signId"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>DWb6FXWnjSYMsPnbhNRRrY4wCrk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="signatureValueId">Rg+w1wHv5bv0ubuE4Bb2wGOHeQ0cfsQewg1yOhqChxG9G/5wz7ql0FDp7o2NzDBVZp203E/F98bm
+Z2zzCjus9/WA2by8RZbT9bn0wEPXPcuUwuZt8ObavIJ7QoF3BLtj5TkJbxUtNT01FMXoq/CjUIsj
+/6CTuSg5LbYlLKWrp40RyIJJvfww7lbGheFNgbUtJhkU/fYZfOSN4BtLnB3Z6HpjqZoKuQ7AHZEc
+E6JynHFbaPLGuTWOLYytp1v0vxh+tMNSwk4/g23zas2xMvb3SPPbeXWlf5RKKv0nX8jcXgvWNqgd
+YmZHNdm8bjQSgHtXJXZK/ku4hKwEHLkGcUihtg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509SubjectName>2.5.4.13=#0c2a436572746966696361646f207061726120466163747572616369c3b36e20456c65637472c3b36e696361,1.3.6.1.4.1.47286.30.2=#0c03525543,1.3.6.1.4.1.47286.30.3=#0c0b3230313034353832343238,1.3.6.1.4.1.47286.30.4=#0c03444e49,1.2.840.113549.1.9.1=#16226a6f73656c2e636172726572617340636172746f6e6573616d65726963612e636f6d,CN=JOSE LUIS RAFAEL CARRERAS MARIANI,2.5.4.5=#13083039383733383432,2.5.4.42=#0c104a4f5345204c5549532052414641454c,2.5.4.4=#0c104341525245524153204d415249414e49,2.5.4.12=#0c17474552454e54452047454e4552414c2041444a554e544f,OU=GERENCIA,OU=20104582428,O=PAPELERA DEL SUR S A,L=LIMA,C=PE</ds:X509SubjectName><ds:X509Certificate>MIIImDCCBoCgAwIBAgIILfYyXbrQKFMwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTEgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTIzMDgxNjIwNTYwMFoXDTI2MDgxNTIwNTYwMFowggGqMQswCQYDVQQGEwJQRTENMAsGA1UEBwwE
+TElNQTEdMBsGA1UECgwUUEFQRUxFUkEgREVMIFNVUiBTIEExFDASBgNVBAsMCzIwMTA0NTgyNDI4
+MREwDwYDVQQLDAhHRVJFTkNJQTEgMB4GA1UEDAwXR0VSRU5URSBHRU5FUkFMIEFESlVOVE8xGTAX
+BgNVBAQMEENBUlJFUkFTIE1BUklBTkkxGTAXBgNVBCoMEEpPU0UgTFVJUyBSQUZBRUwxETAPBgNV
+BAUTCDA5ODczODQyMSowKAYDVQQDDCFKT1NFIExVSVMgUkFGQUVMIENBUlJFUkFTIE1BUklBTkkx
+MTAvBgkqhkiG9w0BCQEWImpvc2VsLmNhcnJlcmFzQGNhcnRvbmVzYW1lcmljYS5jb20xEzARBgor
+BgEEAYLxNh4EDANETkkxGzAZBgorBgEEAYLxNh4DDAsyMDEwNDU4MjQyODETMBEGCisGAQQBgvE2
+HgIMA1JVQzEzMDEGA1UEDQwqQ2VydGlmaWNhZG8gcGFyYSBGYWN0dXJhY2nDs24gRWxlY3Ryw7Nu
+aWNhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkGAxaN/JDJsDgFTfu7Y55lRpvL+P
+ualXORWjTFDZhVlSgNNM7XgqoXc0OFLrhUn1yFF9y8nF6AauoJNbpVrPwLcjSnhL5JyBtBnAg46L
+8pLT0RyW1MBXermjmZ30HZSfKXbOGbQ5vnbCi6EWuHL0HpTWlxMlseGcSdtfzCYPBFpGBCjGUBpx
+mJwy01x3CNV+vzD5jow9Q0CIwjWjBb2kylskECApTvNK0dbsYyob8TBVGcoSV8LLelPzDloHp9Ku
+IjFCw2SQb/K1S9DXj1jkh8yzkc7DEjhE7orMaffmiCo0zrY5tTU60SuhLRt6/uF8+lmAVtyM0N3r
+UGel//D9gwIDAQABo4ICrzCCAqswgdcGCCsGAQUFBwEBBIHKMIHHMFUGCCsGAQUFBzAChklodHRw
+Oi8vd3d3LnVhbmF0YWNhLmNvbS9wdWJsaWMvZG93bmxvYWQvdHNwX2NlcnRpZmljYXRlcy9zdWJv
+cmRpbmF0ZTEuY3J0MDYGCCsGAQUFBzABhipodHRwOi8vb2NzcDEudWFuYXRhY2EuY29tL3B1Ymxp
+Yy9wa2kvb2NzcC8wNgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3NwMi51YW5hdGFjYS5jb20vcHVibGlj
+L3BraS9vY3NwLzAdBgNVHQ4EFgQUB258vpGvnsZ4xdUQFVuC6GQ5tIswDAYDVR0TAQH/BAIwADAf
+BgNVHSMEGDAWgBQtce+wY3/1/eCDIkR/RBAwgU9N5TCBkAYDVR0gBIGIMIGFMIGCBgwrBgEEAYLx
+NgICAgIwcjA2BggrBgEFBQcCARYqaHR0cDovL3d3dy51YW5hdGFjYS5jb20vcHVibGljL3BraS9k
+cGMtcGUvMDgGCCsGAQUFBwICMCwMKkNlcnRpZmljYWRvIHBhcmEgRmFjdHVyYWNpw7NuIEVsZWN0
+csOzbmljYTCBjwYDVR0fBIGHMIGEMECgPqA8hjpodHRwOi8vY3JsMS51YW5hdGFjYS5jb20vcHVi
+bGljL3BraS9jcmwvQ0Exc3Vib3JkaW5hZGEuY3JsMECgPqA8hjpodHRwOi8vY3JsMi51YW5hdGFj
+YS5jb20vcHVibGljL3BraS9jcmwvQ0Exc3Vib3JkaW5hZGEuY3JsMA4GA1UdDwEB/wQEAwIGwDAd
+BgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwLQYDVR0RBCYwJIEiam9zZWwuY2FycmVyYXNA
+Y2FydG9uZXNhbWVyaWNhLmNvbTANBgkqhkiG9w0BAQsFAAOCAgEAERZDGqZRq5BWrYaP4sxhdcN8
+SNtkjqeeMVKfqBc9uyMYmO1/SOd2lD1269THdIF9glEk3hR1ZeW96dRoq67z/5itQhfTQHPH/2W5
+ZPUoMT3h/zO6RHbZPB8qusGbwJBZvNk0Cvn2UbpK3y5Se4JK9AO7/CL3skIG5CFuSsD9O82hHkuv
+IcQH7IgmU/fzKYeHfEe0IH7lMmI7wARr4qlfpALWkl5uBPIdXt84lehA7zlArh9UmVYIrtalupFM
+LGo5qN3pSRJNDTWS2vXWXnOANXqcMbam5r/gJ9odBNKiKgCQCUMUiTRu3XmbUbMtboPIEagMFm+L
+DgvjEqVjJXkMOAEx9k6PNsXhbMECeJUl1OxC+8MgkuHnj0GTvPS71O0GGr3dBdy8gISBulntSEo/
+TfxTvKBxSo36AhPJzqKXq9N2vfUFx7hn2Z0f7oQO5tV9MRqjNQqqlQLmkzYpLVhPiGub5UHMnKkm
+c7iK8qXC8nl1AJ1xRSoz0xj+jYQze6SxhH+uF4XdMvNLwDAqNu8VewQNCTV07h0jSTHY8jhoYRvU
+i252qAqE6n5xQPOIfEUHwHDBahOIO+ffWBvmkhXFGeHxVFM9L2q1X/Zep2fqMpmBtRhvLt4XI/qC
+2/ISaHlgEbbp9SMGgF06UD8Ie3QY2lqXEYevA+P2F5Dddg0JeCo=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></cec:ExtensionContent>
+        </cec:UBLExtension>
+        <cec:UBLExtension>
+            <cec:ExtensionContent>
+                <fac:AdditionalPrintedElement>
+                    <fac:AdditionalPrintedProperty>
+                        <cbc:ID>vendedor</cbc:ID>
+                        <cbc:Value>INGENIERIA &amp; EMPAQUES BOX E.I.R.L</cbc:Value>
+                    </fac:AdditionalPrintedProperty>
+                    <fac:AdditionalPrintedProperty>
+                        <cbc:ID>medioPago</cbc:ID>
+                        <cbc:Value>Credito</cbc:Value>
+                    </fac:AdditionalPrintedProperty>
+                    <fac:AdditionalPrintedProperty>
+                        <cbc:ID>fechaVencimiento</cbc:ID>
+                        <cbc:Value>2023-09-30</cbc:Value>
+                    </fac:AdditionalPrintedProperty>
+                    <fac:AdditionalPrintedProperty>
+                        <cbc:ID>nota_1</cbc:ID>
+                        <cbc:Value>TRANSACCION NO SUJETA A RETENCION DEL IGV SEGUN R.S. 181-2002/SUNAT DEL 22.12.2002 ****** Nota Interna SAP 8900281465</cbc:Value>
+                    </fac:AdditionalPrintedProperty>
+                    <fac:AdditionalPrintedProperty>
+                        <cbc:ID>nota_2</cbc:ID>
+                        <cbc:Value>Condiciones de pago: Credito a 30 dias</cbc:Value>
+                    </fac:AdditionalPrintedProperty>
+                    <fac:AdditionalPrintedProperty>
+                        <cbc:ID>nota_3</cbc:ID>
+                        <cbc:Value>Declaro que he recibido de conformidad sus mercancías aqui relacionadas según guías de remisión No: 09-023-0063485</cbc:Value>
+                    </fac:AdditionalPrintedProperty>
+                    <fac:AdditionalPrintedProperty>
+                        <cbc:ID>DCL_EMAIL</cbc:ID>
+                        <cbc:Value>facturacionelectronica@emaransac.com,facturacion.PPsur@cartonesamerica.com,adiaz@iebox.com.pe</cbc:Value>
+                    </fac:AdditionalPrintedProperty>
+                </fac:AdditionalPrintedElement>
+            </cec:ExtensionContent>
+        </cec:UBLExtension>
+        <cec:UBLExtension>
+            <cec:ExtensionContent>
+                <fac:AdditionalData>
+                    <fac:AdditionalItemData>
+                        <fac:LineItem>
+                            <cbc:ID>1</cbc:ID>
+                        </fac:LineItem>
+                        <fac:AdditionalItemColumn>
+                            <cbc:Name>ORDEN</cbc:Name>
+                            <cbc:Value>ALM-459-2023.</cbc:Value>
+                        </fac:AdditionalItemColumn>
+                        <fac:AdditionalItemColumn>
+                            <cbc:Name>REFERENCIA</cbc:Name>
+                            <cbc:Value>3175075</cbc:Value>
+                        </fac:AdditionalItemColumn>
+                    </fac:AdditionalItemData>
+                </fac:AdditionalData>
+            </cec:ExtensionContent>
+        </cec:UBLExtension>
+    </cec:UBLExtensions>
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>2.0</cbc:CustomizationID>
+    <cbc:ProfileID schemeAgencyName="PE:SUNAT" schemeName="SUNAT:Identificador de Tipo de Operacion" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo17">0101</cbc:ProfileID>
+    <cbc:ID>F001-01031634</cbc:ID>
+    <cbc:IssueDate>2023-08-31</cbc:IssueDate>
+    <cbc:IssueTime>19:14:15</cbc:IssueTime>
+    <cbc:DueDate>2023-09-30</cbc:DueDate>
+    <cbc:InvoiceTypeCode listAgencyName="PE:SUNAT" listID="0101" listName="Tipo de Documento" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo51" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" name="Tipo de Operacion">01</cbc:InvoiceTypeCode>
+    <cbc:Note languageLocaleID="2005">Leyenda "Venta realizada por emisor itinerante" </cbc:Note>
+    <cbc:DocumentCurrencyCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 4217 Alpha" listName="Currency">PEN</cbc:DocumentCurrencyCode>
+    <cbc:LineCountNumeric>1</cbc:LineCountNumeric>
+    <cac:OrderReference>
+        <cbc:ID>ALM-459-2023.</cbc:ID>
+    </cac:OrderReference>
+    <cac:DespatchDocumentReference>
+        <cbc:ID>T023-0063485</cbc:ID>
+        <cbc:DocumentTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01">09</cbc:DocumentTypeCode>
+    </cac:DespatchDocumentReference>
+    <cac:Signature>
+        <cbc:ID>signIdSP</cbc:ID>
+        <cac:SignatoryParty>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="6">20104582428</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>Papelera del Sur S.A.</cbc:Name>
+            </cac:PartyName>
+        </cac:SignatoryParty>
+        <cac:DigitalSignatureAttachment>
+            <cac:ExternalReference>
+                <cbc:URI>#signId</cbc:URI>
+            </cac:ExternalReference>
+        </cac:DigitalSignatureAttachment>
+    </cac:Signature>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20104582428</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>Papelera del Sur S.A.</cbc:Name>
+            </cac:PartyName>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Papelera del Sur</cbc:RegistrationName>
+                <cac:RegistrationAddress>
+                    <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">150119</cbc:ID>
+                    <cbc:AddressTypeCode listAgencyName="PE:SUNAT">0000</cbc:AddressTypeCode>
+                    <cbc:StreetName>Av Industrial s/n Km 36 Panamericana Sur</cbc:StreetName>
+                    <cbc:CitySubdivisionName>Centro Industrial las Praderas de Lurin</cbc:CitySubdivisionName>
+                    <cbc:CityName>Lima</cbc:CityName>
+                    <cbc:CountrySubentity>LIMA</cbc:CountrySubentity>
+                    <cbc:District>LURIN</cbc:District>
+                    <cac:AddressLine>
+                        <cbc:Line>Av Industrial s/n Km 36 Panamericana Sur</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:Country>
+                        <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:RegistrationAddress>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20120914279</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>EMARAN S.A.C.</cbc:Name>
+            </cac:PartyName>
+            <cac:PhysicalLocation>
+                <cbc:Description>MZA. E LOTE. 8 URB. PARQUE INDUSTRIAL (I ETAPA RIO SECO) CERRO COLORADO AREQUIPA</cbc:Description>
+            </cac:PhysicalLocation>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>EMARAN S.A.C.</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:Delivery>
+        <cac:DeliveryLocation>
+            <cac:Address>
+                <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">150143</cbc:ID>
+                <cbc:StreetName>CAL.MARISCAL NIETO NRO. 150 URB. EL PINO LIMA - SAN LUIS</cbc:StreetName>
+                <cbc:CitySubdivisionName/>
+                <cbc:CityName>Lima</cbc:CityName>
+                <cbc:CountrySubentity>LIMA</cbc:CountrySubentity>
+                <cbc:District>VILLA MARIA DEL TRIUNFO</cbc:District>
+                <cac:AddressLine>
+                    <cbc:Line>CAL.MARISCAL NIETO NRO. 150 URB. EL PINO LIMA - SAN LUIS</cbc:Line>
+                </cac:AddressLine>
+            </cac:Address>
+        </cac:DeliveryLocation>
+    </cac:Delivery>
+    <cac:PaymentTerms>
+        <cbc:ID>FormaPago</cbc:ID>
+        <cbc:PaymentMeansID>Credito</cbc:PaymentMeansID>
+        <cbc:Amount currencyID="PEN">14386.91</cbc:Amount>
+    </cac:PaymentTerms>
+    <cac:PaymentTerms>
+        <cbc:ID>FormaPago</cbc:ID>
+        <cbc:PaymentMeansID>Cuota001</cbc:PaymentMeansID>
+        <cbc:Amount currencyID="PEN">14386.91</cbc:Amount>
+        <cbc:PaymentDueDate>2023-09-30</cbc:PaymentDueDate>
+    </cac:PaymentTerms>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="PEN">2194.61</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="PEN">12192.30</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="PEN">2194.61</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID schemeAgencyName="United Nations Economic Commission for Europe" schemeID="UN/ECE 5305" schemeName="Tax Category Identifier">1000</cbc:ID>
+                <cac:TaxScheme>
+                    <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+                    <cbc:Name>IGV</cbc:Name>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="PEN">12192.30</cbc:LineExtensionAmount>
+        <cbc:TaxInclusiveAmount currencyID="PEN">14386.91</cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="PEN">14386.91</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">3933.000</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="PEN">12192.30</cbc:LineExtensionAmount>
+        <cac:PricingReference>
+            <cac:AlternativeConditionPrice>
+                <cbc:PriceAmount currencyID="PEN">3.66</cbc:PriceAmount>
+                <cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+            </cac:AlternativeConditionPrice>
+        </cac:PricingReference>
+        <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="PEN">2194.61</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="PEN">12192.30</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="PEN">2194.61</cbc:TaxAmount>
+                <cac:TaxCategory>
+                    <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+                    <cbc:Percent>18.00</cbc:Percent>
+                    <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+                    <cac:TaxScheme>
+                        <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+                        <cbc:Name>IGV</cbc:Name>
+                        <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+        <cac:Item>
+            <cbc:Description>CAJA BATAN / Componente Caja Corriente</cbc:Description>
+            <cac:SellersItemIdentification>
+                <cbc:ID>8920193833/11</cbc:ID>
+            </cac:SellersItemIdentification>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="PEN">3.100000000</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+</Invoice>

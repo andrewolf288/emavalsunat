@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<ds:Signature Id="SignatureSP">
+					<ds:SignedInfo>
+						<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+						<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+						<ds:Reference URI="">
+							<ds:Transforms>
+								<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+							</ds:Transforms>
+							<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+							<ds:DigestValue>y2kVphhOgGLva1zUfRFQeO9tboE=</ds:DigestValue>
+						</ds:Reference>
+					</ds:SignedInfo>
+				<ds:SignatureValue>Lt1kiVwZm9e+3dytvpK1fVLXLB4+jv9APi10QNiir2ogJzgTIorPC3sZKlktncyX
+/OkRn4A+hz2TT/x4SP3ZDJrau1nJYtv11RRkxsEdFM2AA/CPEAC9u4IUfAfXCeX2
+CTz6UABAsFXFmS++cqpr6gNfWLLRRp/1x5mBihI2oz4QAsKIWDzWWhxt8+Efjvl+
+CbdkmNduo68EC89/rNgGrbjMkPEG8HLOd8A47se/lKfXLQVyWSNtnckqkdDFvZ2c
+JsoaH03L+TfStriUAe1av2nYqPs5IBXkGFHjM2cSIBrwq8mas/w+2dYtGV/KUrTs
+hnZlrJWRku/wRAAocX681w==</ds:SignatureValue>
+					<ds:KeyInfo>
+						<ds:X509Data>
+							<ds:X509SubjectName>C=PE,L=PUNO,O=ARMAR PROYECTOS S.A.C.,OU=Validado por Llama.pe ER,OU=FACTURA ELECTRONICA RUC 20602542808,CN=SOFTWARE DE FACTURACION ELECTRONICA,emailAddress=contacto@conflux.pe,street=JR. 9 DE DICIEMBRE NRO. 309</ds:X509SubjectName>
+							<ds:X509Certificate>MIIFYDCCBEigAwIBAgIIJraeyHM5NOowDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UE
+AwwbTGxhbWEucGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5Q
+RTELMAkGA1UEBhMCUEUwHhcNMjMwMjEzMjMzMjI0WhcNMjUwMjEyMjMzMjAwWjCC
+AQYxJDAiBgNVBAkMG0pSLiA5IERFIERJQ0lFTUJSRSBOUk8uIDMwOTEiMCAGCSqG
+SIb3DQEJARYTY29udGFjdG9AY29uZmx1eC5wZTEsMCoGA1UEAwwjU09GVFdBUkUg
+REUgRkFDVFVSQUNJT04gRUxFQ1RST05JQ0ExLDAqBgNVBAsMI0ZBQ1RVUkEgRUxF
+Q1RST05JQ0EgUlVDIDIwNjAyNTQyODA4MSEwHwYDVQQLDBhWYWxpZGFkbyBwb3Ig
+TGxhbWEucGUgRVIxHzAdBgNVBAoMFkFSTUFSIFBST1lFQ1RPUyBTLkEuQy4xDTAL
+BgNVBAcMBFBVTk8xCzAJBgNVBAYTAlBFMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAtUltPCOEdLzcwjsot/9Jx4KGskU/JuHiLtre46ZpIWRlIAqHPGmS
+YWAA+eFln09QVJ83zHkIYY4BCUICUWLOhw7/vzEd0Plu9VWoPakd1vIUDX/1wYOY
+EaM4YTfqAT0WXnl/BNQ57W8mKEwqWBBRolbWKD61NS3QF4Nebv25Y3yty9Jatwlt
+BGCgEbX2wp3sixSS0L2jIrDzTQWLA03T0aao5OZQiLB6BqG5n0ULYq0OlQZZsK6p
+giKZIVSmyugaAWkh46AvbWONWzIjvWhcrDABdcTrWWloYBATulnMDOIQvr1G9mOA
+6PL16BABO+ZQuz/YHvNE+FsY/o2Bu+FfUwIDAQABo4IBjjCCAYowDAYDVR0TAQH/
+BAIwADAfBgNVHSMEGDAWgBRdiFut62X7/mii5NlvPVdyou8rmTBnBggrBgEFBQcB
+AQRbMFkwNQYIKwYBBQUHMAKGKWh0dHA6Ly9jcnQubGxhbWEucGUvbGxhbWFwZXN0
+YW5kYXJkY2EuY2VyMCAGCCsGAQUFBzABhhRodHRwOi8vb2NzcC5sbGFtYS5wZTAe
+BgNVHREEFzAVgRNjb250YWN0b0Bjb25mbHV4LnBlMEYGA1UdIAQ/MD0wOwYNKwYB
+BAGDl3cAAQADATAqMCgGCCsGAQUFBwIBFhxodHRwczovL2xsYW1hLnBlL3JlcG9z
+aXRvcnkvMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDA6BgNVHR8EMzAx
+MC+gLaArhilodHRwOi8vY3JsLmxsYW1hLnBlL2xsYW1hcGVzdGFuZGFyZGNhLmNy
+bDAdBgNVHQ4EFgQU7tSvvgknFAhV4R2H7b1K7SLJTGEwDgYDVR0PAQH/BAQDAgbA
+MA0GCSqGSIb3DQEBCwUAA4IBAQCsrwP74aZlkDvDwVLBFOu8WyzzOmrVBvMj/WkH
+7guGZTESLSDnNoEdqyIFb8N9/nfRddXP9ErmCBlQZTqhkWbAmGtLqp+U9rIxMM1h
+w/Y/nXrZw46faNu4K0szFS0Jyvv6sSyayQCtxFld4/1iQXJI8lcml3fqTiX1svRS
+CFQzt91zX2Kce4fm+gOcmEBNLK4h4XZyFrg/j9JyG955uWt0GYFRz2FUghWp8sKa
+CWntgE5Fdz/CKzwaRwe1nn8acRg+F8uQbPy763Qs3URaLmHQFu8DH5hNVMfaBMZd
+Q3HsyNZqVRvYGl2dOo4pyPErh8B6h7XtnHpyyDDmHj4bUERx</ds:X509Certificate>
+						</ds:X509Data>
+					</ds:KeyInfo>
+				</ds:Signature>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+	<cbc:CustomizationID>2.0</cbc:CustomizationID>
+	<cbc:ID>F100-00005865</cbc:ID>
+	<cbc:IssueDate>2023-09-14</cbc:IssueDate>
+	<cbc:IssueTime>00:00:00</cbc:IssueTime>
+	<cbc:InvoiceTypeCode listID="0101" listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01">01</cbc:InvoiceTypeCode>
+	<cbc:Note languageLocaleID="1000">CUARENTA  Y 00/100 SOLES</cbc:Note>
+	<cbc:DocumentCurrencyCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 4217 Alpha" listName="Currency">PEN</cbc:DocumentCurrencyCode>
+	<cac:Signature>
+		<cbc:ID>SF100-00005865</cbc:ID>
+		<cbc:ValidatorID>23308106</cbc:ValidatorID>
+		<cac:SignatoryParty>
+			<cac:PartyIdentification>
+				<cbc:ID>20453880347</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[PLASTICOS VERONICA E.I.R.L.]]></cbc:Name>
+			</cac:PartyName>
+			<cac:AgentParty>
+				<cac:PartyIdentification>
+					<cbc:ID>20453880347</cbc:ID>
+				</cac:PartyIdentification>
+				<cac:PartyName>
+					<cbc:Name><![CDATA[PLASTICOS VERONICA E.I.R.L.]]></cbc:Name>
+				</cac:PartyName>
+				<cac:PartyLegalEntity>
+					<cbc:RegistrationName><![CDATA[PLASTICOS VERONICA E.I.R.L.]]></cbc:RegistrationName>
+				</cac:PartyLegalEntity>
+			</cac:AgentParty>
+		</cac:SignatoryParty>
+		<cac:DigitalSignatureAttachment>
+			<cac:ExternalReference>
+				<cbc:URI>#SignatureSP</cbc:URI>
+			</cac:ExternalReference>
+		</cac:DigitalSignatureAttachment>
+	</cac:Signature>
+	<cac:AccountingSupplierParty>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20453880347</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[PLASTICOS VERONICA E.I.R.L.]]></cbc:Name>
+			</cac:PartyName>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName><![CDATA[PLASTICOS VERONICA E.I.R.L.]]></cbc:RegistrationName>
+				<cac:RegistrationAddress>
+					<cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+					<cac:AddressLine>
+						<cbc:Line>CAL. PIEROLA 503-505 NRO -- INTERIOR 2 AREQUIPA AREQUIPA AREQUIPA</cbc:Line>
+					</cac:AddressLine>
+					<cac:Country>
+						<cbc:IdentificationCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 3166-1" listName="Country">PE</cbc:IdentificationCode>
+					</cac:Country>
+					</cac:RegistrationAddress>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<cac:AccountingCustomerParty>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20120914279</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName><![CDATA[EMARAN S.A.C.]]></cbc:RegistrationName>
+				<cac:RegistrationAddress>
+					<cac:AddressLine>
+						<cbc:Line><![CDATA[LT. 8 MZ. E URB. PARQUE INDUSTRIAL - AREQUIPA AREQUIPA CERRO COLORADO, Cerro colorado, Arequipa, Arequipa, Peru]]></cbc:Line>
+					</cac:AddressLine>
+				</cac:RegistrationAddress>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingCustomerParty>
+	<cac:PaymentTerms>
+		<cbc:ID>FormaPago</cbc:ID>
+		<cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+	</cac:PaymentTerms>
+	<cac:TaxTotal>
+		<cbc:TaxAmount currencyID="PEN">6.10</cbc:TaxAmount>
+		<cac:TaxSubtotal>
+			<cbc:TaxableAmount currencyID="PEN">33.90</cbc:TaxableAmount>
+			<cbc:TaxAmount currencyID="PEN">6.10</cbc:TaxAmount>
+			<cac:TaxCategory>
+				<cbc:ID schemeAgencyName="United Nations Economic Commission for Europe" schemeID="UN/ECE 5305" schemeName="Tax Category Identifier">S</cbc:ID>
+				<cac:TaxScheme>
+					<cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">1000</cbc:ID>
+					<cbc:Name>IGV</cbc:Name>
+					<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+				</cac:TaxScheme>
+			</cac:TaxCategory>
+		</cac:TaxSubtotal>
+		</cac:TaxTotal>
+	<cac:LegalMonetaryTotal>
+		<cbc:LineExtensionAmount currencyID="PEN">33.90</cbc:LineExtensionAmount>
+		<cbc:TaxInclusiveAmount currencyID="PEN">40.00</cbc:TaxInclusiveAmount>
+		<cbc:AllowanceTotalAmount currencyID="PEN">0.00</cbc:AllowanceTotalAmount>
+		<cbc:ChargeTotalAmount currencyID="PEN">0.00</cbc:ChargeTotalAmount>
+		<cbc:PayableAmount currencyID="PEN">40.00</cbc:PayableAmount>
+	</cac:LegalMonetaryTotal>
+	<cac:InvoiceLine>
+		<cbc:ID>1</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="MIL" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">1.0000000000</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="PEN">33.90</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="PEN">40.0000000000</cbc:PriceAmount>
+				<cbc:PriceTypeCode listName="Tipo de Precio" listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+			</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">6.10</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="PEN">33.90</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="PEN">6.10</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cbc:ID schemeID="UN/ECE 5305" schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT">S</cbc:ID>
+					<cbc:Percent>18.00</cbc:Percent>
+					<cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID schemeID="UN/ECE 5153" schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT">1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+			</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description><![CDATA[21X24 CONDOR]]></cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID>4010121</cbc:ID>
+			</cac:SellersItemIdentification>
+			</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="PEN">33.9000000000</cbc:PriceAmount>
+		</cac:Price>
+		</cac:InvoiceLine>
+	</Invoice>

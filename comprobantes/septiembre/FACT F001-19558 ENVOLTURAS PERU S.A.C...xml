@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+  <!-- GENERADO DESDE WWW.NUBEFACT.COM -->
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <ds:Signature Id="NubeFacTSign">
+          <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <ds:Reference URI="">
+              <ds:Transforms>
+                <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+              </ds:Transforms>
+              <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+              <ds:DigestValue>L7/CUJiG7yrxEPcP/pNNPs7mk+ayxFHLXTiuo2RZy8Q=</ds:DigestValue>
+            </ds:Reference>
+          </ds:SignedInfo>
+          <ds:SignatureValue>D9nZsZH596pZdaIq1PCZ7EtlLk+jWMeDpxIoEJ+VodPWMcdLg8wksM4SHHrmsPpRCdz0vd00OKYtNS4giYwQIvPoQ0PeGqNHTueSMmFWDP7iQAgCbFEgixESEHYGmL6xFwVcSdeb7YhCj/Z3Y7xrQLfgoWHwwvSCwTYu+pp3vp9SXzUF6631wiPaBoa2agMB6el114NQuT4WmtWI1iS9x5L7ho6UNXS4LuuFvsCPYZqTVTMVKV9cVXmm2a5Ly1Z8/R+B7f8Mwkn9R9V7viT/K80hpdz1pyfLSNETsPemvM7LxxVLJvycrASSP3CQUVFgPBZJiOR6oWYfpy0SwbERAA==</ds:SignatureValue>
+          <ds:KeyInfo>
+            <ds:X509Data>
+              <ds:X509SubjectName>street=CAL. LIBERTAD NRO. 176 INT. 211,emailAddress=sistemas@nubefact.com,CN=NUBEFACT WEB,OU=20600695771,OU=Validado por Llama.pe ER,O=NUBEFACT S.A.,L=LIMA,C=PE</ds:X509SubjectName>
+              <ds:X509Certificate>MIIFLzCCBBegAwIBAgIIMqph96CwToswDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UEAwwbTGxhbWEucGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5QRTELMAkGA1UEBhMCUEUwHhcNMjMwMzE3MjIxNTIwWhcNMjYwMzE2MjIxNTAwWjCB1DEoMCYGA1UECQwfQ0FMLiBMSUJFUlRBRCBOUk8uIDE3NiBJTlQuIDIxMTEkMCIGCSqGSIb3DQEJARYVc2lzdGVtYXNAbnViZWZhY3QuY29tMRUwEwYDVQQDDAxOVUJFRkFDVCBXRUIxFDASBgNVBAsMCzIwNjAwNjk1NzcxMSEwHwYDVQQLDBhWYWxpZGFkbyBwb3IgTGxhbWEucGUgRVIxFjAUBgNVBAoMDU5VQkVGQUNUIFMuQS4xDTALBgNVBAcMBExJTUExCzAJBgNVBAYTAlBFMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3Fl/ENI/WGgfA8csLczoJD1DxxP92/1bbj4rpRK9S6psyaVzLnyJ1YsQTjij32KQvYWo3R689YGp4OtPOWqq1gEdaqNgAsPrI3yhNhVeEe/47s7+dl9iA02N/qVPAQr/msPVtbO+TSy9+JQ3mnJeAarkQtYfJps8OX4kqZvzWvpvEZFaxyOMoYcUD0Wfp0J/dOOjIjOgao8nQqchGJc7JbvWE5hVtaCAbIur+3E1pEqGUYtIiK6FvJT658stZFuXnlHJFAnIQniE3FF3VCp6gsadWfdwODHsTfS8gR4G89u7oM8jGvP4Cs0GBDp60lX1TFn/U17kUzFC8jA7BPqg+QIDAQABo4IBkDCCAYwwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRdiFut62X7/mii5NlvPVdyou8rmTBnBggrBgEFBQcBAQRbMFkwNQYIKwYBBQUHMAKGKWh0dHA6Ly9jcnQubGxhbWEucGUvbGxhbWFwZXN0YW5kYXJkY2EuY2VyMCAGCCsGAQUFBzABhhRodHRwOi8vb2NzcC5sbGFtYS5wZTAgBgNVHREEGTAXgRVzaXN0ZW1hc0BudWJlZmFjdC5jb20wRgYDVR0gBD8wPTA7Bg0rBgEEAYOXdwABAAMBMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vbGxhbWEucGUvcmVwb3NpdG9yeS8wHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6Ly9jcmwubGxhbWEucGUvbGxhbWFwZXN0YW5kYXJkY2EuY3JsMB0GA1UdDgQWBBS1FwtYL704ccYYxstXSSV4Wq9avDAOBgNVHQ8BAf8EBAMCBsAwDQYJKoZIhvcNAQELBQADggEBAGA2TmvVU6yp+RwxsciZlbExxrO57PIpXvA4HtCmk0e/l8hshua0lQEY1khZMDFRKrXe/17rQNquWEZV3JcGH13jneCf88Sji1Z7myvt/ah2IIcDJB6lgP76WDwQaNVvAMSygUF6bqRfiZDiigHhV0qzsa/++pjPKu12NfQrT7c93eVVEtboKo5BJ5n+JwO/AbNroZqg9kQK7iDUa9cmp8cIZLviwGeKHmjYA02j8rQh2qGcvP6tGfPyeL01YzRtld3MwDHidfiI2CoWDALrxLHowuK7kvUamo5VUdAFy+iJrg6mGB6JAqah244OvJZdHkNgFd9apjVfBNBW7kMt/Ms=</ds:X509Certificate>
+            </ds:X509Data>
+          </ds:KeyInfo>
+        </ds:Signature>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <!-- GENERADO DESDE WWW.NUBEFACT.COM -->
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>F001-19558</cbc:ID>
+  <cbc:IssueDate>2023-09-19</cbc:IssueDate>
+  <cbc:IssueTime>16:57:54</cbc:IssueTime>
+  <cbc:DueDate>2023-09-19</cbc:DueDate>
+  <cbc:InvoiceTypeCode listID="0101" listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" name="Tipo de Operacion" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo51">01</cbc:InvoiceTypeCode>
+  <cbc:Note languageLocaleID="1000">DOS MIL NOVECIENTOS SETENTA Y TRES CON 60/100 DOLARES AMERICANOS</cbc:Note>
+  <cbc:Note>Obs: Cta.Cte. BBVA S/: 001-0381-0100009296 / US$: 0011-0381-0100008699Cta.Credipago. BCP S/: 191-1715338-0-45 / US$: 191-1741153-1-13.</cbc:Note>
+  <cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listAgencyName="United Nations Economic Commission for Europe" listName="Currency">USD</cbc:DocumentCurrencyCode>
+  <cac:Signature>
+    <cbc:ID>20518592786</cbc:ID>
+    <cbc:Note>WWW.NUBEFACT.COM</cbc:Note>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20518592786</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>ENVOLTURAS PERU S.A.C.</cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>20518592786</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20518592786</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>ENVOLTURAS PERU S.A.C.</cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>ENVOLTURAS PERU S.A.C.</cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cbc:ID schemeName="Ubigeos" schemeAgencyName="PE:INEI">150135</cbc:ID>
+          <cbc:AddressTypeCode listAgencyName="PE:SUNAT" listName="Establecimientos anexos">0000</cbc:AddressTypeCode>
+          <cbc:CityName>LIMA</cbc:CityName>
+          <cbc:CountrySubentity>LIMA</cbc:CountrySubentity>
+          <cbc:District>SAN MARTIN DE PORRES</cbc:District>
+          <cac:AddressLine>
+            <cbc:Line>CAL. LOS METALES NRO. 186 URB. IND. PRO, 6TA ETAPA</cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode listID="ISO 3166-1" listAgencyName="United Nations Economic Commission for Europe" listName="Country">PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20120914279</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>EMARAN S.A.C.</cbc:RegistrationName>
+        <cac:RegistrationAddress>
+          <cac:AddressLine>
+            <cbc:Line>MZA. E LOTE. 8 URB. PARQUE INDUSTRIAL (I ETAPA - RIO SECO) AREQUIPA - AREQUIPA - CERRO COLORADO</cbc:Line>
+          </cac:AddressLine>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="USD">453.60</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="USD">2520.00</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="USD">453.60</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:ID schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="USD">2520.00</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="USD">2973.60</cbc:TaxInclusiveAmount>
+    <cbc:AllowanceTotalAmount currencyID="USD">0.00</cbc:AllowanceTotalAmount>
+    <cbc:ChargeTotalAmount currencyID="USD">0.00</cbc:ChargeTotalAmount>
+    <cbc:PrepaidAmount currencyID="USD">0.00</cbc:PrepaidAmount>
+    <cbc:PayableAmount currencyID="USD">2973.60</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <!-- GENERADO DESDE WWW.NUBEFACT.COM -->
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="ZZ" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">1.0</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="USD">2520.00</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="USD">2973.6</cbc:PriceAmount>
+        <cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="USD">453.60</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="USD">2520.00</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="USD">453.60</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>18.00</cbc:Percent>
+          <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description>&lt;b&gt;POR ANTICIPO DE MERCADERIA&lt;/b&gt;&lt;br&gt;OC 539 AJI PANCA- CULANTRO</cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>0103</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="USD">2520.0</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <!-- GENERADO DESDE WWW.NUBEFACT.COM -->
+</Invoice>

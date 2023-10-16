@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?><ApplicationResponse xmlns="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>/DGU4C+yq2QX6jLZ4LYGXvJ8/dI=</DigestValue></Reference></SignedInfo><SignatureValue>akbZLiz44FFU0JOCS+j7YwgSnQkc+lhHHOwt2ZcnZbg2MVuV7t99FZPgNAoZY35rI1VW/zmbD2CrWFwJtSaAxkkSWyqdIr4lnLbKW/+h04hR0sDA8YP+/p5ZXH0CCliYAZzvLnLgSncGK+aVvqXFq/nAIeX4f3alK7Mbk7KnUNC7EqdfWoIQUAKbO1oHya5AxN5bRVkB7KDXFxJgc74c83kSomutP8acAHX//gLR59IAymzj7pGwMnJgC4cgvYkO2XFt/66nVggkAfrNPyr+gxs7WdOsziW1jqd646BOhLdtRWvs6sy5x24GmHQnZYHjdRofzsTJsLcdMdj4tEmH2w==</SignatureValue><KeyInfo><X509Data><X509IssuerSerial><X509IssuerName>System.Security.Cryptography.X509Certificates.X500DistinguishedName</X509IssuerName><X509SerialNumber>4619340223196932484</X509SerialNumber></X509IssuerSerial><X509SubjectName>C=PE, L=LIMA, O=THE FACTORY HKA PERU SOCIEDAD ANONIMA CERRADA, OU=Validated by Llama.pe ER, OU=20550728762, CN=20550728762, E=mrivadeneira@thefactoryhka.com, STREET=JR. TOBAGO NRO. 257 URB. CEDROS DE VILLA</X509SubjectName><X509Certificate>MIIFajCCBFKgAwIBAgIIQBsxdWxTqYQwDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UEAwwbTGxhbWEucGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5QRTELMAkGA1UEBhMCUEUwHhcNMjEwNzIyMTQxMDE0WhcNMjQwNzIxMTQxMDAwWjCCAQUxMTAvBgNVBAkMKEpSLiBUT0JBR08gTlJPLiAyNTcgVVJCLiBDRURST1MgREUgVklMTEExLTArBgkqhkiG9w0BCQEWHm1yaXZhZGVuZWlyYUB0aGVmYWN0b3J5aGthLmNvbTEUMBIGA1UEAwwLMjA1NTA3Mjg3NjIxFDASBgNVBAsMCzIwNTUwNzI4NzYyMSEwHwYDVQQLDBhWYWxpZGF0ZWQgYnkgTGxhbWEucGUgRVIxNjA0BgNVBAoMLVRIRSBGQUNUT1JZIEhLQSBQRVJVIFNPQ0lFREFEIEFOT05JTUEgQ0VSUkFEQTENMAsGA1UEBwwETElNQTELMAkGA1UEBhMCUEUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCr9VHIRoQ0trWOFv8t6hln3SiWI7z8tkNVp5Q0U1KyoVfBvcV+sYVdGJ0YHRMr14SjMoW8AxY7l7pPLTPJXToQmctPqSu+3Gtbvaiew5IKejFFfU314KwJWya8qAVEu5mU6PY+BHE5bHMpIPQK00/L+bja4W/50474UnvXs19ezs50Q/5O90A2CQNIBcS/OYhnRrjyaY+cs6JqdKK4WHSGyoWibNXLpJOqxMrVN80NKCrk7biDYa4RqiTb03dgg6kx2HLznovP3H8Fu/Pvb65RnXTE85aajU5M15R/aAuCC2PMBhyzEeemh7SB1jnx8FaoBk9FaXITWYgtTtzLErPFAgMBAAGjggGZMIIBlTAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFF2IW63rZfv+aKLk2W89V3Ki7yuZMGcGCCsGAQUFBwEBBFswWTA1BggrBgEFBQcwAoYpaHR0cDovL2NydC5sbGFtYS5wZS9sbGFtYXBlc3RhbmRhcmRjYS5jZXIwIAYIKwYBBQUHMAGGFGh0dHA6Ly9vY3NwLmxsYW1hLnBlMCkGA1UdEQQiMCCBHm1yaXZhZGVuZWlyYUB0aGVmYWN0b3J5aGthLmNvbTBGBgNVHSAEPzA9MDsGDSsGAQQBg5d3AAEAAwEwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly9sbGFtYS5wZS9yZXBvc2l0b3J5LzAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwOgYDVR0fBDMwMTAvoC2gK4YpaHR0cDovL2NybC5sbGFtYS5wZS9sbGFtYXBlc3RhbmRhcmRjYS5jcmwwHQYDVR0OBBYEFIJbK6iW2+G2YXJLdfFXwibiTaUXMA4GA1UdDwEB/wQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAQEArweoDrwlkx7Gmoz/VUjtFUy8lzmF3yxLRCjgrFNBdcfFUKKZ/mEJVWSMMz2Jb40xIaHKi36BsgldZ2C361iF+E+kNyvDLpPB8qMwe0KYtsPaXKYPACDZVli13w6Dj8PuMlrgsyoJW2S82dqLZZJ8TvouiOJJM/cr5Sj+OEAJ0SVFNVKaQoEBItZvXxjisjWH+2WBP6nGfUNhtTRNKflwnZYxZ+IfQua25hXDImv00a76rC/u2rcZYADebqYb6yQtdy8jsHfNPl+PxH8MnGpX6yBHaWYLcWRei0eXhDorOTEpFh7BlZmOmK8Ue7edOjzmNthF0qumEHQhRC7rmkEU/A==</X509Certificate></X509Data></KeyInfo></Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>1.0</cbc:CustomizationID>
+  <cbc:ID>60c80305-1f8b-4e21-862e-0fe1d27b67d5</cbc:ID>
+  <cbc:IssueDate>2023-08-23</cbc:IssueDate>
+  <cbc:IssueTime>15:31:18</cbc:IssueTime>
+  <cbc:ResponseDate>2023-08-23</cbc:ResponseDate>
+  <cbc:ResponseTime>15:31:20</cbc:ResponseTime>
+  <cac:SenderParty>
+    <cac:PartyLegalEntity>
+      <cbc:CompanyID schemeID="6" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo6">20600705785</cbc:CompanyID>
+    </cac:PartyLegalEntity>
+  </cac:SenderParty>
+  <cac:ReceiverParty>
+    <cac:PartyLegalEntity>
+      <cbc:CompanyID schemeID="6" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo6">20550728762</cbc:CompanyID>
+    </cac:PartyLegalEntity>
+  </cac:ReceiverParty>
+  <cac:DocumentResponse>
+    <cac:Response>
+      <cbc:ResponseCode listAgencyName="PE:SUNAT">0</cbc:ResponseCode>
+      <cbc:Description>La FACTURA numero 20498189637-01-F132-2144, ha sido aceptada</cbc:Description>
+      <cac:Status>
+        <cbc:StatusReasonCode listURI="urn:pe:gob:sunat:cpe:see:gem:codigos:codigoretorno">4006</cbc:StatusReasonCode>
+        <cbc:StatusReason>El ID de las guias debe tener informacion de la SERIE-NUMERO de guia.</cbc:StatusReason>
+      </cac:Status>
+    </cac:Response>
+    <cac:DocumentReference>
+      <cbc:ID>F132-2144</cbc:ID>
+      <cbc:IssueDate>2023-08-23</cbc:IssueDate>
+      <cbc:IssueTime>15:28:31</cbc:IssueTime>
+      <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+      <cac:Attachment>
+        <cac:ExternalReference>
+          <cbc:DocumentHash>HthdgeYhklxp+CmjgPyyaHkpP7FaCZq1SqymPaf9oFg=</cbc:DocumentHash>
+        </cac:ExternalReference>
+      </cac:Attachment>
+    </cac:DocumentReference>
+    <cac:IssuerParty>
+      <cac:PartyLegalEntity>
+        <cbc:CompanyID schemeID="6">20498189637</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+    </cac:IssuerParty>
+    <cac:RecipientParty>
+      <cac:PartyLegalEntity>
+        <cbc:CompanyID schemeID="6">20120914279</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+    </cac:RecipientParty>
+  </cac:DocumentResponse>
+</ApplicationResponse>

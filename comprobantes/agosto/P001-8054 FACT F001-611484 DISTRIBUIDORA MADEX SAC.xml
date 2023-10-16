@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 ..\xsd\maindoc\UBLPE-Invoice-2.1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ext:UBLExtensions>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<ds:Signature Id="SF001-611484-230810170934"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>dNOjXbRsx1zk2zR6hmwXV8+qFkY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Vlchy7FkgbS0yNnAl2rbzUklHdJ+B71TN9k0AhPZyBvCSj/KTlEGFg3Wk2+Dn4zJqZxKNAu3uIsr
+2oY8RJVc6IgTX/zWmE6SR4l9VABnZygB7aExB3so7U8eyZJMetq0tOYfp31ghhhM4YATf5OCM5Hv
+3X+zaUPdD6ynEouMdIfLlLJh4mdZB/2J1tz7voC8q3FY0CZ62J7dv1Vpk+Id4lLDXPSWPPbu5axF
+1pp0155tSgkO1CiieysxMiEsn63B1d+VE1OF0rFCrKqeA3zdd1vk8s/QkjbsYDIfo49A/5CSz1RC
+2Ft60Pfns+WYjAJRdGte8K6qMuCoVw69YveYuQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+</ext:UBLExtension>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<CustomText>
+    <Text name="Telefono"><![CDATA[054-488295]]></Text>
+    <Text name="CodCliente"><![CDATA[0001555078]]></Text>
+    <Text name="DirEntrega"><![CDATA[- - -]]></Text>
+    <Text name="UrbDistrito"><![CDATA[PQUE INDUSTRIAL RIO SECO AREQUIPA AREQUIPA CERRO COLORADO]]></Text>
+    <Text name="Opcional1"><![CDATA[]]></Text>
+    <Text name="Opcional2"><![CDATA[]]></Text>
+    <Text name="Opcional3"><![CDATA[]]></Text>
+    <Text name="CondPago"><![CDATA[CONTADO – EFECTIVO]]></Text>
+    <Text name="Ruta"><![CDATA[]]></Text>
+    <Text name="DisCliente"><![CDATA[040104]]></Text>
+    <Text name="Modulo"><![CDATA[]]></Text>
+    <Text name="Manzana"><![CDATA[023]]></Text>
+    <Text name="Ubicacion"><![CDATA[]]></Text>
+    <Text name="FecReparto"><![CDATA[11-08-2023]]></Text>
+    <Text name="Vendedor"><![CDATA[141501]]></Text>
+    <Text name="NroInterno"><![CDATA[0127364709]]></Text>
+    <Text name="NroPedido"><![CDATA[0128710609]]></Text>
+    <Text name="FecPedido"><![CDATA[10-08-2023]]></Text>
+    <Text name="ValorIgv"><![CDATA[18%]]></Text>
+    <Text name="ValorIsc"><![CDATA[10%]]></Text>
+    <Text name="Transportista"><![CDATA[FRANCLY  QUISPE IDME]]></Text>
+    <Text name="RucTranspor"><![CDATA[20607651869 BREVT.: H46126477]]></Text>
+    <Text name="CodTranspor"><![CDATA[COSTO MIN.MTC 0.00]]></Text>
+    <Text name="PlacaTranspor"><![CDATA[V9L763 VALE: 0002385078]]></Text>
+    <Text name="PesoTranspor"><![CDATA[636.966 MARCA: MITSUBISHI]]></Text>
+    <Text name="PagWeb"><![CDATA[http://asp401r.paperless.com.pe/PortalDEX_MADEX]]></Text>
+    <Text name="NroResol"><![CDATA[0520050000065]]></Text>
+    <Text name="Logo"><![CDATA[20456334971.jpg]]></Text>
+    <Text name="CorreoCliente"><![CDATA[]]></Text>
+    <Text name="CodEstSUNAT"><![CDATA[]]></Text>
+</CustomText>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>2.0</cbc:CustomizationID>
+<cbc:ID>F001-611484</cbc:ID>
+<cbc:IssueDate>2023-08-10</cbc:IssueDate>
+<cbc:DueDate>2023-08-11</cbc:DueDate>
+<cbc:InvoiceTypeCode listID="0101">01</cbc:InvoiceTypeCode>
+<cbc:Note languageLocaleID="1000"><![CDATA[SEIS MIL SEISCIENTOS SETENTA Y CUATRO CON 39 /100 SOLES]]></cbc:Note>
+<cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+<cac:Signature>
+<cbc:ID>SF001-611484</cbc:ID>
+<cac:SignatoryParty>
+<cac:PartyIdentification>
+<cbc:ID>20456334971</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[SUNAT]]></cbc:Name>
+</cac:PartyName>
+</cac:SignatoryParty>
+<cac:DigitalSignatureAttachment>
+<cac:ExternalReference>
+<cbc:URI>SF001-611484-230810170934</cbc:URI>
+</cac:ExternalReference>
+</cac:DigitalSignatureAttachment>
+</cac:Signature>
+<cac:AccountingSupplierParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20456334971</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[-]]></cbc:Name>
+</cac:PartyName>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[DISTRIBUIDORA MADEX SOCIEDAD ANONIMA CERRADA]]></cbc:RegistrationName>
+<cac:RegistrationAddress>
+<cbc:ID><![CDATA[040104]]></cbc:ID>
+<cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+<cbc:CityName><![CDATA[AREQUIPA]]></cbc:CityName>
+<cbc:CountrySubentity><![CDATA[AREQUIPA]]></cbc:CountrySubentity>
+<cbc:District><![CDATA[CERRO COLORADO]]></cbc:District>
+<cac:AddressLine>
+<cbc:Line><![CDATA[- LOTE 714 C.P.SEMI RURAL PACHAC]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:RegistrationAddress>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20120914279</cbc:ID>
+</cac:PartyIdentification>
+<cac:PostalAddress>
+<cbc:District><![CDATA[]]></cbc:District>
+<cac:AddressLine>
+<cbc:Line><![CDATA[- - - Mza. E Lt. 8 POR INKABOR]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[EMARAN S.A.C.]]></cbc:RegistrationName>
+<cac:RegistrationAddress>
+<cbc:ID><![CDATA[]]></cbc:ID>
+<cac:AddressLine>
+<cbc:Line><![CDATA[- - - Mza. E Lt. 8 POR INKABOR]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:RegistrationAddress>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:BuyerCustomerParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20120914279</cbc:ID>
+</cac:PartyIdentification>
+</cac:Party>
+</cac:BuyerCustomerParty>
+<cac:PaymentTerms>
+<cbc:ID>FormaPago</cbc:ID>
+<cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+</cac:PaymentTerms>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">1018.13</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">5656.26</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">1018.13</cbc:TaxAmount>
+<cac:TaxCategory>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="PEN">5656.26</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="PEN">1018.13</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="PEN">6674.39</cbc:TaxInclusiveAmount>
+<cbc:PayableAmount currencyID="PEN">6674.39</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:InvoicedQuantity unitCode="EA">33.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">5656.26</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">202.25</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.02</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">115.44</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">5771.70</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">1018.13</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">5656.26</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">1018.13</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[ACEIT. COCINERO FS 20L 1BLD@@UND@@3.50@@6674.39]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>3003007</cbc:ID>
+</cac:SellersItemIdentification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">174.90</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>

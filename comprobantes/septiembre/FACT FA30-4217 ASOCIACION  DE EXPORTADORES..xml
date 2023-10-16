@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <CustomText/>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <AdditionalData><DataItem>
+            <Code>responsable</Code>
+            <Value>
+              <![CDATA[ADEX]]>
+            </Value>
+          </DataItem><DataItem>
+            <Code>condicionPago</Code>
+            <Value>
+              <![CDATA[CONTADO]]>
+            </Value>
+          </DataItem><DataItem>
+            <Code>semestre</Code>
+            <Value>
+              
+            </Value>
+          </DataItem><DataItem>
+            <Code>periodo</Code>
+            <Value>
+              
+            </Value>
+          </DataItem></AdditionalData>
+      </ext:ExtensionContent>
+    </ext:UBLExtension><ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="signatureFacturactiva" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>AiTgcitV151J0vPsFkWldiL16n0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>xww8wtrd954oRjB7NxXXeN9nM4LQ3Xcv5Gotb1XIBpOTll4OzsFFGjxnd+3roWqrafXxOP9XTh6H8yjI0etmysPWyElAADtIm04fm+a+CLJTGisNwsaoPkwK2N6GSBw7UPE4zmdKxI98T30eNPu11Y+qjWRVSG9UlqMxp2L+hcvQqFbh9bWCluYIbYx0A5zD9Pv6y3r+yQJeFu1VNRD5bOl6+7YRg9msaF9Pgs6GpmtrAtnX/M/ykB12UoMhg3dil4I/dhN6hTlKWNXSn4Ev6fkXvL1NSoHXhKg5Jns9r4g64KKKcmsEvB7dD+EyV93jaoETus5fyJ16ZoAVSfEwhQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509SubjectName>CN=SOFTWARE DE FACTURACION ELECTRONICA,OU=FACTURA ELECTRONICA RUC 20600543050,O=FACTURACTIVA DEL PERU S.A.C. - FACTURACTIVA S.A.C.,L=LIMA,C=PE</ds:X509SubjectName><ds:X509Certificate>MIIFrDCCBJSgAwIBAgIITDggp8fea3UwDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UEAwwbTGxhbWEucGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5QRTELMAkGA1UEBhMCUEUwHhcNMjMwMTE2MTM0OTM0WhcNMjQwMTE2MTM0OTAwWjCCAUsxRjBEBgNVBAkMPUFWLiBCVUVOQVZJU1RBIE5STy4gNTkwIElOVC4gMjAyIFVSQi4gTUFSSVNDQUwgUkFNT04gQ0FTVElMTEExKTAnBgkqhkiG9w0BCQEWGmFjYWNlcmVzckBmYWN0dXJhY3RpdmEuY29tMSwwKgYDVQQDDCNTT0ZUV0FSRSBERSBGQUNUVVJBQ0lPTiBFTEVDVFJPTklDQTEsMCoGA1UECwwjRkFDVFVSQSBFTEVDVFJPTklDQSBSVUMgMjA2MDA1NDMwNTAxITAfBgNVBAsMGFZhbGlkYWRvIHBvciBMbGFtYS5wZSBFUjE7MDkGA1UECgwyRkFDVFVSQUNUSVZBIERFTCBQRVJVIFMuQS5DLiAtIEZBQ1RVUkFDVElWQSBTLkEuQy4xDTALBgNVBAcMBExJTUExCzAJBgNVBAYTAlBFMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0QbH/FkD8y4XeRHqS8Tx5XZ3ssA4XAs+lmPcxqkXY5kJ6VYoxxnwNkLrZQvroJBooJLJNiP8vwZ2oMOISwQFXxer1+SbMdBgFixiRiD++so3hfI1TMhFnRiTirP/xpIAMaBo8APTs5jXxJbMXv5xA3GpdW6LrOBAV7Qe77WoC4Pe3vjAhM/w12cwH3bOM8hwYYt/n6flG6Qtne3XxCjBOo9lwtFW4y/iZYWY+SMAIKd37s0oGhkQ1mvwvwfUB1GFvVdEWvLhlXW4arpY2dOre5YjLdRJRnLY6TRljJA4SJl0sqjECEW5sr9nxlUVPvUeyMz1vHe1uMkPq4NK7zdlIwIDAQABo4IBlTCCAZEwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRdiFut62X7/mii5NlvPVdyou8rmTBnBggrBgEFBQcBAQRbMFkwNQYIKwYBBQUHMAKGKWh0dHA6Ly9jcnQubGxhbWEucGUvbGxhbWFwZXN0YW5kYXJkY2EuY2VyMCAGCCsGAQUFBzABhhRodHRwOi8vb2NzcC5sbGFtYS5wZTAlBgNVHREEHjAcgRphY2FjZXJlc3JAZmFjdHVyYWN0aXZhLmNvbTBGBgNVHSAEPzA9MDsGDSsGAQQBg5d3AAEAAwEwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly9sbGFtYS5wZS9yZXBvc2l0b3J5LzAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwOgYDVR0fBDMwMTAvoC2gK4YpaHR0cDovL2NybC5sbGFtYS5wZS9sbGFtYXBlc3RhbmRhcmRjYS5jcmwwHQYDVR0OBBYEFP7qkY9jFlTZ4dN9UsJebDzqvEimMA4GA1UdDwEB/wQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAQEAlxZrZ6L/NJw3zBtumjyGex3DswtE1r9TkQc3Mh94jgH4CmXhqJSdJGMDaQ+XObJRHcllr88eqisEA0t52T2pt1UDeUQqGniwJYCfj/LpNZ2VDDtH97lwY28+t8I8N2v2MmXLDaSUtqteTcq2JwX/7+THbSqFyu4JklwecAMkPDjGpWIWWeX3YCeWPN29zyw2M7FvvvKVkwL3zEEhJ3zsbJa5jXYvMWwrgzPpCbAT1eluKIjOWthg6/bS3aKw71N8JP2lmehk1ei8osfEQQZ7t/3/s74+2oyNIvpu3+COev855wFbXAHgXk949UfjX7zfapPY+J9pCieMbwreZOBe5Q==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+
+  
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+
+  
+  <cbc:CustomizationID schemeAgencyName="PE:SUNAT">2.0</cbc:CustomizationID>
+
+  
+  <cbc:ID>FA30-4217</cbc:ID>
+
+  
+  <cbc:IssueDate>2023-09-21</cbc:IssueDate>
+
+  
+
+  
+
+  
+  
+  <cbc:InvoiceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" listID="0101" name="Tipo de Operacion" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo51">01</cbc:InvoiceTypeCode>
+  
+
+  
+  <cbc:Note languageLocaleID="1000">DOSCIENTOS Y 00/100 SOLES</cbc:Note>
+  
+
+  
+
+  
+  <cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listName="Currency" listAgencyName="United Nations Economic Commission for Europe">PEN</cbc:DocumentCurrencyCode>
+  <cac:Signature>
+    
+    <cbc:ID>SigningInvoice-20100365341FA30-42171695272400000</cbc:ID>
+    
+    <cac:SignatoryParty>
+      
+      <cac:PartyIdentification>
+        <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20600543050</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>FACTURACTIVA DEL PERU S.A.C. - FACTURACTIVA S.A.C.</cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        
+        <cbc:URI>#signatureFacturactiva</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+
+  
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20100365341</cbc:ID>
+      </cac:PartyIdentification><cac:PartyName>
+          
+        <cbc:Name>ADEX</cbc:Name>
+      </cac:PartyName><cac:PartyLegalEntity>
+        <cbc:RegistrationName>ASOCIACION DE EXPORTADORES</cbc:RegistrationName><cac:RegistrationAddress>
+          <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">010101</cbc:ID>
+          <cbc:AddressTypeCode listAgencyName="PE:SUNAT" listName="Establecimientos anexos">0000</cbc:AddressTypeCode>
+            
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[AV. JAVIER PRADO ESTE NRO. 2875 URB. EL JACARANDA]]></cbc:Line>
+          </cac:AddressLine></cac:RegistrationAddress>
+        </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+
+  
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        
+        <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20120914279</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        
+        <cbc:RegistrationName>EMARAN S.A.C.</cbc:RegistrationName>
+        
+        
+        <cac:RegistrationAddress>
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[MZA. E LOTE. 8 URB. PARQUE INDUSTRIAL (I ETAPA - RIO SECO) - CERRO COLORADO - AREQUIPA - AREQUIPA]]></cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+        
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+
+  
+
+  <cac:PaymentTerms>
+    <cbc:ID>FormaPago</cbc:ID>
+    <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+  </cac:PaymentTerms>
+
+  
+  <cac:TaxTotal>
+    
+    <cbc:TaxAmount currencyID="PEN">30.51</cbc:TaxAmount>
+
+    <cac:TaxSubtotal>
+        
+          
+      <cbc:TaxableAmount currencyID="PEN">169.49</cbc:TaxableAmount>
+        
+        
+      <cbc:TaxAmount currencyID="PEN">30.51</cbc:TaxAmount>
+      <cac:TaxCategory>
+          
+        <cbc:ID schemeID="UN/ECE 5305" schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT">S</cbc:ID>
+          
+        <cac:TaxScheme>
+          <cbc:ID schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal></cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="PEN">169.49</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveAmount currencyID="PEN">200.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="PEN">200.00</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+
+  <cac:InvoiceLine>
+      
+    <cbc:ID>1</cbc:ID>
+      
+    <cbc:InvoicedQuantity unitCode="ZZ" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">2.0000000000</cbc:InvoicedQuantity>
+      
+    <cbc:LineExtensionAmount currencyID="PEN">169.49</cbc:LineExtensionAmount>
+    <cac:PricingReference><cac:AlternativeConditionPrice>
+            
+        <cbc:PriceAmount currencyID="PEN">100.0000000000</cbc:PriceAmount>
+            
+        <cbc:PriceTypeCode listName="Tipo de Precio" listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice></cac:PricingReference><!-- DATOS PARA DETRACCION 1004 detraction--><cac:TaxTotal>
+        
+      <cbc:TaxAmount currencyID="PEN">30.51</cbc:TaxAmount><cac:TaxSubtotal>
+              
+                
+        <cbc:TaxableAmount currencyID="PEN">169.49</cbc:TaxableAmount>
+              
+              
+        <cbc:TaxAmount currencyID="PEN">30.51</cbc:TaxAmount>
+              
+        <cac:TaxCategory>
+                
+          <cbc:ID schemeID="UN/ECE 5305" schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT">S</cbc:ID>
+                
+                  
+          <cbc:Percent>18.00</cbc:Percent>
+                
+                
+                
+                  
+          <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+                
+                
+          <cac:TaxScheme>
+                  
+            <cbc:ID schemeID="UN/ECE 5153" schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+                  
+            <cbc:Name>IGV</cbc:Name>
+                  
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal></cac:TaxTotal>
+    <cac:Item>
+        
+      <cbc:Description>
+        <![CDATA[GENERAL]]>
+      </cbc:Description><cac:SellersItemIdentification>
+            
+        <cbc:ID>ADE0247</cbc:ID>
+      </cac:SellersItemIdentification>
+        
+          
+        
+
+        
+
+        
+
+        
+
+        
+    </cac:Item>
+    <cac:Price>
+        
+      <cbc:PriceAmount currencyID="PEN">84.7460000000</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine></Invoice>

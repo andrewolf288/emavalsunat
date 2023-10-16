@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 ..\xsd\maindoc\UBLPE-Invoice-2.1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ext:UBLExtensions>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<ds:Signature Id="SF676-28567-230927092844"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>/tuaM+Au2yNPpPT/uBijJO4m9c4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Tb+UNiOqWCXOiqDv4zW6M28oaO9HyF0zNk/DfQE8sGYNotSSwmTHMSgnte5CpR0FVIw3PNQkOBj3D4hgfbgbbfi5sAMQ/Rttr2T1Nx0YHrPUZHKWkfZ87t2Yvb/KKwvCTb4g1iVN0g/Lb4PiV9nZ5pP8ZMV0dqubq2lMlLeDClUGmReOKrHfCS5Bm1Nz14Lqc7745RjMwGwrgGewdhuyM3QM9RtWSR6dLfQIrTh+FD3Nn+XkVSUyKztLtBX3DX7eljuW7wlQvxB5qYpISzvnoUezrhjTEtqVS3YPil60HsBRZU/mVVefeYROaxmZIrNry3koE9noDZbOKRI3l2lo6g==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+</ext:UBLExtension>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<CustomText>
+    <Text name="CodLocal"><![CDATA[S076CC]]></Text>
+    <Text name="CodCaja"><![CDATA[005]]></Text>
+    <Text name="Plantilla"><![CDATA[T01_ch.jasper]]></Text>
+    <Text name="CorreoCliente"><![CDATA[]]></Text>
+    <Text name="FormaPago"><![CDATA[TOTAL   CONTADO   S/          100.00 @@       VUELTO                         20.00]]></Text>
+    <Text name="TelefonoAnexo"><![CDATA[625 0000  Anx 2151]]></Text>
+    <Text name="Cajero"><![CDATA[PAOLA SANTOS]]></Text>
+    <Text name="Tienda"><![CDATA[S076]]></Text>
+    <Text name="Caja"><![CDATA[005]]></Text>
+    <Section name="MensajesAt">
+        <Detail>
+            <Value><![CDATA[1]]></Value>
+            <Value><![CDATA[G     HUBIERA GANADO 10 PTS BONUS G]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[2]]></Value>
+            <Value><![CDATA[P 3 PROM ESCAL 2          S/     3.20]]></Value>
+        </Detail>
+    </Section>
+    <Section name="MensajesDt">
+        <Detail>
+            <Value><![CDATA[1]]></Value>
+            <Value><![CDATA[Representacion impresa del comprobante]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[2]]></Value>
+            <Value><![CDATA[de  venta  electronico, para consultar el]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[3]]></Value>
+            <Value><![CDATA[documento ingrese a:]]></Value>
+        </Detail>
+        <Detail>
+            <Value><![CDATA[4]]></Value>
+            <Value><![CDATA[www.metro.pe]]></Value>
+        </Detail>
+    </Section>
+</CustomText>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>2.0</cbc:CustomizationID>
+<cbc:ID>F676-28567</cbc:ID>
+<cbc:IssueDate>2023-09-27</cbc:IssueDate>
+<cbc:InvoiceTypeCode listID="0101">01</cbc:InvoiceTypeCode>
+<cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+<cac:Signature>
+<cbc:ID>SF676-28567</cbc:ID>
+<cac:SignatoryParty>
+<cac:PartyIdentification>
+<cbc:ID>20109072177</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[SUNAT]]></cbc:Name>
+</cac:PartyName>
+</cac:SignatoryParty>
+<cac:DigitalSignatureAttachment>
+<cac:ExternalReference>
+<cbc:URI>SF676-28567-230927092844</cbc:URI>
+</cac:ExternalReference>
+</cac:DigitalSignatureAttachment>
+</cac:Signature>
+<cac:AccountingSupplierParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20109072177</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName>
+<cbc:Name><![CDATA[METRO]]></cbc:Name>
+</cac:PartyName>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[CENCOSUD RETAIL PERU S.A.]]></cbc:RegistrationName>
+<cac:RegistrationAddress>
+<cbc:ID><![CDATA[150122]]></cbc:ID>
+<cbc:AddressTypeCode>0123</cbc:AddressTypeCode>
+<cbc:CityName><![CDATA[Lima]]></cbc:CityName>
+<cbc:CountrySubentity><![CDATA[Lima]]></cbc:CountrySubentity>
+<cbc:District><![CDATA[Miraflores]]></cbc:District>
+<cac:AddressLine>
+<cbc:Line><![CDATA[Cal. Augusto Angulo 130]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:RegistrationAddress>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20120914279</cbc:ID>
+</cac:PartyIdentification>
+<cac:PostalAddress>
+<cbc:District><![CDATA[]]></cbc:District>
+<cac:AddressLine>
+<cbc:Line><![CDATA[-  NRO  - URB  PARQUE INDUSTRIAL - CERRO COLORADO - AREQUIPA - AREQUIPA]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[EMARAN S A C]]></cbc:RegistrationName>
+<cac:RegistrationAddress>
+<cbc:ID><![CDATA[]]></cbc:ID>
+<cac:AddressLine>
+<cbc:Line><![CDATA[-  NRO  - URB  PARQUE INDUSTRIAL - CERRO COLORADO - AREQUIPA - AREQUIPA]]></cbc:Line>
+</cac:AddressLine>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:RegistrationAddress>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:BuyerCustomerParty>
+<cac:Party>
+<cac:PartyIdentification>
+<cbc:ID schemeID="6">20120914279</cbc:ID>
+</cac:PartyIdentification>
+</cac:Party>
+</cac:BuyerCustomerParty>
+<cac:PaymentTerms>
+<cbc:ID>FormaPago</cbc:ID>
+<cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+</cac:PaymentTerms>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">12.20</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">67.80</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">12.20</cbc:TaxAmount>
+<cac:TaxCategory>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="PEN">67.80</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="PEN">12.20</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="PEN">80.00</cbc:TaxInclusiveAmount>
+<cbc:PayableAmount currencyID="PEN">80.00</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:InvoicedQuantity unitCode="NIU">4.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">20.00</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">5.90</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">3.60</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">20.00</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">3.60</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>VAT</cbc:ID>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[7751271028660@@GLORIA BEB X 200ML@@     4 X        5.90]]></cbc:Description>
+<cbc:Description><![CDATA[23.60]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>7751271028660</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>00000004</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">5.00</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>2</cbc:ID>
+<cbc:InvoicedQuantity unitCode="NIU">3.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">15.00</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">5.90</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">2.70</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">15.00</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">2.70</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>VAT</cbc:ID>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[7751271033176@@GLORIA BEB X 200ML@@     3 X        5.90]]></cbc:Description>
+<cbc:Description><![CDATA[17.70]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>7751271033176</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>00000004</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">5.00</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>3</cbc:ID>
+<cbc:InvoicedQuantity unitCode="NIU">8.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">17.63</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">2.60</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:AllowanceCharge>
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+<cbc:AllowanceChargeReasonCode>00</cbc:AllowanceChargeReasonCode>
+<cbc:MultiplierFactorNumeric>0.13333</cbc:MultiplierFactorNumeric>
+<cbc:Amount currencyID="PEN">2.71</cbc:Amount>
+<cbc:BaseAmount currencyID="PEN">20.34</cbc:BaseAmount>
+</cac:AllowanceCharge>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">3.17</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">17.63</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">3.17</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>VAT</cbc:ID>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[7622201714819@@SODA SIXPACK 192GR@@     8 X        3.00]]></cbc:Description>
+<cbc:Description><![CDATA[20.80]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>7622201714819</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>00000004</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">2.54237</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>4</cbc:ID>
+<cbc:InvoicedQuantity unitCode="NIU">1.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">10.08</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">11.90</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">1.82</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">10.08</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">1.82</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>VAT</cbc:ID>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[7750885007566@@GOMAS FRUGELE 430G]]></cbc:Description>
+<cbc:Description><![CDATA[11.90]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>7750885007566</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>00000004</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">10.08475</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>5</cbc:ID>
+<cbc:InvoicedQuantity unitCode="NIU">1.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">2.12</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">2.50</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">0.38</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">2.12</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">0.38</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>VAT</cbc:ID>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[7750520000068@@MANZA X25 VALLE]]></cbc:Description>
+<cbc:Description><![CDATA[2.50]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>7750520000068</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>00000004</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">2.11864</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>6</cbc:ID>
+<cbc:InvoicedQuantity unitCode="NIU">1.00</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">2.97</cbc:LineExtensionAmount>
+<cac:PricingReference>
+<cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">3.50</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">0.53</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">2.97</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">0.53</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>VAT</cbc:ID>
+<cbc:Percent>18.00</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item>
+<cbc:Description><![CDATA[7752285008723@@ANIS MC COLLIN S]]></cbc:Description>
+<cbc:Description><![CDATA[3.50]]></cbc:Description>
+<cac:SellersItemIdentification>
+<cbc:ID>7752285008723</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:CommodityClassification>
+<cbc:ItemClassificationCode>00000004</cbc:ItemClassificationCode>
+</cac:CommodityClassification>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="PEN">2.9661</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>
